@@ -1,0 +1,322 @@
+Date:	06/05/2024	
+
+To:	Investment Team
+
+From:	Jonathan Quann, Michael Dahl
+
+Re:	Sector Analysis—Health Care
+
+Weighting: 
+
+
+Indices: S&P 500: 12%; MSCI ACWI: 11% (as of 06/03/24).	
+
+Sub-Sectors: ACWI/SPX
+
+ACWI – Pharma 4.6%, Biotech 1.5%, Payors/Providers 1.3%, Medtech 2% (Life Sciences Tools & Services (1.2%), Healthcare Distributors & Healthcare Facilities (<0.5% each)) 
+
+SPX - Pharma 3.8%, Biotech 1.9%, Payors/Providers 2.0%, Medtech 2.4% (Life Sciences Tools & Services (1.4%), Healthcare Distributors & Healthcare Facilities (<0.5% each))
+
+SCP Funds: AO: 16.7% (SCP), 15.3% (GICS); DVP: 19% (SCP), 17.4% (GICS); LRA 0.0% (as of 06/03/24).
+
+AO Subsectors: Big Pharma (8.4% SCP;), Payors/Providers (6.0%), Medech/Biotech (2.3%)
+
+Macroeconomic Background:
+
+Health Care and the Economy:
+The health care sector has a complicated and multifaceted relationship with the overall macroeconomic health of the economy.  On the one hand, the health care system plays an important role in overall population health, contributing positively to standards of living and productivity. From this lens, consumption of health care products and services is a positive contributor to overall GDP.  On the other hand, the recent history of health care in the U.S. has seen tremendous advances in medical technology, accompanied, however, by alarming increases in the costs of care.  This continued trend of health care inflation outpacing economic growth has led to concerns about health care spending by corporations and governments crowding out many other critical expenditures (e.g., infrastructure, R&D).  Importantly, health care spending is stable across bull and bear markets and certain HC subsectors may be marginally countercyclical.  This increases the sector’s attractiveness for investment as
+may be marginally countercyclical.  This increases the sector’s attractiveness for investment as it should act as performance and volatility mitigator when included as part of a multi-sector fund (Beta below 1.0).
+Early 20th Century to Mid-20th Century (US)
+
+Pre-1950s: US health care costs were relatively low as a percentage of GDP and stable.  Medical technology was less advanced, and most people paid for health care services out-of-pocket.  President Truman becomes first leader to push for national health insurance.  Although Truman's ambitious plans did not materialize during his presidency, his efforts laid the groundwork for future discussions and developments in healthcare policy. His advocacy highlighted the need for expanded healthcare access and set the stage for later reforms, including the establishment of Medicare and Medicaid.
+
+Post World-War II: The introduction of employer-sponsored insurance plans, an unplanned outcome of the GI Act, led to more people having access to medical services.  This increased demand, coupled with advances in medical technology, began to drive up health care costs. 	
+
+
+1960s to 1980s
+1960s to 1980s
+
+1960s: The establishment of Medicare and Medicaid in the U.S. in 1965 provided critically needed health coverage to elderly and low-income Americans, respectively.  This greatly increased access to health care services and contributed to rising costs.  
+
+1970s-1980s: Health care costs continued to rise sharply due to inflation, increased utilization of medical services, and advancements in medical technology.  Economists began signaling a warning call about health care spending outpacing general economic growth.	
+
+
+Late 20th Century
+Late 20th Century
+
+1980s-1990s:  The drive to control costs led to the more wide-spread creation of health maintenance organizations (HMOs) and managed care systems, which focused on preventive care and cost-effective treatment options.  Providers also began to reorganize, forming larger and larger economic units such as Integrated Delivery Systems, in part as an attempt to improve the efficiency of health care delivery and also as a reaction to the market pressure exerted by the Payors/HMOs.  Despite these efforts, health care costs continued to rise, driven by factors such as the aging population and new expensive medical treatments. 
+
+21st Century to Present	
+
+2000s: Health care costs continued to increase, usually outpacing general inflation.  Key drivers include chronic disease prevalence, obesity rates, administrative costs, and technological advancements.
+2010s: The Affordable Care Act (ACA) was introduced in 2010, aiming to expand coverage, control costs, and improve the overall health care system.  While the ACA helped reduce the number of uninsured, it did not significantly bend the cost curve downward for health inflation.	
+
+2020s: The COVID-19 pandemic led to surges in spending on emergency responses, vaccination campaigns, and ongoing treatment for those infected. Telehealth expanded rapidly as an alternative to in-person visits. Medtech/biotech enters into a “golden age” that promises increasingly effective treatments, albeit at high price tags.  Health care spending as percentage of GDP and the federal budget reaches new highs.  
+
+Questionable Sustainability of Health Care Inflation
+Questionable Sustainability of Health Care Inflation
+
+After decades of high health care inflation, health care expenditures in the U.S. have reached 17.8% of GDP in 2023, roughly double the rate of other OECD countries. The National Health, Education, and Welfare Administration (NHE) projects that the health spending share of GDP will increase to 19.6% in 2031, due to average health care inflation of 5.4% from 2022–2031 compared to the average GDP growth of 4.6%.  In other words, in just seven years, roughly $1 out of every $5 spent in the nation will go for health care.	
+
+Health care expenditures are also one of the largest drivers of the U.S. debt crisis.  In fiscal year 2023, the Kaiser Family Foundation reported that federal spending on domestic and global health programs and services made up 29% of net federal outlays, or $1.9 trillion out of $6.4 trillion. This includes:
+
+Medicare: 13%
+
+Medicaid and CHIP: 10%
+
+Other domestic health spending: 4%
+Medicare: 13%
+
+Medicaid and CHIP: 10%
+
+Other domestic health spending: 4%
+
+Hospital and medical care for veterans: 2%
+
+Global health: 0.1%
+
+Consistent with the theme, “It’s all about entitlements, stupid,” roughly 80% of these expenditures are mandatory absent changes in the law.  Despite this, there is little to no political activity advocating for health care entitlement reform.  Regulators and lawmakers have instead focused on reducing costs by limiting the profits of Big Pharma and the largest payors (such as UNH), which while potentially offering short-term savings also risks destabilizing the sector. 
+
+Golden Age of Health Care Technology
+
+Breakthroughs in cell and gene therapies (including CRISPR); new technologies such as mRNA and GLP-1; and the promise for AI to improve health care data analysis, diagnostics, and predictive analytics and speed up drug development are leading the way in what many believe will be a golden age for health care technology (biotech/medtech).
+Cell and Gene Therapy
+
+Cell and gene therapy hold transformative promise due to their potential to treat chronic or genetic conditions that were previously considered untreatable. Cell therapy involves introducing living cells into a patient to replace or repair damaged tissue, treat a disease, or boost the immune system. Gene therapy involves modifying or replacing defective genes within a patient’s cells.  Cell and gene therapy hold significant promise in such areas as cancer treatment, regenerative medicine and tissue engineering, and personalized medicine.	
+
+
+Messenger RNA Technology (mRNA)
+Messenger RNA Technology (mRNA)
+
+mRNA technology is a groundbreaking method for creating vaccines and therapeutics. It works by using synthetic mRNA, which is a molecule that tells cells how to make proteins.  The mRNA is encapsulated in lipid nanoparticles to facilitate its entry into human cells and these nanoparticles are what make up the vaccine or therapeutic agent. The biggest success to date for mRNA technology has been its use to develop the COVID-19 vaccines (both Pfizer-BioNTech’s and Moderna’s). Advantages include the speed of development, efficacy, the ability to quickly update vaccines in response to viral mutations, and safety (e.g., they are non-integrating, meaning they don’t enter the cell’s DNA).  mRNA technology has proven therapeutic efficacy in such areas as infectious disease, immunotherapy, genetic disorders, regenerative medicine, and cancer.
+Glucagon-like peptide 1 (GLP-1) Agonists
+GLP-1 Agonists are a class of type 2 diabetes drugs that not only improve blood sugar control but also lead to significant weight loss.  Although weight loss can vary depending on which GLP-1 drug you use and your dose, all GLP-1 drugs can lead to weight loss of about 10.5-15.8 pounds when using liraglutide (Source: Mayo).  Patients using semaglutide and making lifestyle changes lost about 33.7 pounds.  These drugs mimic the action of a hormone called glucagon-like peptide 1.  When blood sugar leves start to rise after someone eats, these drugs stimulate the body to produce more insulin, helping to lower blood sugar levels.  GLP-1s also help curb hunger and slow the movement of food from the stomach into the small intesting.  In part due to the weight loss, these drugs also have been found to lower the risk of heart disease, stroke, and kidney disease and improve blood pressure and cholesterol levels.  GLP-1s are already blockbuster drugs and have been to reach sales of $100 billion
+levels.  GLP-1s are already blockbuster drugs and have been to reach sales of $100 billion by 2030 (JP Morgan Research).
+Artificial Intelligence Applications	
+AI already has a significant history of being applied to health care, beginning with the field of diagnostics.  The success there, even with rudimentary AI systems, suggests that AI will have numerous applications to health care moving forward. An incomplete list follows:
+
+Improved Diagnostics: AI algorithms can assist in diagnosing diseases by interpreting medical images such as X-rays, MRIs, and CT scans with high accuracy.  This can lead to earlier detection of medical conditions.
+
+Personalized Medicine: AI can analyze a patient’s genetic information, lifestyle and environment to tailor treatment plans specific to the individual. 
+
+Predictive Analytics: By analyzing the vast amount of data stored in electronic health records and other sources, AI can identify trends and predict outbreaks, patient outcomes, and disease progression, allowing for earlier and more precise interventions.
+Drug Discovery and Development: AI can accelerate the process of drug discovery by predicting how different drugs will interact with target populations, assisting with the identification of promising drug candidates, and analyzing vast amounts of clinical data more rapidly than could be done before.  
+
+Surgical Assistance: AI tools can provide surgeons with real-time insights, superior monitoring, and enhanced visualizations, potentially reducing human error.
+
+Virtual Health Assistants: AI-powered chatbots and virtual assistants can provide patients with medical information, remind them to take medications, or monitor chronic conditions.
+Wearable Technology: In health care’s version of moving to the edge, wearable devices such as smart watches, fitness trackers, and health patches enable continuous monitoring, real-time data analysis, and proactive health management.  This has applications such as remote monitoring of chronic conditions and real-time alerts such as when a patient suffers a stroke. 
+
+Telehealth and Remote Monitoring: AI can enhance telehealth services by providing diagnostic support during virtual consultations and continuously monitoring patient’s health remotely, offering timely interventions.  
+
+Operational Efficiency: AI can streamline administrative tasks such as scheduling, billing, and patient flow management.
+To the extent that these new technologies offer the hope for long-term cures, they clearly will be the focus of significant investment.  Whether their success will increase or decrease health care costs as a whole, however, is debatable.  As discussed in a recent Time Magazine article, “As exciting as the possible new medications are, they also raise . Innovative drug treatments involving gene therapy and CRISPR, for example, are designed to be one-time treatments that can mitigate the need for repeated and often lifelong medical care. But that means higher upfront costs, and it’s not clear whether insurers will cover such hefty price tags. As more therapies reach the market, however, they could change the reimbursement structure as insurers will likely feel increasing pressure to cover treatments that could be not just life-changing but also potentially curative—and save millions in long-term health care costs.”
+As in our Technology sector analysis, we believe that the rate of adoption for new healthcare technologies will follow the “S Curve”, also known as the diffusions of innovations theory.  The curve is typically shaped like an “S,” with slow initial growth as innovators and early adopters begin to experiment with the technology.  This is followed by a rapid acceleration as the technology gains momentum and is adopted by the early majority and eventually late majority.  Finally, the curve tapers off as the technology reaches saturation among the laggards.  Initially, the costs for these new treatments will be quite expensive, likely contributing to healthcare inflation.  Over the long-term, one would hope that new treatments would reduce overall costs by preventing any number of costly chronic conditions (e.g., healthy people need fewer health care services).  We can see this playing out, for example, with the recent class of weight loss drugs.  Short-term costs are high and system
+out, for example, with the recent class of weight loss drugs.  Short-term costs are high and system savings will take years to play out.  Ultimately, bending the health care curve will likely require significant new therapeutic and curative treatments across the “Big 4”: cardiovascular disease, insulin resistance (diabetes), caner, and neurodegenerative disease (Alzheimers, Parkinsons).
+Top of Form
+
+Bottom of Form
+
+Subsector Investment Thesis:	
+  	
+SCP has extensive experience with the health care sector.  Consistent with the macroeconomic view above, SCP is focusing its investments in (1) companies which can commercialize promising new technologies (i.e., take advantage of the Golden Age for medtech/biotech), and (2) companies that can work in partnership with the federal government to finally bend the curve downward on health care inflation and bring health care costs onto a more sustainable path.  Consequently, SCP has focused its investments in three critical subsectors: Big Pharma, Payors and Providers, and Medtech/Biotech.
+Big Pharma:	
+"Big Pharma" refers to the world's largest pharmaceutical companies, which play a significant role in the healthcare industry by conducting critical research and development (typically up to 15% of revenues), developing new drugs that demonstrate clinical efficacy, and then bringing these drugs to market, including navigating through the labyrinth of clinical trials.  Apart from developing their drugs pipeline via internal R&D, these companies also frequently acquire biotech companies to bolster and complement their product portfolio. Big Pharma’s product portfolios include a wide range of medicines, vaccines, and biotechnology products that cater to therapeutic areas including oncology, cardiology, neurology, immunology, and infectious diseases. They also operate on a global scale, with sales and operations spanning numerous continents.
+The pharmaceutical sector has continued to grow rapidly over the last two decades, with global revenues reaching $1.48 trillion in 2022 (source Statista).  Big Pharma comprises a large portion of the sector, with sales in 2022 of $949 billion (approximately 65% market share).  In that same year, these large pharmaceutical companies made an impressive $112 billion in profits.  Given their considerable cash flow and solid balance sheets, Big Pharma also play a critical role in the innovation ecosphere.  First, they invest heavily into their own R&D on emerging technologies.  Second, by acquiring smaller, often venture-backed innovators, they provide an exit option for early investors while refreshing their product pipelines.  Finally, they enter into strategic alliances with innovators, including venture-backed firms, large technology companies such as Google and Microsoft, and universities, leveraging the sales and distribution reach of Big Pharma and providing a path to
+and universities, leveraging the sales and distribution reach of Big Pharma and providing a path to commercialization for promising technologies.
+Top 10 Big Pharma by Revenue ($B)
+Public and policymaker perception of Big Pharma is decidedly mixed.  On the one hand, they are rightfully credited with bringing to market cost- and life-saving treatments. On the other hand, their success in generating large profit margins leads to accusations of inequitable pricing and sales practices, putting them in the sights of regulators worldwide.  Similar to SCP’s thesis on the large oil majors and their critical role in energy transformation, however, we believe that Big Pharma is a vital and necessary piece of the equation for leveraging the promise of AI and gene and cell therapy. They have the resources to make such innovations possible and the product management and marketing skills and the distribution network to commercialize these innovations.  Our investment thesis, therefore, is to identify the leading pharmaceutical companies worldwide who are poised to and have the wherewithal to make such investments, both through their own R&D as well as through acquisitions and
+to make such investments, both through their own R&D as well as through acquisitions and alliances, and also effectively monetize them through their marketing efforts and distribution network.  Given the increasingly high costs of prescription medicine and the high price tags for new cell and gene therapies, SCP also believes that Big Pharma must work closely with governments around the world to ensure affordable access to their life saving products and help to bend the curve on health care inflation.  Companies that can balance such public/private partnerships (e.g., demonstrate regulatory expertise and finesse) while still maintaining top-tier performance will command a premium in the capital markets.
+Possible Subsector Tailwinds:
+
+Increasing Demand Due to Favorable Demographics: As the global population continues to grow and age, there will be increasing demand for healthcare services, including pharmaceuticals.  Such increasing demand should translate into revenue growth.
+
+Technological Advancements/Strong Pipeline: As discussed, advancements such as AI and genomics are driving considerable innovation in the sector.  Companies that succeed in commercializing such technologies will have strong pipelines of new products, operate more efficiently, and earn market premiums.
+GLP-1 Blockbusters: As noted, there is an impressive demand for these new anti-obesity/type 2 diabetes drugs and to date they have been able to attract premium pricing.  Companies with strong GLP-1 product pipelines will clearly be among the winners in the next few years.  The impact of these drugs is so broad that they have implications downstream for payors who must struggle with the additional short-term costs of these drugs, for medtech companies who will sell fewer weight-related devices (e.g., CPAP, insulin monitors), and even for food companies who will need to retool their offerings for a healthier customer base.
+
+Emerging Market Demand: To the extent that emerging markets are successful in growing their middle classes and improving access to healthcare services population-wide, pharmaceutical companies will have new growth opportunities and the ability to diversify their revenue streams.
+M&A/Collaboration Opportunities: Big Pharma in general has strong balance sheets and sufficient dry powder that can be utilized to buy out promising but smaller and unprofitable biotech companies at discounted prices as the latter are struggling due to higher for longer rate environment and a tough funding environment.  
+
+Specialty Drugs: A number of large pharmaceutical companies are increasingly focusing on specialty drugs—high-cost medications used to treat complex and rare diseases. Such drugs typically have higher pricing potential and profitability.
+Attractive Investment Characteristics: 	Big Pharma companies typically enjoy strong balance sheets, stable cash flows/earnings, low cyclicality, strong dividends (level and growth), and attractive valuations (due in part to election-related risks and patent cliffs).  Consequently, these companies are attractive investments and provide ballast in client portfolios, especially given today’s inflated valuations, higher-for-longer rate environment, and elevated geopolitical risk regime.
+
+
+Sector Headwinds
+Potential Regulation and Legislation:  Governments across the globe are focused on controlling the cost of prescription medicine and are highly likely to implement new regulations and health care reforms that limit the pricing flexibility of the sector.  The most recent U.S. example is the Inflation Reduction Act (IRA) which for the first time empowers Medicare to negotiate prices for certain high-cost prescription drugs directly with pharmaceutical companies. This negotiation process will begin with a selected list of drugs, expanding over time to include more medications.  Drug manufacturers are also required to pay rebates to Medicare if they increase the prices of their medications faster than the rate of inflation. Finally, the act includes a specific provision to cap the monthly cost of insulin at $35 for Medicare beneficiaries. Note that implementation of the IRA has been delayed due to the complexity of price negotiations and the need to build need administrative systems.
+Impending Patent Cliff: All drug companies bear the risk of losing patent protection (20 years) or losing exclusivity (usually 5 years) for their products which allows competition from generic alternatives and reduces profitability. Patent expirations over 2023-2030 could leave more than $350bn of large-pharma annual sales exposed to generics, with US drugmakers more at risk than their EU counterparts.  Consensus analysis sees ~$140bn in potential sales erosion over this period for the peer group.
+
+Drug Development Costs: The costs of bringing new drugs to market are increasing due to increasingly stringent regulations, the requirement for larger and more complex clinical trials, and increasingly high R&D costs as companies pursue new technologies.  Median cost of launching a new drug is approximately $1bn, with no guarantees that initial sunk costs will be recovered should the product fail during approval process.
+Intense Competition: Big Pharma faces competitive pressure from both their peers as well as new entrants, including venture-backed biotech companies and startups.  This creates the need to constantly innovate and differentiate their products. 
+
+Poor Public Perception:  The pharmaceutical company has been intensively scrutinized for their pricing methodologies, their marketing practices, excessive profit taking, and the opioid crisis.  Such coverage has led to a decline in public trust which can impact the industry’s ability to attract capital, partners, and customers. 	
+ 
+
+Payors and Providers:
+Payors and Providers:	 
+
+Although payors and providers typically sit across from each other at the negotiating table, they both are essential stakeholders in the drive for cost containment and quality improvement.  Both sides will play a critical role moving forward and increasingly collaboration between the two subsectors will be required to move the needle on bending the health care inflation curve.  Successful payors and providers will need to manage the convergence of new technology, regulatory changes, and cost containment demands.  Interestingly, many leading payors have started vertically integrating with providers to better control cost ratios (e.g., primary care clinics, telemedicine, urgent care, etc.) Our investment thesis, therefore, is to identify the leading payors and providers that can strategically manage this convergence.
+More specifically, SCP is seeking to invest in companies that can successfully manage the application of the new treatment technologies (e.g., gene and cell therapy, mRNA, etc.) as well as leverage AI, including enhanced data analytics, data driven decision making, telehealth and remote monitoring/wearables, automated claims adjustment, robotic automated tasks, etc.  Companies that can leverage blockchain technology to create secure and seamless data transfer of confidential records will also have an edge up. As with Big Pharma, large payors and providers will also need to demonstrate considerable regulatory agility as the state and federal governments pursue health care reform. Finally, players who are able to lead efforts at cost containment will receive market premiums, including such capitalizing on recent trends such as personalized medicine, the application of behavioral economics to consumer behavior, increased emphasis on preventive and holistic care, increased focus on health
+to consumer behavior, increased emphasis on preventive and holistic care, increased focus on health equity and social determinants, and new payment models (e.g., value-based care, bundled payments or accountable care organizations).
+Possible Subsector Tailwinds: 	
+
+Technological Advancements: innovations in healthcare technologies, such as the application of AI, cell and gene therapies, remote monitoring and telemedicine, and blockchain-driven electronic health records can improve efficiency, patient experience and health outcomes.  
+
+New Payment Modalities: The shift from traditional fee-for-service to value-based care models will reward providers for the quality of care they provide, not the quantity.  This should reduce unnecessary costs and incentivize preventive care.  
+
+Aging Demographics: As the populations of the world’s most developed economies age, this will create increased demand for payors and providers.  A cautionary note, however, is that this trend may also increase costs as older individuals consume more healthcare services than younger ones, on average.
+Policy Support: The flipside of costly regulation and bureaucracy are innovative public-private partnerships that expand coverage, control costs, and improve outcomes.  
+
+Subsector Consolidation/Vertical Integration: The ongoing consolidation occurring in both the payor and provider subsectors should create opportunities for economies of scale, improved negotiating power, and sufficient scale to make the infrastructure investments required to achieve the promise of new technologies.  We are also observing increasing vertical integration among large payors and providers and expansion of providers into the payors’ domain in an effort to curtail costs.
+
+Possible Subsector Headwinds:
+Possible Subsector Headwinds: 
+
+Political/Headline Risk: Particularly in this election year, large payors and providers are targets for policy makers seeking to find cost savings in the healthcare system.  At the minimum, this will create short-term volatility as the market responds to the negative press.  It might also be a precursor to regulation or legislation aimed at curbing the pricing power of the sector (e.g., witness pharmaceutical provisions in Inflation Reduction Act).  
+
+Regulatory Challenges:  Frequent changes in healthcare laws, regulations, and policies can pose compliance challenges and create uncertainty.  This can increase costs and require constant adaptation.
+
+Cybersecurity Threats:  The flipside of the promise of AI in healthcare, as healthcare payors and providers move toward the increasing digitization of services, the opportunity for cybersecurity attacks increase as well.
+Aging Demographics: As mentioned above, while the aging of the consumer population creates increased healthcare demand, it also significantly increases patient acuity (severity of illness) and the prevalence of chronic diseases.  This drives the need for more costly and complex care.   
+
+Cap-Ex Requirements: 	Building, maintaining and upgrading infrastructure to pursue such trends as AI and cell and gene therapies will requires significant capital investment.	     
+
+Workforce Shortages: The healthcare industry faces shortages of skilled professionals, including doctors, nurses and allied health professionals, limiting the efficiency of care delivery.
+Biotechnology and Medtech	
+Both the biotech and medtech sectors are large and growing rapidly.  Biotech companies harness cellular and biomolecular processes to create products with wide ranging applications across healthcare, agriculture, industry, and environmental sustainability. In 2023, the global biotechnology market was valued at $1.54 trillion, and is projected to reach $5.68 trillion by 2033.  Medtech companies develop devices to diagnose, prevent, monitor, and treat medical conditions, including products such as pacemakers, imaging instruments, dialysis machines, and implants. The global medical devices market was valued at $518 billion in 2023 (source FortuneInsights),and is projected to grow to $887 billion by 2032 (CAGR of 6.3%).    	
+
+The impressive growth projects for the two sectors are based on a number of promising trends.  Key developments in biotech include:
+CRISPR/Cas9 Technology: This revolutionary gene-editing tool has transformed the field of biotech by allowing scientists to precisely edit DNA sequences.  Applications range from correcting genetic mutations to creating genetically modified organisms.	
+
+Synthetic biology: This emerging field involves designing and constructing new biological parts, devices, and systems (or redesigning existing systems).	
+
+Biopharmaceuticals: Biopharmaceuticals are biologically derived drugs, such as monoclonal antibodies and gene therapies. These drugs have revolutionized the treatment of various diseases, including cancer, autoimmune disorders, and genetic disorders.	
+
+Microbiome Research: The study of the microbiome, the collection of microorganisms living in and on the human body, has gained increasing attention and has the potential to lead to new therapeutic interventions and personalized medicine approaches.
+Stem Cell Research: Stem cells have the potential to differentiate into various cell types and hold promise for regenerative medicine and tissue engineering.  
+
+Bioinformatics/AI: Bioinformatics involve the use of computational tools and techniques, including AI, to analyze biological data.  Such tools are essential for managing and analyzing large datasets, such as genomic sequences and protein structures.	
+
+
+Key developments in medtech include:
+
+AI and Machine Learning (ML):  AI and ML are increasingly integrated in various diagnostic and therapeutic devices.  Help in analyzing large datasets for diagnosis, outcome prediction, and even robotic surgery.
+
+Minimally Invasive Surgery (MIS):  MIS technologies continue to advance leading shorter patient recovery times and reduced complications.
+
+Wearable Technologies: These include everything from fitness trackers to devices that monitor blood sugar levels, heart rate, ECG, etc.
+3D Printing: This technology facilitates the fabrication of intricate device components, patient-specific prosthetics, and even biological tissues.  
+
+Remote Patient Monitoring (RPM): RPM technologies provide continuous monitoring for patients outside traditional clinical settings, which is critical for chronic disease management. 
+
+Connected Devices and IoT: IoT enables devices to communicate with each other, allowing for real-time health data analysis. 
+
+Implantable Devices:  Advanced implantables, such as smart pacemakers and defibrillators, can monitor vital signs and communicate data to healthcare providers. 
+
+Possible Subsector Tailwinds:
+
+Advancements in Technology:  Innovations such as CRISPR gene editing, next-generation sequencing, AI-driven drug discovery, wearables, and robotic surgery are pushing the boundaries for biotech/medtech.
+Increased Funding: Venture capital, government grants, and collaborations with larger pharmaceutical companies are providing substantial funding for R&D.
+
+Aging Population: The global demographic shift towards and older population is driving demand for treatments and therapies related to age-associated diseases such as Alzheimer’s, cancer, heart disease, orthopedic implants, and remote monitoring systems.    	
+
+Cross-Industry Collaborations: Strategic partnerships and collaborations with large technology players such as Google Health and Microsoft Health accelerate innovation and market entry.
+
+AI/Digital Health Boom: The integration of digital technologies in healthcare combined with the data processing power of AI are creating new opportunities for innovation.	
+
+
+Possible Subsector Headwinds:
+Possible Subsector Headwinds: 	
+
+Higher for Longer Exposure: Many biotech companies have relatively weak balance sheets and negative free cash flow, which exposes them to considerable risk in the current higher for longer rate environment.  Such companies are constantly turning to public or private markets to obtain the capital they require to survive the lengthy process to bring new solutions to market.
+
+Regulatory Challenges: Ongoing changes in regulatory requirements add cost and uncertainty to the process, which has historically been time-consuming, complex, and expensive.
+
+GLP-1 Blockbusters: The success of these drugs in reducing obesity is so broad that they have implications downstream for payors who must struggle with the additional short-term costs of these drugs, for medtech companies who will sell fewer weight-related devices (e.g., CPAP, insulin monitors), and even for food companies who will need to retool their offerings for a healthier customer base.
+Supply Chain Disruptions: The biotech industry relies on a complex global supply chain for research materials, reagents, and manufacturing components.  Disruptions can delay development and distribution.
+
+Data Privacy and Cybersecurity: The flipside of the digitization of health care is greater exposure to cybersecurity attacks, including many sponsored by government actors. Data and privacy breaches can be enormously expensive and result in a considerable erosion in customer goodwill.  
+
+Intellectual Property Concerns: Protecting IP is critical in biotech and medtech.  Patent litigation and patent expirations can erode competitive advantages.
+
+Clinical Trial Risks: Clinical trials are necessary but failure to demonstrate efficacy or safety can halt progress and lead to significant financial losses.	
+
+Talent Shortage: The increasingly specialized nature of biotech/medtech requires highly skilled professionals and talent shortages are common.	
+
+Portfolio Construction
+Portfolio Construction	
+
+
+Big Pharma	
+Given our bullish thesis on the future of the pharmaceutical sector, SCP should identify the leading companies with strong product pipelines, solid and diversified product mix, manageable LOE risk, considerable regulatory expertise, and the cash reserves to make strategic acquisitions.  Optimally, they would also be demonstrating leadership in AI, cell therapy, and gene therapy and benefit from or have manageable adverse GLP-1 related impact.   The Big Pharma sector divides into four subcategories:	
+
+Branded Pharmaceutical Companies (BPCs): BPCs, also known as innovator or originator pharmaceutical companies, are businesses that research, develop, manufacture, and market medications under patent protection.
+
+Generic Pharmaceutical Companies (GPCs): GPCs produce generic versions of branded drugs.
+
+Contract Research Organizations (CROs): CROs provide outsourced research services to pharmaceutical companies (pick and shovel).
+Contract Manufacturing Organizations (CMOs): CMOs provide outsourced manufacturing services to pharmaceutical companies (pick and shovel)
+
+Portfolio Questions for Discussion
+
+Do we have too many names in branded pharmaceuticals?
+
+Are we missing investments in generic manufacturers given how many drugs are coming off patent protection in future?  Should we add a company like Teva?	
+
+Are we missing picks and shovels companies (CROs, CMOs)?  Should we add a company like Catalent or Lonza? 
+
+In general, we don’t have any exposure to the Life Sciences Tools & Services sub-sector (Illumina, Thermo Fisher, Danaher, Agilent, etc.). We had exposure to some of these names in the past but got out of them due to both lack of connectivity and their performance (de-rating post covid as some of the tailwinds disappeared).
+
+Should we increase our exposure to GLP-1 by increasing the $500K investment in LLY and NVO?
+Should we increase our exposure to GLP-1 by increasing the $500K investment in LLY and NVO?
+
+
+Payors and Providers	
+Given the critical role that payors and providers will play in our macro theme, we should identify best in category companies that can manage the convergence of new technology (AI, blockchain, cell and gene therapies, wearables, remote patient monitoring, etc.), regulatory changes, and cost containment demands across four subsectors: Commercial Insurance Companies, Managed Care Organizations, Pharmacy/PBM/Primary Care, and potentially Other Providers.  	
+
+
+Portfolio Questions for Discussion
+
+Should we consider any international payors/providers?
+
+Do we need both CVS and Walgreens Boots Alliance?
+
+Should we consider other categories of providers, such as for-profit hospital networks, healthcare distributors, specialty care providers, ambulatory care providers, and long-term care providers? 
+
+Do we need to be as o/w this sub-sector as we currently are?
+Do we need to be as o/w this sub-sector as we currently are?	
+
+
+Biotech and Medtech
+
+Portfolio Questions for Discussion
+
+
+Are we comfortable with being light in our sector weighting for Biotech/Medtech given macro theme?
+
+Should we consider additional names in biotech, either domestic or overseas, or are we comfortable with ETF as our play?
+
+Should Amgen and Gilead be in AO?
+
+Should we consider additional names in Life Sciences (IQVIA, Danaher, ThermoFisher)
+
+Should we consider additional names in medtech, either domestic (e.g., Abbott, Becton Dickinson,) or overseas (e.g., Philips Healthcare, Siemens Healthineers, Roche Diagnostics)?
+
+
+Health Care Sector Weighting (as % of Equity)
+
+@19% of equity (13.6% Biopharma, Payors/Providers 3.5%, Medtech 1.9%); H/C and Energy are the the largest sectors
+
+vs HQ peer ETFs, H/C weight is o/w (~6%);
+vs HQ peer ETFs, H/C weight is o/w (~6%);
+
+vs HQ peer ETFs, Biopharma o/w is ~4.2% and Payors/Providers o/w is ~3%; Medtech is in-line to o/w by ~0.5% and u/w Distributors & Facilities and other sub-sectors.
+
+Comps: H/C is among the larger sectors
+
+Median H/C of 12.7%; VYM (12.2%) SCHD (15.2%), DLN (13.2%), NOBL (10.1%)
+
+Median Biopharma of 9%: VYM (9%) SCHD (15.2%), DLN (9%), NOBL (3%)
+
+Median Payors/Providers of 0.6 %: VYM (1.4%) SCHD (0%), DLN (2.7%), NOBL (1.5%)
+
+Median Medtech of 1.5%

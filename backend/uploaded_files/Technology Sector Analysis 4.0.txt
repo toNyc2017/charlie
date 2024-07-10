@@ -1,0 +1,414 @@
+Date:	05/XX/2024	
+
+To:	Investment Team
+
+From:	Jonathan Quann, Michael Dahl
+
+Re:	Sector Analysis—Technology
+
+Weighting: 
+
+
+Indices: S&P 500: 29.7%; MSCI ACWI: 23.4% (as of 05/14/24).	
+
+Sub-Sectors: ACWI/SPX
+
+ACWI -Software & Services (8.6%), Semiconductor & Equipment (8.5%), Technology Hardware & Support (6.3%)
+
+SPX - Software & Services (11.5%), Semiconductor & Equipment (10.2%), Technology Hardware & Support (8.0%)
+
+SCP Funds: AO: 15.1% (SCP), 18.1% (GICS); DVP: 17.1% (SCP), 6% (GICS) ; LRA 0.0% (as of 05/14/24).
+
+AO Subsectors: Semis (6.2% SCP; 7.8% GICS), Software (3.3%/3.3%), Networks (5.6%), Global Ecosystem (10.8%)
+
+Macroeconomic Background:
+
+Overall Investment Thesis: Investing in Technology to Drive Productivity Growth and the Fourth Industrial Revolution
+Productivity is one of the main drivers of sustained economic growth.  As productivity increases, economies grow faster (all else being equal) with more efficient resource utilization (including labor) and the creation of higher-value goods and services.  Improvements in productivity can push the supply curve out, increasing the output of goods and services, leading to lower prices and a long-term, stable rate of inflation.   	
+
+
+Technological innovations drive productivity growth and, therefore, economic growth and standards of living, through:
+Automation and Efficiency Improvements: Technological advancements streamline operations, reduce waste, and enhance the speed and quality of production processes.  This increases output while maintaining or reducing input costs, directly boosting productivity.  By automating repetitive and labor-intensive tasks, technology frees up human resources to focus on higher-value activities, further enhancing productivity.  Automation also reduces errors and increases production speed.
+
+Data Analytics and Decision Making: Innovations in technology provide businesses with powerful data analytics tools that enable better decision-making.  By leveraging big data, companies can optimize operations, target customer needs more effectively, and better anticipate market trends.
+
+Human Capital Development: Technology improves educational and training tools, enhancing the skills of the workforce.  A more skilled workforce is more productive and better equipped to handle complex tasks and innovations.
+Technology and advances in productivity improve the overall quality of life and the well-being of society by increasing the quality of consumer goods, improving the quality of services, and increasing the availability of leisure. But economic growth advances unevenly, with some eras producing larger bursts of productivity than others.	 SCP believes that driven by advances such as AI (driven by next generation semiconductors), continued investments and improvements in networking and collaboration, and ongoing advances in software and enterprise solutions that provide both automation and superior data analytics, we may be entering into just such a period of economy-changing productivity growth—the Fourth Industrial Revolution.
+Core Macro Thesis—Focus on the Tsunami:  As the markets lurches from “crisis” to “crisis”, and from “relief” rally to “relief” rally, we are reminded of Stanley Druckenmiller’s observation that it’s “like sitting on the beach at Santa Monica worrying about whether a 30-foot wave will damage the pier, when you know there’s a 200-foot tsunami just 10 miles out.”  The 30-foot waves that have worried markets (e.g., inflation, higher rates) are, in our minds, all symptoms of the larger 200-foot tsunami: our nation’s large and growing debt and unfunded liabilities.  Fundamentally, we face a debt crisis that, while built up over many years, has been particularly so over the last 20 and accelerating alarmingly since the pandemic.  It has been caused and exacerbated by monetary and fiscal imbalance and a lack of economic reform.
+Although projections for the U.S. national debt differ based on different assumptions for growth, revenue collection, and deficit spending, most estimates suggest that the U.S. national debt will reach around $35 trillion by 2024 or roughly 97% of GDP.  Even the overly optimistic CBO also suggests that debt will only grow from here absent a sizeable shift in policy.  Federal government debt is on a path to 116% of GDP by 2034 utilizing their rosy assumptions, while Bloomberg pegs it more realistically at 123%.  Debt at that level would mean servicing costs reach close to 5.4% of GDP — more than 1.5 times as much as what the federal government spent on national defense in 2023, and comparable to the entire Social Security budget.  Alarmingly, Bloomberg ran over 1,000,000 future economic simulations and found the U.S. debt to GDP ratio was unsustainable in approximately 88% of them.  
+
+
+Three Ways to Address: There are only three ways to deal with a debt problem.  You can:
+Three Ways to Address: There are only three ways to deal with a debt problem.  You can:
+
+
+Cut (and tax) your way out (similar to the 1930s);
+
+Inflate your way out (akin to the 1970s); or
+
+Grow your way out (as was done in the 1980s and 1990s).
+Realistically, it would require tremendous political courage to “cut” our way out of the current debt crisis.  Consider that 84% of federal spending goes to defense, social security, health insurance, veterans and federal retiree benefits, economic security programs, and interest on the debt (CBPP)—none of which either major political party are lining up to reduce (in a very real sense, “It’s all about entitlements, stupid”).  That leaves the remaining 16% of domestic discretionary spending which includes such crucial investments as infrastructure, transportation, education, medical and scientific research, subsidies for energy transition and technology onshoring, and natural resources and agriculture—areas tied inherently to critical priorities such as global competitiveness, climate change remediation, and economic national security.  Trying to balance the budget on this 16% would be shortsighted and harmful to economic growth, only worsening our debt crisis but neither party is
+be shortsighted and harmful to economic growth, only worsening our debt crisis but neither party is talking about structural changes to spending for the other 84%.  Further, raising revenue by increasing taxes remains a bitter partisan issue with little likelihood of passage.   On net, the prospects then for “cutting our way out” are fairly dim.
+The second option, “inflating our way out” of the debt crisis is similarly unattractive.  Persistent inflation would cause tremendous economic upheaval and greatly lower the standard of living for most Americans.  Even worse would be a return to the “stagflation” of the 1970’s.  Stagflation is a combination of three negatives: slower economic growth, higher unemployment, and higher prices. While the country may see persistent inflation or stagflation as a result of the looming debt tsunami, these are hardly attractive policy choices and should be resisted by all measures.
+Consequently, “growing our way out” of the debt crisis is by far the most attractive option. The goal would be for productivity to be increased to the point where it will lead to higher growth without additional inflation, which would then allow for the tightening of monetary policy to rein in the inflation component of stagflation. This is also the one approach where the private sector can move in advance of the public sector (although there will need to be crucial public-private partnerships in such areas as the energy transition and onshoring of crucial technologies).
+More specifically, we believe that technological innovations can drive significant corporate efficiencies in the production of goods and services.  As this shifts the supply curve to the right, producers will be willing to supply a higher level of goods and services at each price level.  In turn, this will result in lower prices for consumers, higher output levels, increased employment, and ultimately, economic growth.  Such favorable economic conditions can provide the cover policymakers need to begin to address difficult policy choices.
+
+
+History Never Repeats Itself, But It Often Rhymes: Technology-Driven Productivity Growth:	
+Whether our hopes will be realized will be dependent upon just how impactful the current suite of technological developments.  Economic growth based on technology advances unevenly, with some eras producing larger bursts of productivity than others.
+In general, the rate of technology adoption follows the “S Curve”, also known as the diffusions of innovations theory.  The curve is typically shaped like an “S,” with slow initial growth as innovators and early adopters begin to experiment with the technology.  This is followed by a rapid acceleration as the technology gains momentum and is adopted by the early majority and eventually late majority.  Finally, the curve tapers off as the technology reaches saturation among the laggards.
+
+
+It is also important to recognize that not all technologies pay off in productivity gains.  History is rife with fads that appeared to be transformational in the beginning but that petered out over time (e.g., Web 3.0, Crypto, Metaverse, etc.).   The uncertainty about commercialization of new breakthroughs (vs hype) along with the S-curve in adoption and the winner take all nature (dominance of a single ecosystem/protocol) of the market makes tech investing challenging.
+First Industrial Revolution (Late 18th-Early 19th Century): Originating in Britain and spreading to the United 
+States and Continental Europe, the first Industrial Revolution was a major transition from manual production methods to machine-based manufacturing.  Key innovations included the steam engine and mechanized textile manufacturing.  In the U.S., this era saw the rise of mechanized factories, particularly in the textile sector, which significantly boosted productivity by increasing output and decreasing labor costs (through often brutal working conditions).
+Second Industrial Revolution (Late 19th to Early 20th Century): A second wave of major technological advancements and the expansion of industrialization, with development and widespread adoption of life-changing innovations such as electricity, the internal combustion engine, and advances in chemical, petroleum, and steel production.  The introduction of the assembly line by Henry Ford in 1913 revolutionized manufacturing, allowing for mass and routinized production of goods like automobiles at unprecedented speed and lowered costs, putting what were previously luxury goods within the reach of ordinary Americans.  Working conditions improved significantly (on average), and the growth of the modern corporation revolutionized the structure of business and investment.
+Post-World War II Boom (1948-1970): Following the technological and organizational advancements made during World War II, the U.S. experienced a period of exceptional productivity growth during the postwar, middle class economic boom.  Earlier innovations were adopted more widely through the private sector, bolstered by high consumer demand, strong governmental support through infrastructure spending, and educational expansion.  Research advances in telecommunications and early computing set the stage for later growth.
+Third Industrial Revolution (Late 20th Century): Sometimes called the “Digital Revolution”, this period saw the rise of information technology and electronics, transforming the economy through the development and expansion of personal computing, the internet, and mobile communications.  Starting in the 1980s, and gaining significant momentum by the mid-1990s, these technologies automated office functions, improved data storage and processing, and connected global markets more tightly than ever before.  The productivity gains from these technologies were substantial during the late 1990s and early 2000s, although they began to taper off in the mid-2000s and slowed significantly after the Global Financial Crisis.
+Fourth Industrial Revolution? Are we in a fourth industrial revolution?  There is generally a lag between a transformative innovation and its widespread adoption that results in structural productivity increases.  And while it is far too early to say whether AI will drive long-term productivity increases, over the last four quarters, productivity has shown a notable improvement, rising approximately 3% year over year.  This is likely due to a variety of unexplained factors (such as pandemic related distortions, the recent immigration surge, and the noise associated with highly volatile productivity data), but the potential for AI to continue and potentially accelerate the new productivity boom is substantial, driven by its ability to automate complex tasks, enhance decision-making, and innovate across various sectors.  Like major innovations of the past, AI is a general-purpose technology that could be integrated across multiple economic sectors.  AI’s capacity to augment human
+that could be integrated across multiple economic sectors.  AI’s capacity to augment human capabilities can lead to the creation of new jobs and industries, and the elimination of old ones, much like past technological revolutions. AI and the concomitant productivity gains appears to be the major secular counterweight to some of the inflationary forces such as de-globalization, near-shoring/friend-shoring, geopolitical realignment, higher fiscal deficits, and major investments needed for the transition to green energy – therefore, its importance cannot be overemphasized.
+Subsector Investment Thesis:
+SCP has extensive experience with the technology sector and its ability to expand the supply curve by driving productivity and efficiency are a key foundation of our macroeconomic outlook.  More specifically, SCP has focused on four core subsectors of Technology that we believe are critical to future productivity improvements, efficiency gains, cost reductions, and ultimately non-inflationary economic growth. Semiconductors are ubiquitous and are the foundation for most modern tools and applications ranging from smartphones, PCs, IOT, machinery, smart grid, weaponry, etc. They play a critical role in enabling new technologies (e.g., artificial intelligence) and products (e.g., ChapGPT), providing the engine for the rest of the sector. Networking (including cybersecurity) companies provide the connectivity essential for safe, secure, and fast storage, communication and transfer of data (including voice/video/text) within companies, across businesses, and globally. Software firms allow
+voice/video/text) within companies, across businesses, and globally. Software firms allow companies to streamline operations, automate repetitive tasks, and enable real-time data transfer for improved decision making; they allow firms to reach new customer segments through digital marketing, e-commerce platforms, and highly targeted online advertising; and develop new products, services, and business models that can transform industries.  Finally, there are handful of technology companies (e.g., Google) that are truly global in scope, typically enjoy a product or technology or process moat that results in quasi-oligopoly power and/or competitive edge, and have the profitability and the balance sheet to drive out competition and both invest directly in promising technologies as well as acquire emerging companies with the same.  We label this final sector Global Ecosystems.
+Artificial Intelligence Case Study: The four technology sectors discussed above are also inherently linked into the supply chains of most companies in America.  How Artificial Intelligence (AI) is incorporated throughout these sectors will have much to say about where productivity levels go from here.  We believe AI will follow the general rule for other technology-led productivity revolutions (i.e., the “S-Cuve”) in that market observers will tend to exaggerate what can be accomplished in the short-term, while underestimating what can be done over the long-term.  Following similar logic, Goldman Sachs sees AI as playing out in four phases:
+Phase 1 is being led by NVDA and other semiconductor stocks.  As companies across the spectrum bulk up their R&D and Cap-Ex expenditures to take advantage of prospective AI productivity enhancements, the demand for not only GPUs like those designed by NVDA but also other leading-edge semiconductors has risen significantly, driving earnings upward along with share prices.
+
+Phase 2 will be led by AI infrastructure stocks.  Firms within this subsegment include:
+
+Semiconductor design and manufacturing companies (e.g., Synopsis, Cadence, ARM); 
+
+Data center REITS (SCP doesn’t have a dedicated one but has exposure through IYR and USRT);
+
+Cloud hyperscalers (e.g., AWS, Google Cloud, Microsoft Azure);
+
+Computer and network equipment makers (e.g., DEL, IBM, CSCO, Arista);
+
+Cybersecurity software providers (e.g., PANW, CRWD); and 
+
+Utilities (see Utilities writeup).
+Cybersecurity software providers (e.g., PANW, CRWD); and 
+
+Utilities (see Utilities writeup). 
+
+Phase 3 is AI-enabled revenue. Companies that can incorporate generative AI advances into their product offerings make up the next phase of the AI trade. Software and IT services stocks may be best positioned (e.g., CRM, SNW, ADBE, etc.). As per GS, the outperformance of these stocks, while driven by many factors other than exclusively AI, suggests investors have begun to trade Phase 3 already.
+Phase 4 is AI-productivity gains: Eventually, emerging AI technology can be expected to benefit companies across a range of industries that can use it to boost productivity. Software and services companies and commercial and professional services firms (e.g., Reliance Industries, Infosys, Tata Services, Deloitte, PWC, E&Y, IBM, Wipro, etc.) appear to have the biggest potential for earnings gains from AI, because they have a combination of relatively high labor costs overall and a high share of their labor bill that may be exposed to AI automation.
+Where are we now? As per GS, so far, few companies come close to reflecting AI optimism the way Nvidia and some other semis have. But stocks in Phases 2 and 3 have shown more signs of investor optimism than companies in Phase 4 as many companies in these two phases are necessary for every other company to use the technology to improve productivity. To date it is unclear when Phase 4 will truly happen. Phase 4 is imperative for the creation of a virtuous cycle in AI as the significant capex has to be sustained by successful monetization based on end user demand.	
+
+
+Semiconductors:
+Semiconductors play a crucial role in driving productivity improvements in various industries and sectors:
+
+
+Information Processing and Communication:   Semiconductors are used in the development of computer chips, which power computers, smartphones, and other electronic devices.  These devices enable faster and more efficient data processing, communication, and decision-making.
+Innovation and Product Development: Semiconductors drive innovation by enabling the development of advanced technologies and products.  For example, semiconductor technologies have led to the creation of new products such as electric vehicles, smart appliances, and medical devices.
+
+Energy Efficiency: Semiconductors play a key role in improving energy efficiency in various applications, such as renewable energy systems, smart grids, and energy-efficient lighting.  By reducing energy consumption and costs, semiconductor technologies contribute to productivity improvements and sustainability in different sectors. 
+
+Supply Chain Optimization: Semiconductors help optimize supply chain operations through technologies such as RFID (Radio Frequency Identification) and sensors, which enable real-time tracking of goods and materials, inventory management and asset monitoring.  In turn, this can enhance supply chain visibility, reduce lead times and improve overall productivity.
+The semiconductor industry is highly complex but can be divided into the following categories:	
+
+
+Semiconductor Manufacturers:  These companies design and produce semiconductor devices, such as microprocessors, memory chips, and sensors.  They invest heavily in research and development to create cutting-edge technologies and follow strict manufacturing processes. Names include TSMC, Intel, Samsung Electronics, and Qualcomm.
+
+Fabless Semiconductor Companies: These companies focus on designing semiconductor chips but outsource their manufacturing to third-party foundries.  They are responsible for developing the chip architecture, designing the circuits, and testing the final product.  Fabless companies often work closely with foundries to ensure their designs are manufactured according to specifications. Names include NVIDIA, Broadcom, and AMD.
+Foundries: These are specialized semiconductor manufacturing companies that produce semiconductor wafers based on the designs provided by fabless companies or Integrated Device Manufacturers (IDMs).  Foundries have the advanced equipment and processes required for wafer fabrication, including photolithography, etching, and doping.  Names include TSMC, Samsung, GlobalFoundries, and United Microelectronic Corporation (UMC).
+
+Integrated Device Manufacturers (IDMs): IDMs both design and manufacture semiconductors in-house with their own fabs.  Names include Intel, Texas Instruments, and STMicroelectronics.
+
+Equipment and Materials Suppliers: These firms provide the tools and substances needed for semiconductor manufacturing.  They offer equipment for wafer fabrication, testing, assembly, and packaging, as well as materials such as silicon wafers, chemicals, gases, and packaging materials.  Names include Applied Materials, ASML, Lam Research, and DuPont.
+Semiconductor Design Services: These companies offer expertise in chip design, verification, and testing to assist semiconductor manufacturers and fabless semiconductor companies in developing complex semiconductor products.  They provide specialized skills and tools to optimize chip performance, reduce power consumption, and ensure compliance with industry standards.  Names include ARM Limited, Synopsys, Cadence Design, Imagination Technologies Group PLC.
+The overall semiconductor industry dealt with an array of headwinds in 2023. Factors including inflationary pressure, geopolitical uncertainty, inventory surpluses, ongoing supply chain disruption, demand challenges in the PC and mobile device markets, and a scarcity of skilled talent conspired to produce a global revenue decline of 8.2 percent compared to 2022. Looking toward 2024, while some of those challenges persist, the overall industry outlook is strong, and double-digit revenue growth year over year is expected to return.  2024 is now predicted to see global sales of $588 billion (Deloitte). Not only would that be 13% better than 2023, but it’s 2.5% higher than 2022’s record industry revenues of $574 billion. The stock market also is often a leading indicator of industry performance: As of mid-December 2023, the combined market capitalization of the top 10 global chip companies was $3.4 trillion, up 74% from $1.9 trillion in November 2022 and 17% higher than the $2.9 trillion
+was $3.4 trillion, up 74% from $1.9 trillion in November 2022 and 17% higher than the $2.9 trillion we saw in November 2021.
+To date, SCP’s investments in this sector have focused on identifying the leading players across the above subsectors or Omega opportunities.	
+
+
+Possible Subsector Tailwinds:
+
+Chips Act Serves as “Government Put”:  The CHIPS Act authorizes funding of $52 billion over five years to the U.S. semiconductor sector.  More specifically, the legislation aims to increase domestic production of semiconductors in the U.S.  It provides financial incentives and support to semi manufacturers to bolster the country’s supply chain and reduce its reliance on foreign producers.
+Demand Increasing Rapidly:  The projected growth rates in 2024 are being driven by increased demand in a number of areas. With sales of AI chips predicted to reach more than $196 billion in 2024, this market is a tailwind for the sector and is expected to account for about 8.5% of sales. Demand for EV chips is also increasing, making autos another demand driver. Finally, both PC and smartphone sales also are expected to grow 4% in 2024, after 2023 declines of 14% and 3.5%, respectively (Deloitte). Returning to growth for these two end markets is likely important for the semi industry: In 2022, communication and computer chip sales (which include data center chips) made up 56% of overall semiconductor sales for the year, compared to auto and industrial, which accounted for only 14% of sales each, for example.
+Smart Manufacturing Getting Smarter: Over the years, semiconductor fab facilities and outsourced semiconductor assembly and test facilities (OSATs) have leveraged IoT devices, robotics tech, and artificial intelligence/machine learning (AI/ML) and analytics with the goal of achieving smart, lights-out chip factories that are fully automated. Wafer fab equipment makers, integrated device manufacturers (IDMs), foundries, and back-end AT facilities all continue to invest more in smart manufacturing practices, digital tools, and technologies, but the basic smart manufacturing objectives remain the same. They connect things on the factory floor, automate material movement and data collection, and apply analytics to prompt decisions and actions.
+Quantum Computing is Next Big Thing: Many analysts believe that 2024 will be a breakout year for quantum computing, when extensive R&D efforts finally result in commercializable products.  Early adopters include Finance, Healthcare/pharmaceuticals, Cybersecurity, Logistics, and Materials Science.  Each of these industries has complex problems that require massive computational power, which quantum computers have the potential to provide.  
+
+Edge Computing Fuels Turnaround in PCs, Phones: As AI moves from the cloud to the edge (end devices such as PCs or phones) to reduce latency, address privacy concerns or for more effective monetization, this move could result in a significant PC and smart phone upgrade cycle (e.g., AAPL’s AI strategy expected to be outlined in the June Developer’s conference).	
+  
+
+Possible Subsector Headwinds:
+Possible Subsector Headwinds:
+
+Market Valuations are Relatively Rich:	 In 2023, the global semiconductor industry's market capitalization increased by 72% compared to the previous year. In the first three months of 2024, global semiconductor stocks have increased by 40%, putting the market value of the biggest 27 players at $5 trillion, which is roughly on par with the U.S. healthcare industry. This runup suggests much of the upside in the sector has already been priced in and that there will be very few true Omega opportunities going forward.
+Slow pace & limited effectiveness of Government Subsidies: Capital spending may be impacted by government subsidy timing. This time last year there was excitement over the CHIPS Act in the US, and many companies were talking of expansion. While that enthusiasm remains, it appears to be muted, and a more realistic stance has taken hold as applications have been submitted and grant applicants assess the rules and compliance requirements.  In other words, the “Government Put” for semiconductors may have been exaggerated and will take longer to have impact. Also given the huge capex involved in new fabs and the lack of a competitive semiconductor manufacturing ecosystem in the US, some doubt the efficacy of the CHIPS Act even if all goes according to plan.
+Inventories Remain High and Fab Utilization Low: As of fall 2023, inventories remained high at more than $60 billion, about the same level as the previous year. and the process of drawing those down will be a significant headwind for sales in the first half of 2024. In addition, Fab Utilization was expected to fall below 70% in Q4 2023. The industry likely needs utilization to be much higher than that to be profitable, which could take some time. Meanwhile, capacity is also growing as the United States and Europe increase domestic chipmaking.
+Heavy Reliance on Asia Remains: More than 75% of the global semiconductor fab capacity is in Asia (the front-end), but the region’s market share is even higher (90%) in chip assembly and testing (the back-end). Except for large IDMs, most chip players have been outsourcing assembly and testing processes to third-party vendors, or Outsourced Semiconductor Assembly and Test companies (OSATs). The majority of the big OSATs are based in China and Taiwan, commanding roughly 80% of the OSAT market share in 2022. Although the United States is aiming to bolster domestic assembly and test capacity, almost all this work is still done in Asia.
+Cyberthreats Increasing: The semiconductor industry faces a different level of cyberthreats compared to other industries. In addition to the usual profit-seeking ransomware attacks that every industry deals with, semi companies possess unique, valuable, and restricted IP. Due to the increasing importance of semiconductors for multiple industries, it’s often targeted by state-backed actors. As a result of geopolitical issues and restrictions on advanced chipmaking tech, the IP of semi companies is one of the world’s most important targets for cyberattacks. If geopolitical tensions continue to escalate in 2024—resulting in further restrictions around IP, chips, and raw materials— cyberattacks may intensify, disrupting production in the industry.
+Geopolitics and Export Restrictions:  In general, efforts at protectionism have been doomed to fail, resulting in a costly tit-for-tat set of reactions by different countries.  Nevertheless, the U.S., out of concern for national security, continues to pass export restrictions on key chip technologies, including AI and advanced node manufacturing.  A consideration for these ongoing and evolving restrictions is that some .of the restricted destinations are large chip and equipment markets. Counter-reactions in these geographies could substantially affect chip and equipment company revenues. For example, even if restricting chips or chipmaking technologies achieves short-term geopolitical goals, it may have the long-term effect of leading restricted countries to develop their own solutions and become self-sufficient in these areas. Equally, increasing restrictions on chips or chipmaking technologies could lead to China or other countries introducing their own export restrictions for
+technologies could lead to China or other countries introducing their own export restrictions for older generation chips and important raw materials.
+Talent Shortages: There remain severe talent shortages across the semi supply chain, which many semi executives list as the biggest threat to ongoing growth.  Training the next generation of semi workers, however, will be time consuming.  In fact, according to a recent report, 67,000 technical, computer science, and engineering jobs could go unfilled by 2030.	
+
+
+Networks: 
+Networks play a crucial role in fostering economic growth for several reasons: 	
+
+
+Communication and Info Sharing: Networks enable businesses, individuals and organizations to store, connect and exchange information securely, easily and quickly.  This facilitates collaboration, innovation, and the spread of knowledge, which are essential for economic growth.	
+
+Economies of Scale: Networks facilitate the pooling of resources, shared infrastructure, and superior market access.  This can lead to cost savings, improved efficiency, and enhanced productivity.
+Promoting Trade and Investment: Networks provide a platform for businesses to connect with potential customers, suppliers, and partners both domestically and internationally.  This can promote increased trade, investment, and economic activity.	
+
+
+The Network sector is extremely large, depending upon how you define “network.”  A possible taxonomy for the sector (and leading names) comprises:	
+
+
+Telecommunication Companies (provides voice and internet services):
+
+AT&T
+
+Verizon
+
+Vodafone
+
+China Mobile
+
+Deutsche Telekom	
+
+
+Network Technology Companies (Picks and Shovels, Cybersecurity):
+
+Picks and Shovels
+
+Cisco Systems
+
+Arista
+
+Huawei
+
+Nokia
+
+Ericsson
+
+Qualcomm
+
+Cybersecurity
+
+Palo Alto Networks
+
+Crowdstrike
+
+
+Internet Service Providers (ISPs)
+
+Comcast
+
+Charter Communications
+
+CenturyLink
+
+Cox Communications
+
+Deutsche TeleKom	
+
+
+Social Media and Online Networking Companies	
+
+Meta (Facebook, Instagram)
+
+X (Formerly Twitter)
+
+LinkedIn
+
+YouTube (owned by Google)
+Meta (Facebook, Instagram)
+
+X (Formerly Twitter)
+
+LinkedIn
+
+YouTube (owned by Google)	
+
+
+Cloud Computing Infrastructure and Data Center Companies (Hyperscalers):
+
+Amazon Web Services (AWS)
+
+Microsoft Azure
+
+Google Cloud Platform
+
+IBM Cloud
+
+Oracle Cloud
+Amazon Web Services (AWS)
+
+Microsoft Azure
+
+Google Cloud Platform
+
+IBM Cloud
+
+Oracle Cloud	
+
+
+To date, SCP’s investments have focused on Telecommunications and Network Technology Companies (Picks and Shovels, Cybersecurity) based on the belief that these two subsectors will play a critical role in enabling productivity going forward. We are also bullish on the Telecom names because they have established large moats and exercise oligopolistic power; they have stable and steady cash flows resulting in consistently attractive shareholder returns; there are at time significant Omega opportunities where companies which have fallen prey to mission creep (e.g., AOL/Time Warner); and they provide ballast given their portfolio and recession resistance.  Similarly, the macro case for cybersecurity is very strong, particularly given the rise of AI.  Finally, we have considerable exposure to Cloud Computing and Data Centers through our Global Ecosystem investments discussed below.
+Possible Subsector Tailwinds: 	
+
+Increasing Demand for Data and Connectivity: With the rise of smartphones, smart devices, and the Internet of Things, there is a growing demand for data and connectivity services.
+
+5G Technology: 5G promises faster speeds, lower latency, and greater capacity which will enable new services and applications such as autonomous vehicles, augmented reality, and smart cities.	
+
+Remote Work and Digital Transformation: The shift to remote work and digital transformation has highlighted the importance of reliable and high-speed communications networks. 
+
+Merger and Acquisitions: The telecommunications industry is undergoing a period of consolidation.  This trend can create opportunities for growth and expansion for companies that are able to successfully integrate acquisitions.
+Government “Puts”: Governments around the globe are recognizing the importance of strong telecommunications infrastructure for economic growth and development.  This has led to increased government support and investment in expanding broadband access and improving network infrastructure.	
+
+
+Possible Subsector Headwinds: 
+
+Regulatory Challenges:  Telecom and network technology companies are subject to a complex regulatory environment, with requirements related to data privacy, net neutrality, spectrum allocation, etc.  Compliance can be costly and changes to regulations can impact operations and profitability.  
+
+Intense Competition: The telecom industry is highly competitive, resulting in intense price competition and shifting consumer preferences.  Telecom companies must continue to innovate to maintain competitive differentiation.
+Technological Disruption: Telecom is undergoing rapid technological change, with new entrants and disruptors constantly entering the market. Companies that fail to adapt risk being left behind. 
+
+Cybersecurity Threats: As telecom companies handle vast amounts of sensitive data, they are constantly at risk of cyber attacks and data breaches.  Of course, this is also a tailwind for the cybersecurity companies.
+
+CapEx Requirements: Building, maintaining and upgrading telecom infrastructure (for example 5G upgrades or broadband expansion) requires significant capital investment.     
+
+Supply Chain Disruptions: Network technology companies rely on complex global supply chains to source components and equipment.  Disruptions in the supply chain, such as natural disasters, trade disputes, or geopolitical tensions, can impact the company’s ability to deliver products to customers on time.
+Software: 
+The software sector is large (over $440 billion by most estimates), complex, dynamic, and competitive, ranging from everything from games to office applications to cloud platforms to enterprise resource planning applications.  It also is inherently connected with other technology sectors, such as hardware manufacturers, semiconductors, telecommunications, internet service providers, and content creators, creating additional layers of complexity and opportunities for collaboration.  In many ways, software serves as the brains behind technological developments, telling each component of the solution what to do and when to do it.  For this reason, SCP believes that a healthy software sector will be absolutely crucial to drive innovation, economic growth, and digital transformation in vast sectors of our economy.	
+
+Software contributes to future productivity enhancements in a number of ways:
+Software contributes to future productivity enhancements in a number of ways: 	
+
+
+Streamlining and Automation: Software can streamline and automate repetitive tasks, improving efficiency, reducing errors, and freeing up resources for higher value-add activities. 
+
+Collaboration: Software allows for seamless collaboration and communication among team members, business units, and corporations, leading to increased efficiency and productivity.
+
+Information Access and Data Analytics:  Software provides easy access to information that allow employees to find what they need more quickly. It can also collect, analyze, and then present such data, leading to superior decision making and resource allocation (including AI and machine learning applications).
+
+Project Management:  Software tools can help coordinate and streamline project management processes, optimizing the overall business functionality.
+Although it can be difficult to come up with an intuitive taxonomy for the Software sector given its size and complexity, SCP has chosen to focus on three subsectors in Software where we believe the highest productivity gains can be generated across the economy:	
+
+
+Productivity Enhancing Applications:  Application software is designed to perform highly specific tasks or functions for end-users.  Its focus can range from financial application (e.g., accounting) to communications (e.g., email, messaging, and video conferencing) to content creation and publication (e.g., word processing and video/image management).
+Enterprise Solutions:  Large and complex programs (primarily cloud-based, Software-as-a-Service [SaaS] solutions) that manage increasingly larger segments of business operations (e.g., customer relationship management (CRM), enterprise resource planning (ERP), human resources management (HRM), financial management, communication and collaboration, project management, marketing and sales automation, IT Workflow management etc.)
+
+Data Analytics, AI, and Digitization:  This software utilizes data cloud, AI and machine learning algorithms to store, organize and analyze data, automate tasks, and make intelligent decisions.  Examples include data cloud/analytics platforms, virtual assistants, recommendation systems, and autonomous vehicles.  
+
+Possible Subsector Tailwinds:
+Possible Subsector Tailwinds:
+
+Increasing Demand for Digital Transformation: Digital transformation comprises using digital technologies to create new or modify existing business processes, culture, and customer experiences to meet changing business and market requirements.  An increasing number of industries are undergoing digital transformation, driving the need for software solutions that can streamline operations, improve efficiency, and enhance customer experiences.
+
+Cloud Computing Adoption: The shift toward cloud computing continues to accelerate, with companies opting for cloud-based software solutions for their scalability, flexibility, and cost-effectiveness.
+
+AI and Machine Learning: AI and machine learning technologies are increasingly being integrated into software applications to improve functionality, automate processes, deliver personalized experiences, and improve decision making.
+Internet of Things (IoT) Expansion: IoT devices are physical devices embedded with sensors, software, and connectivity capabilities that enable them to connect and exchange data with other devices and systems over the internet. This allows them to be remotely controlled and automated, spurring smart solutions in manufacturing, logistics, and energy management (smart grid). The proliferation of IoT devices across various sectors, including healthcare, manufacturing, energy, and smart cities is creating significant opportunities for software companies.  
+
+Possible Subsector Headwinds: 
+
+Increased Competition: Increased competition: The software sector is highly competitive, with new entrants constantly entering the market and established companies continuously improving their products. This can make it difficult for companies to maintain a competitive edge.
+Rapid technological advancements: Technology is evolving at a rapid pace, and companies in the software sector must constantly innovate to keep up with new trends and developments. This can require significant investment in research and development, which may be challenging for smaller companies with limited resources.
+
+Data privacy concerns: With the increasing amount of data being collected and stored by software companies, there is a growing concern around data privacy and security. Companies must comply with strict regulations and take measures to protect user data, which can be costly and time-consuming.
+
+Market saturation: Some segments of the software market may become saturated, making it difficult for new entrants to gain traction. Companies may need to find niche markets or develop innovative products to differentiate themselves and attract customers.
+Global economic uncertainty: Economic factors, such as fluctuating currency values, trade tensions, and geopolitical instability, can impact the software sector. Companies may face challenges in terms of market demand, pricing, and profitability in uncertain economic conditions.
+Global Ecosystems:
+No discussion of the Technology sector can ignore the role played by the very largest players who have managed to erect Global Ecosystems.  These companies are truly global in scope, with operations spanning the globe; enjoy a sizeable product or technology moat that results in quasi-oligopoly power; and have the free cash flow to both invest directly in promising technologies as well as acquire emerging companies that emerge as potential disruptors.  They also have created extensive ecosystems across numerous geographies that include hardware, software, services, and content, and thereby able to provide users with seamless experience across multiple platforms and devices.  Given the scope of their R&D and Cap-Ex, there are very few technologies where such players don’t play an oversized role, either as a consumer, a supplier, or both.   Not surprisingly given their scope and resources, such Global Ecosystems will be critical if we are to enjoy a “Fourth Industrial Revolution”.
+The subsector of Global Ecosystems includes leaders in E-Commerce (Amazon, Alibaba), social networking (Meta, Tencent), and consumer electronics and software (Apple, Samsung, Microsoft). Not surprisingly, given the considerable Cap-Ex required, many of these companies are also leaders in cloud computing, data centers, cloud-based services, as well as AI (Amazon, Google, Microsoft, Meta). 	
+
+
+Possible Subsector Tailwinds: 
+
+Artificial Intelligence and Machine Learning: Many analysts have argued that the Global Ecosystem companies have a competitive advantage in integrating AI and machine learning technologies into their products and services given the size of the investments required.  Such companies also have the financial resources to purchase or invest in emerging players with potentially disruptive technologies.
+Cloud Computing Adoption: The adoption of cloud computing services continues to rise as companies look to leverage flexible and scalable infrastructure solutions. Given their leadership in eCommerce, social media, and online search, many of the Global Ecosystem firms have already built out extensive infrastructure for cloud computing which they are not only using for their own products and services, but also renting out to companies unable to make these types of investments. These “hyperscalers” operate massive data centers and use cloud computing to provide high-performance infrastructure services to millions of users across the globe.  Examples of hyperscalers include Google, AWS, Microsoft Azure, and Alibaba Cloud.
+Internet of Things (IoT): The proliferation of connected devices and IoT technologies presents significant opportunities for global technology companies to create innovative solutions for smart homes, smart cities, wearable healthcare tech, smart grids, and other sectors.   	
+
+Possible Subsector Headwinds:
+Possible Subsector Headwinds: 
+
+Regulatory Oversight: Many of the factors that make Global Ecosystem companies so dominant also raises concerns among regulators around the globe as they seek to address concerns about fair competition, consumer welfare, and unfair market power in the digital economy.  Regulators have been extremely active in combatting what they believe are monopolistic or oligopolist activities by these large players (e.g., FTC’s antitrust case against Google’s search and digital advertising practices, European Union’s antitrust case against Amazon’s e-Commerce activities, FTC and state attorneys general cases against Facebook for anticompetitive behavior, ongoing antitrust scrutiny of Apple for its App Store practices, etc.). The outcome of these cases will have significant implications for the future of the technology industry and how these companies operate in the global marketplace.
+Geopolitics and Protectionism: 	To date, having global operations was a competitive advantage for many of the global ecosystems.  But given recent geopolitical strife and subsequent protectionist activity, it has become increasing difficult to reap these benefits (e.g., Apple’s reliance on manufacturing in China, the West’s exposure to Asia dominating semiconductor manufacturing).  Whereas access to oil and gas tended to be seen as critical national security concern in the past, enough so that countries have been willing to go to war to ensure such access, today’s concerns relate to access to critical technologies and components (e.g., the chips that drive artificial intelligence, leading green energy and EV technologies). It has yet to be seen to what lengths countries and trading zones will go to protect their interests in these areas.
+Mission Creep and Bad Bets: While the global ecosystem firms can truly point to incredible successes, they also have made a number of spectacularly bad bets that have wasted considerable resources, drawn attention away from core competitive advantages, and depressed share prices (e.g., Google’s investments into electric vehicles and their loss-making “Other Bets” unit, Facebook’s bet on the emergency of the “Metaverse”).
+
+Data Privacy and Cybersecurity: Their sheer size and reach make such Global Ecosystems the targets of cybersecurity attacks, including many sponsored by government actors. Data and privacy breaches can be enormously expensive and result in a considerable erosion in customer goodwill.  Staying ahead of the game will require considerable resource expenditures.
+Market Valuations are Relatively Rich:	 The market multipliers for Global Ecosystem companies tend to be much higher than those for other types of companies, due to their rapid revenue growth, high profit margins, strong market positions, and dominance in emerging technologies such as AI.   For example, the cloud hyperscaling leaders trade at multiples of around 8-12x revenue, whereas traditional tech companies typically range from 3-5x revenue.   Consumer goods companies are even lower ranging from 1-3x revenue.  
+
+Portfolio Construction	
+
+
+Four Themes: 	
+
+
+Semiconductors	
+Given our bullish thesis on the future of the semiconductor sector, SCP should identify the leading companies across the broader semiconductor ecosystem:
+
+Portfolio Questions for Discussion	
+
+
+Are we missing investments in Equipment and Materials Suppliers?  Should we add a company like Applied Materials or LAM Research?
+Are we missing investments in Semiconductor Design Services?  Should we add a company like Synopsis or Cadence Design Systems?	
+
+
+Is the sector sized appropriately in the portfolio?
+
+Networks	
+Given SCP’s bullish outlook for the future of the networks sector, we should identify best in category investments across Telecommunication Companies, Network Technology Companies (Picks and Shovels), and Cybersecurity.  	
+
+
+
+Portfolio Questions for Discussion	
+
+
+Should we consider adding an overseas telecommunications name such as Deutsche Telekom to AO?  Cash cow business models with large moats.	
+
+Should we add an additional name in Network Technology (Picks and Shovels) such as Arista or Qualcom?  Is there any argument for adding an overseas name as well?
+
+Should we pair Crowdstrike with Palo Alto Networks given their complementary business models?
+Should we pair Crowdstrike with Palo Alto Networks given their complementary business models?
+
+
+Software	
+Based on its macroeconomic outlook, SCP is bullish on three subsectors in Software: Productivity Enhancing Applications; Enterprise Solutions; and Data Analytics, AI, and Digitization.
+
+
+Portfolio Questions for Discussion
+
+
+Are we light on overall exposure (significant u/w vs indices) and names in SW given criticality of sector to macro/productivity thesis?
+
+Are there other application companies beyond Adobe we should be tracking?
+
+Should we consider adding overseas enterprise solutions company like SAP?  Largest player in Enterprise Resource Planning (ERP).   
+
+Should we consider adding ServiceNow in Enterprise Solutions? 
+
+Should we beef up holdings in data analytics/AI/Digitization by adding names like Palantir or SAS Institute?
+Global Ecosystems
+Given the role that SCP sees companies with truly Global Ecosystems playing in driving the next technology revolution, we should identify the leading players across regions and hold for the long-term. 
+
+
+Portfolio Questions for Discussion	
+
+
+Is it time to reconsider China players like Tencent or Baidu?	
+
+
+Technology Sector Weighting (as % of Equity)
+
+AO LS
+Current holdings in AO LS include: XX.X%    Given our high conviction in the above theme, proposal is to increase AO LS weighting to X.X% of Fund or $X.XM, an increase of $X.XM.
+
+AO DVP
+Current holdings in AO DVP include: XX.X%  This compares to X% weighting in ACWI, while dividend ETFs’ median Technology & Communications allocation is ~10.1% (range of ~3% to ~19%)%/ 3.1% (range of 0%-4.6%)   Given high conviction, proposal is to increase weighting in AO DVP to X% of Fund or $XM, an increase of $XM.
+AO LRA
+Current holdings in AO LRA include: X.X% for a total of ~$XM or ~X% of Fund and ~X% of Equity.  This compares to ~XX% in ACWI and ~XX% in SPX while Technology ETFs’ allocation are quite varied. Given high conviction, proposal is to increase weighting in AO LRA to X% of Fund or ~$XM (increase of $XM). 
+
+
+AO LS		TARGET ALLOCATION			
+
+
+AO DVP		TARGET ALLOCATION
+
+
+AO LRA		TARGET ALLOCATION

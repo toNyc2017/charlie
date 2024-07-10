@@ -1,0 +1,293 @@
+Date:	05/XX/2024	
+
+To:	Investment Team
+
+From:	Jonathan Quann, Michael Dahl
+
+Re:	Sector Analysis—Financials
+
+Weighting: 
+
+
+Indices: S&P 500: 13.2%; MSCI ACWI: 16.0% (as of 05/01/23).	
+
+Sub-Sectors: ACWI/SPX
+
+Banks 7.0%, Financial Services 6.0% (Capital Market 2.8%, Payment Processors 1.6%, Asset Management 0.9%, Financial Exchanges & Data 1.0%), Insurance 3.1%)
+
+Banks 3.4%, Financial Services 7.6% (Capital Market 2.8%, Payment Processors 2.5%, Asset Management 0.8%, Financial Exchanges & Data 1.1%), Insurance 2.2%)
+
+SCP Funds: AO: 15.3%; DVP: 17.4%; LRA 5.3% (as of 05/01/24).
+
+Macroeconomic Background:
+Macroeconomic Background:
+
+Overview: The financial sector is essential to macroeconomic growth and stability, and forms one of the pillars of SCP’s long-term macroeconomic outlook and its direct equity investment strategy. Financial institutions support innovation, entrepreneurship, and economic development by providing credit, facilitating trade, and managing risk.  A healthy, functioning financial sector should allocate scarce resources efficiently across the economy, directing capital from savers to borrowers in the form of debt, and from investors to businesses in the form of equity.  In addition, financial firms provide mechanisms for managing risk through various financial instruments like insurance, derivatives, and diversified investment portfolios.  Finally, the financial sector provides information at the micro level (price signals) and macro level (economic indicators), facilitating competitive markets and thereby maximizing welfare.
+Old Era: The macroeconomic environment of the last two decades was one of falling equilibrium interest rates driven by the growth of global savings, expansionary monetary policies, and globalization (contributing to a structurally low inflation environment).  As crises hit global financial markets and economies, central banks intervened to suppress rates further and increased liquidity to encourage recoveries.  With persistently low inflation and meagre economic growth, the Fed maintained a zero-interest rate policy (except for the 2016-18 slow tightening cycle to 2.5%) and increased its balance sheet from below $1 trillion to almost $9 trillion as it pursued its full employment mandate, supporting financial assets in the process.  In the aftermath of the Global Financial Crisis of 2007-09 (“GFC”) there was a global movement toward stricter financial regulation including higher capital requirements and greater transparency to mitigate systemic risks to the system.  Persistently low
+requirements and greater transparency to mitigate systemic risks to the system.  Persistently low interest rates impacted bank profitability, while non-banking subsectors, especially asset managers, private equity firms, and other members of the less-regulated “shadow banking system” grew at the expense of traditional banking.
+Transition to a New Era: We believe the Old Regime of monetary imbalance ended in early 2022, when the Fed began to tighten belatedly to combat inflation (with the economy at “full employment”) and other global central banks hurried to keep pace.  The Fed has been on its fastest rate tightening cycle since 1980 but has likely approached the end as inflation has moderated, although not fully abated.  The stubbornness of inflation to reduce further and ongoing strength in the underlying American economy have convinced Fed officials to push off expected rate cuts (with markets now predicting only one to two cuts in 2024).  Many are also suggesting that the Fed will also have to adjust its overall terminal target for interest rates, with 2.5% seeming an overly optimistic target. The Fed wants to “normalize policy, but ‘normalize’ to where?” said David Mericle, chief U.S. economist at Goldman Sachs. “They are not going to stay in the 5s, but normalization is not going to take them all the
+Sachs. “They are not going to stay in the 5s, but normalization is not going to take them all the way to 2.5%. Where in the 3s or 4s they feel comfortable stopping is still up in the air.”  (WSJ 4-29-24)
+If and when inflation resumes its decline, questions about the neutral interest rate (“r”)—the rate that keeps the demand and supply of savings in equilibrium, leading to stable economic growth and inflation—would drive how much the Fed ultimately cuts rates. The drumbeat of “higher for longer” has permeated the market, however, and many argue that “r” will be higher far into the future.  Several factors are cited for why the “neutral” rate may be rising: soaring government deficits, massive infrastructure investment driven by the green-energy transition, and higher productivity levels driven by AI.
+Since the beginning of 2023, the Fed has been following a program of quantitative tightening (QT), reducing its balance sheet at a rate of $95 billion per month, a pace faster than past pullbacks (on a $ and % of GDP basis).  From an April 2022 peak of $8.965 trillion, total assets held on the Fed’s balance sheet have fallen to less than $7.5 trillion.  Regime change was interrupted briefly during the regional banking crisis in March, when the Fed and Treasury pumped $755B in liquidity into the financial system.  QT has continued in the background since then, with total securities held on its balance sheet falling to $7.3 trillion as of mid-November 2023.   Given stubborn inflation and election-year politics, however, many observers believe there will be a pause or slowdown in QT later this year.
+Core Macro Thesis—Focus on the Tsunami:  As the markets lurches from “crisis” to “crisis”, and from “relief” rally to “relief” rally, we are reminded of Stanley Druckenmiller’s observation that it’s “like sitting on the beach at Santa Monica worrying about whether a 30-foot wave will damage the pier, when you know there’s a 200-foot tsunami just 10 miles out.”  The 30-foot waves that have worried markets (e.g., inflation, higher rates) are, in our minds, all symptoms of the larger 200-foot tsunami: our nation’s large and growing debt and unfunded liabilities.  Fundamentally, we face a debt crisis that has been built up over many years, particularly the last 20.  It has been caused and exacerbated by monetary and fiscal imbalance and a lack of economic reform.
+
+Three Ways to Address: There are only three ways to deal with a debt problem.  You can:
+
+Cut your way out (similar to the 1930s);
+
+Inflate your way out (akin to the 1970s); or
+Cut your way out (similar to the 1930s);
+
+Inflate your way out (akin to the 1970s); or
+
+Grow your way out (as was done in the 1980s and 1990s).
+Realistically, it would require tremendous political courage to “cut” our way out of the current debt crisis.  Consider that 84% of federal spending goes to defense, social security, health insurance, veteran’s and federal retiree benefits, economic security programs and interest on the debt (CBPP)—none of which either major political party are lining up to reduce (in a very real sense, “It’s all about entitlements, stupid”).  That leaves the remaining 16% of domestic discretionary spending which includes such crucial investments as infrastructure, transportation, education, medical and scientific research, subsidies for energy transition and technology onshoring, and natural resources and agriculture—areas tied inherently to critical priorities such as global competitiveness, climate change remediation, and economic national security.  Trying to balance the budget on this 16% would be shortsighted and harmful to economic growth, only worsening our debt crisis.   On net, the prospects
+and harmful to economic growth, only worsening our debt crisis.   On net, the prospects then for “cutting our way out” are fairly dim.
+The second option, “inflating our way out” of the debt crisis is similarly unattractive.  Persistent inflation would cause tremendous economic upheaval and greatly lower the standard of living for most Americans.  Even worse would be a return to the “stagflation” of the 1970’s.  Stagflation is a combination of three negatives: slower economic growth, higher unemployment, and higher prices. While the country may see persistent inflation or stagflation as a result of the looming debt tsunami, these are hardly attractive policy choices and should be resisted by all measures.
+Consequently, “growing our way out” of the debt crisis is by far the most attractive option. The goal would be for productivity to be increased to the point where it will lead to higher growth without additional inflation, which would then allow for the tightening of monetary policy to rein in the inflation component of stagflation. This is also the one approach where the private sector can move in advance of the public sector (although there will need to be crucial public-private partnerships in such areas as the energy transition and onshoring of crucial technologies).  There is considerable historical precedent for the private sector leading the way out of policy malaise:
+
+
+The personal computing revolution of the 1980’s created tremendous productivity enhancements and spurred economic growth.  This boon cleared the field for common sense bipartisan cooperation between Ronald Reagan and Tip O’Neill (e.g., the 1986 Tax Reform Act).
+The internet revolution of the 1990s similarly created space for common sense bipartisan solutions, most prominently on deficit reduction, negotiated between Bill Clinton and Newt Gingrich.   
+
+Our hope and belief is that both the artificial intelligence (AI) and green energy revolutions will create generate sufficient productivity enhancements and growth to allow for a return to bipartisan balance and compromise—ultimately allowing us to address our current fiscal/monetary crises.  
+
+When evaluating the Financial Sector, therefore, we are seeking to identify sectors and companies that can help promote intelligent allocation of capital (e.g., toward AI and energy transition) and global economic growth (e.g., by increasing the velocity of money supply).
+Sector Investment Thesis:  SCP has deep experience with financial institutions; their health and performance are the foundation of our macroeconomic outlook.  If, as we believe, we’ve entered (or at least transitioning to) a new era of monetary and fiscal balance, then this more restrictive monetary policy will require new liquidity suppliers.  However, we are still living in the regulatory aftermath of the GFC.  To be sure, over the past decade the U.S. banking system has shown systemic improvements, fortified by high levels of capitalization after the post-crisis reforms; and the U.S. remains central to the global economy (~25% of global GDP) and to global capital markets, and hosts the world’s reserve currency.  But the regulatory screws will likely tighten further, hindering the ability of the traditional banking system to provide liquidity and increase the velocity of money to offset the Fed’s reduction in the money supply.  Last year’s crisis in the regional banks and their
+offset the Fed’s reduction in the money supply.  Last year’s crisis in the regional banks and their subsequent performance is the clearest manifestation of the changing monetary and regulatory landscape.
+SCP’s investment thesis in the financial sector reflects this evolution of and partial shift away from the traditional banking system through three core themes/sub-sectors: the consolidation and growing dominance of the largest money-center banks; the rise of alternative sources of funding through mainly alternative but also traditional asset managers; and the technological transformation of global payment systems.
+Money-Center Banks:  The regional banking crisis in March 2023 amplified trends already underway among U.S. banks.  The U.S. system is more fragmented than other developed banking systems, but has seen considerable consolidation over several decades, from over 18,000 banks in the mid-19080s to about 12,000 banks in 1995 to just over 4,000 banks today (Figure 1).  Our view is that the sector will continue to consolidate, as the larger money-center banks outcompete and/or directly absorb community and regional players.  Stricter regulation may lead to more stability in the system overall, but utility-like oversight will continue to squeeze smaller banks trying to meet regulatory requirements.  In 3Q23, the top four US banks (JP Morgan, Bank of America, Wells Fargo, and Citigroup) captured nearly 50% of profits, up from 35% a year ago; collectively, these four saw a 23% increase versus the same period last year, while the overall industry fell 5%.  The large money-center banks have not
+same period last year, while the overall industry fell 5%.  The large money-center banks have not shown the same deposit pressure in times of crisis as the regionals, and their strong brands reinforce deposit stickiness.  More than 40% of the deposit accounts at the big four pay no interest, providing a clear margin advantage; smaller banks must overcome both fear of collapse (in times of crisis) and the asset-light business model of online banks which can offer customers higher interest on similar products.  Finally, we expect the largest money-center banks to continue to make use of their economies of scale to invest in technology, offer a growing range of services to their larger client bases, diversify their risks, and better manage the regulatory compliance challenges.
+Possible Subsector Tailwinds:
+
+Industry Consolidation: Long-term structural changes in the banking industry toward consolidation will likely continue, propelling the largest players.  As of 2022, the four largest banks had ~48% of total domestic deposits and ~52% of total assets.  This trend is unlikely to reverse, regardless of macroeconomic conditions, supporting SCP’s investment thesis regarding the largest money center banks.
+Peak Rates: While higher interest rates have boosted net interest income among banks over the last several quarters for most large players, a “soft landing” scenario, in which yields decline slowly over time while the economy remains above water, should stimulate growth through improved lending conditions and breathe life into the moribund investment banking environment for M&As and IPOs.  At the same time, banks who loaded up on long duration securities will show better NIMs with the passage of time and lower rates.  Bank investors hope for a repeat of the last time the Fed pulled off a soft landing: in 1995, when it was clear that the Fed was finished with rate hikes (and cut twice), bank stocks surged over 50% that year, and continued to move up over 30% during the next two years.
+Valuation:  Generally speaking, commercial banks are trading below historical average P/B ratios, offering attractive entry points from a valuation perspective.  In addition, the ratio of the financial sector, as a whole, and commercial banks, in particular, to the rest of the S&P 500 remains near an all-time low, creating the possibility of mean reversion at some point (Figures 5 and 6).  
+
+Possible Subsector Headwinds:
+
+Regulatory Risks: Commercial banks remain under intense regulatory scrutiny, especially after the regional banking crisis in March 2023.  Even the largest commercial and investment banks could suffer: the so-called “Basel III endgame” proposal, which applies to banks with over $100B in assets, could increase capital requirements by as much as 20%.
+“Higher For Longer”: If yields remain high, either through a resurgence of inflationary pressures (high wages and low unemployment, energy shortages from geopolitical conflict, etc.) or through strong GDP growth, and the Fed delays rate cuts, loan volume will continue to suffer as banks’ willingness to lend continues to decrease (Figures 7 and 8).  Unrealized losses on balance sheets may scare investors again, putting further pressure on deposits in the form of compressed margins as they are forced to increase deposit rates or see the continued flight to money market funds.
+Competition of “Shadow Banking”:  Over the past few decades, especially since the GFC, the traditional banking sector has faced increasing competition from nonbank financial intermediaries (including private equity firms and hedge funds).  With less regulatory scrutiny, firms can offer more flexible lending options and more aggressive, alternative investment strategies and products, luring investors away from traditional banks.
+Asset Managers – Private: After the GFC, a decade of rock-bottom interests and a global search for yield fueled a remarkable boom in private markets.  Institutional investors from pension funds to endowments sought both higher returns and improved diversification.  As investors poured money into these firms, they invested heavily in private equity, private credit, real estate, and infrastructure.  Another factor driving the flows to private markets has been the underperformance of active managers in the public market and the lower realized volatility of the private markets (mainly due to smoothing).  The three largest firms (Blackstone, Apollo, and KKR) have seen their assets under management grow from under $200 billion in 2008 to over $2 trillion in 2023.
+But GPs have not been immune to the macroeconomic transformations of the New Era, supporting SCP’s investment thesis regarding the better economics of participating directly in the GPs’ fee-earning growth, rather than as an illiquid LP in their funds, especially in difficult market conditions.  With a heavy reliance on debt for deal financing, rising interest rates have impacted the private equity buyout space particularly hard, dulling investors’ enthusiasm to allocate additional capital given their newfound premium for liquidity.  Global private equity fundraising decreased about 13% in the first nine months of 2023, compared to a year earlier, according to a recent report, as firms feel pressure to return money to investors while struggling to exit old deals.  According to PitchBook, the value of exits in the U.S. fell in 3Q23 to the lowest amount since 2010 (apart from the 2Q20 pandemic drop).  Real estate funds have also struggled, burdened by sinking commercial real estate
+pandemic drop).  Real estate funds have also struggled, burdened by sinking commercial real estate values.
+Private credit, on the other hand, featuring floating-rate instruments that benefit from rising yields, has experienced a surge in interest (Figure 10).  According to a recent analysis by Goldman Sachs, gross inflows into credit vehicles are growing at a 55% annualized rate, compared with just 5% for real estate.  Companies that missed the opportunity to refinance in a zero-interest rate environment are turning to private lenders as traditional lending activities tighten.  Between 2010 and 2022, the AUM of private equity and private debt funds grew by about 4.3x each, to $7.6 trillion and $1.3 trillion, respectively.
+
+Possible Subsector Tailwinds:
+Possible Subsector Tailwinds: 
+
+Traditional Banking Retreat and Private Credit Advance: Private-debt strategies have proved, so far, that they can better withstand a higher interest rate environment than traditional bank lending.  As private lenders enter different consumer segments like mortgages, credits, auto loans, and other specialty asset-backed financing products, they are likely to gain market share at the expense of traditional players.  From 2008 to 2022, Between 2010 and 2022, the AUM of private equity and private debt funds grew by about 4.3x each, to $7.6 trillion and $1.3 trillion, respectively.  Over the same period, outstanding private debt grew ~280% while bank loans grew ~180% (Figure 9).  Pressures in the traditional banking industry should continue to benefit private markets.
+Recovery: Recent 3Q23 data suggests that a nascent recovery in the deal environment, esp. IPOs,  is underway after bottoming in 1Q23.  As uncertainty over the path of interest rates and recession fears dissipate, private equity investors are growing more bullish.  Exit markets have also begun to show a slow recovery.  As conditions improve, private equity firms will have over $1 trillion in dry power to deploy.  
+
+Possible Subsector Headwinds:
+Possible Subsector Headwinds: 
+
+Increasing Regulation: There is a growing regulatory push toward GPs.  In August 2023, the SEC adopted new rules for private funds to increase transparency through quarterly statements on fund performance, fees, and expenses.  The impact on performance may be negligible, but new rules highlight a growing scrutiny of the industry as the political winds shift.  With the growing influence of private credit and increasing ownership of portfolio companies, regulatory scrutiny in the form of systemic important financial institute designation or more FTC/anti-trust scrutiny is a real risk.
+Impact of a Recession (or Higher-for-Longer) on Company Balance Sheets:  So far, strong economic growth has helped U.S. businesses to withstand the shocks of a higher interest rate environment.  In addition, most companies took advantage of the rock-bottom rate situation during the pandemic to refinance their debt, giving them a comfortable cushion to wait for rates to retreat.  But much of the private lending has gone to smaller, less profitable companies with high existing and floating rate debt obligations.  A recent S&P Global Ratings analysis of midsize U.S. companies with corporate debt pooled in CLOs found that only 46% would generate positive cash flow in the mildest stress scenario in which earnings fell 10% and the Fed increased rates another 50 bps.  A prolonged, higher-for-longer environment would eventually weigh on company balance sheets.  The trillions of dollars of floating-rate debt, consisting of both traditional, syndicated leveraged loans and private lending would
+debt, consisting of both traditional, syndicated leveraged loans and private lending would struggle to scale the so-called maturity wall of debt.  The private credit market has not been tested with a major default/distress cycle. Given the significant supply of capital and entry of new players with not much restructuring/workout experience, it remains to be seen how this market can handle a downturn.
+Asset Managers – Public:  Following the GFC, active management in equity markets struggled to compete with passive investment strategies.  The Q.E. era of artificially low rates favored passive investment strategies, leading to a surge in the popularity of ETFs and index funds.  With reduced costs and the ability to mirror the performance of a sustained bull market, investment flows were redirected from active to passive channels (Figure 11). This trend created a significant challenge to traditional asset managers, who found themselves competing not only against these cost-effective alternatives but also against private asset managers offering specialized, high-return strategies.
+As a result, traditional asset managers faced increased pressure on their fee structures and profit margins. Investors became more cost-conscious, prompting a widespread reduction in fees across the asset management sector. This shift, combined with the difficulty of consistently outperforming low-cost passive funds, led to significant margin compression for traditional managers.  In response to investor outflows, managers had to rely on market performance for growth in AUM, while the largest and most established have sought acquisition targets.  In response, traditional asset managers have begun to explore more specialized investment products and strategies including alternatives, insurance and developing client relationships/wealth management capabilities to distinguish themselves. As a result, the line between Private and Public Asset Managers has begun to blur.	  
+
+
+Possible Subsector Tailwinds:
+Possible Subsector Tailwinds: 
+
+New Era Opportunities: In this era of “normalized” rates (i.e., higher and more variable than the post-GFC era), we anticipate a new opportunity for active money managers and stock selection to potentially add alpha.  With a real cost of capital and the end of easy money, broad market multiple expansion should be more difficult and access to capital more rigorous, favoring companies that can generate sustainable cash flow.  In addition, with a market capitalization concentration at extreme levels, investors, fearing mean reversion, may want to reduce beta exposure in favor of individual stock selection.
+Global and Small-Cap Opportunities: The struggle of active management to outperform “the market” is well-documented.  While this is overwhelming the case for U.S. large-cap funds, the success rate of active managers in foreign markets, smaller-cap, fixed income, and real estate is much greater.  According to Morningstar, as of June 30, 2023, over a 5-year period, 57% of U.S. Small Growth funds outperformed their passive benchmarks, while the same held true for 33% of foreign large blend, 37% of diversified emerging markets, 45% of high-yield bond, 63% of US real estate.  In addition, while the percentage of funds historically underperforming passive peers looks large in terms of the absolute number of funds, the average dollar invested in active funds has outperformed in nearly every category over a 10-year period, suggesting that larger, cheaper, higher-quality strategies have offered alpha to investors over long time horizons.
+Expansion into Private Equity/Credit: With their legacy businesses lagging, the large Public Asset Managers have been making aggressive acquisitions into the private equity and debt space. 
+
+
+Possible Subsector Headwinds:
+
+Lack of Growth: With an inability to generate organic growth.  Traditional asset managers have increasingly relied on the performance of the U.S. equity market to grow their AUM.  With fee structures under pressure, profit margins could continue to suffer as managers are forced to spend more to maintain or enhance performance.  A widespread market drawdown, like in 2022, would significantly hurt revenue and profitability, especially if rates remain high and investors favor money markets and fixed income at the expense of equities.
+Reversion to Q.E.: A return to the expansionary days of Q.E. might lead to exuberance in the markets, but gloom among traditional asset managers.  In 2023, we saw a preview of this scenario, as market-cap weighted indices soared, leading to general underperformance among managers, after outperforming through most of 2022 and early 2023.
+Payments Processors/FinTech: The global payments system is rapidly evolving; the arrival of smartphones and the internet ushered in a new era of digital transformation in global payments. This digital shift has enabled near-instantaneous, long-distance and e-commerce transactions, significantly easing the movement of money and facilitating international commerce.  Digital payment methods are increasingly becoming the foundation for wider financial services, growing exponentially in emerging markets with populations underserved by traditional banks.  For example, while the portion of cash-based transactions fell by about 25% between 2011 and 2021 (boosted by the pandemic lockdowns) on average in major markets, they fell even more drastically in emerging markets.  China, India, and Brazil are among the largest and most advanced developers of payments networks but have fostered very different systems.  One model is the open payments system of India’s Unified Payments Interface (UPI)
+systems.  One model is the open payments system of India’s Unified Payments Interface (UPI) which allows free account transfers regardless of the fintech app in use.  At the other end is China’s closed system of fintech giants: Alipay and WeChat Pay which lock users into a closed, fee-paying ecosystem.
+The payment processing ecosystem is large and complex, with competition ranging from established players (e.g., Visa, Mastercard, Apple, and Google) to emerging leaders (e.g., PayPal/Venmo, Intuit, Square, Block, ) to innovative startups (e.g., Stripe, Chime Financial, Plaid, Brex).  Global payment volume in 2023 reached a staggering $31.7 trillion.  The overall global payment processing market is projected to grow to a massive $587 billion by 2027.
+Credit cards, long a cornerstone of consumer finance, are facing competitive challenges in the fast-moving payments landscape.  Digital payment platforms and mobile wallets are drawing users away from traditional credit card usage. Fintech innovations are introducing direct, peer-to-peer payment methods, bypassing the need for credit card networks. Cryptocurrencies and blockchain technology potentially offer a new, secure alternative, often with lower transaction fees.  Merchants are exploring the new payment methods to avoid the higher transaction fees associated with credit card processing.  But credit cards have adapted to and become some of the biggest beneficiaries of the electronic payments revolution, where a small number of networks like Visa and Mastercard dominate, allowing them to extract incredible profitability as the volume of transactions continue to grow. The proliferation of eWallet platforms and mobile payment systems over the past decade has transformed how
+of eWallet platforms and mobile payment systems over the past decade has transformed how consumers interact with financial services.  As of 2023, there were 4.5 billion mobile wallet users globally driven by ease of use as well as security.
+Possible Subsector Tailwinds: 
+
+Sustained E-Commerce Growth: The e-commerce boom helped kick-start the global payments revolution.  If online shopping maintains its post-pandemic growth rate, the demand for digital payment systems will continue in tandem, feeding a growing consumer preference for cashless transactions, including credit cards (Visa, Mastercard, American Express) and online payment platforms and processors (PayPal, Block, Stripe, Global Payments, Ayden, etc.), as well as alternative sources of payments and financing from digital wallets to buy-now-pay-later (BNPL) and other subscription-based options (Affirm, Klarna, Afterpay).  Cross-border volumes will continue to expand as well, with merchants connected to multiple international networks.
+Emerging Markets: The rapid adoption of electronic payments in the developing world will provide opportunities for fintech firms to expand their international footprint, propelled by governments’ objectives of financial inclusion and economic growth.      
+
+Possible Subsector Headwinds:
+
+Regulation of Transaction Fees: Some parts of the global payments system, particularly those with the high fee-based models like the bank/credit card model in the West, could become targets for regulators, threatening existing oligopolistic business models, as lower-fee alternatives become more entrenched.
+Local Preference: The global payments business remains highly fragmented and competitive, with strong government presence.  Fintech firms looking to expand internationally will have to overcome state-led systems which may support their national champions at the expense of foreign disrupters.  Furthermore, both government presence and a fragmented, highly competitive market will likely put downward pressure on fees and margins.
+Global Recession: During recessions, consumers often reduce their spending, leading to lower transaction volumes and consequently, reduced fee-based revenue for these companies. Higher unemployment and financial stress among consumers can lead to increased delinquencies and defaults on credit card payments, increasing credit loss expenses for issuers. For fintech companies, particularly those offering lending services, recessions can result in tighter credit conditions, reduced borrowing, and increased risk of loan defaults.  Many players have struggled to become profitable during the pandemic boom; a deep recession would squeeze them even further. 	
+
+
+ Possible Sector Gaps 	
+
+
+Insurance
+The insurance and reinsurance industries are critical to the efficient operations of the financial markets:  
+
+Insurance helps individuals, businesses, and other organizations manage and transfer risks, allowing them to protect their assets and investments.
+Insurance also increases financial stability by spreading risk across a large risk pool, reducing the impact of potential losses on individual entities. 
+
+Both of these factors help to promote confidence and stability in the financial markets.  A critical component of SCP’s macroeconomic thesis is that confidence drives the economy and markets.  
+
+Insurance can help facilitate economic growth by providing coverage for large-scale investments and projects that otherwise would be considered too risky.   	
+
+Finally, in the era of climate change, insurance can (and must) mitigate the impact of natural disasters, accidents, or other unforeseen events that could disrupt financial markets and economies
+
+Although SCP’s funds have exposure to insurance through the asset managers, it might be worth considering adding insurance as a potential subsector.
+Exchanges and Capital Market Services	
+Exchanges and capital market services provide a platform for efficient trading, capital formation, risk management, and regulation, which in turn supports economic growth and development:  
+
+They provide a platform for price discovery, promoting the efficient allocation of resources
+
+They increase the liquidity of assets by creating a marketplace to buy and sell securities.
+
+They provide a mechanism for companies to raise capital by issuing equity or bonds to investors, supporting economic growth and expansion.
+
+They offer instruments such as options, futures and other derivatives that allow investors to hedge against price fluctuation and manage risk.
+
+They operate under strict regulatory frameworks, helping to protect the financial system from fraud and market manipulation and generating trust in its integrity.
+Given how critical exchanges and capital market services are for SCP’s macroeonomic thesis, it might be worth consider adding them as a potential subsector.	
+
+
+Portfolio Construction	
+
+
+Three Themes: 	
+
+
+Money Center Banks	
+Given SCP’s long history of investing in the sector and in Money Center Banks specifically, identify a limited number of both domestic and overseas MCBs which SCP believes are Value 2.0, Built to Last players that are well positioned to inject liquidity into the global money supply and intelligently allocate capital.  Specifically, invest in:	
+
+2 Best US Money Center Banks (JPM, BofA)	
+
+2 Best Euro Money Center Banks (UBS, 
+
+1 Best Emerging Market Money Center Bank (HSBC)
+
+1 Best Asian Money Center Bank (HDFC)	
+
+1 Best UK Money Center Bank (Barclays)	
+
+
+Consider other Omega opportunities when have faith in turnaround plans by solid leadership (currently, Citigroup).
+Asset Managers	
+Given SCP’s depth of experience with and knowledge of the Asset Manager sector, identify a limited number of both private and public Asset Managers which SCP believes are Value 2.0, Built to Last players well positioned to take advantage of regulatory arbitrage and disintermediation, thereby increasing money supply velocity and intelligently allocating capital toward growth.	
+
+
+Specifically, invest in the strongest private asset managers:	
+
+Blackstone
+
+Brookfield
+
+Carlyle
+
+KKR
+
+Apollo
+
+TPG
+
+
+QUERY WHETHER WE SHOULD CONSOLIDATE NAMES BASED ON HIGHEST CONVICTION (E.G., THOSE THAT ARE STRONG IN PRIVATE CREDIT).   CARLYLE AND TPG.
+
+       As well as the strongest public asset managers across four strategies:	
+
+Blackrock (Passive)
+
+Berkshire Hathaway Inc. (Balance Sheet)
+
+Franklin Resources, Inc. (Value)
+
+T Rowe Price Group Inc. (Growth)
+Franklin Resources, Inc. (Value)
+
+T Rowe Price Group Inc. (Growth)
+
+
+Payment Processors	
+Given the unsettled nature of the Payment Processing sector and the difficulty at this phase of projecting long-term winners, build a portfolio equally balanced across Value 2.0 and Value 3.0 names that have the potential to significantly improve transaction flow and money supply velocity.  For Value 3.0, either employ a basket approach until we have higher conviction on specific names or identify a high quality FinTech ETF.	
+
+Potential Value 2.0
+
+Visa
+
+MasterCard
+
+American Express
+
+Apple (already in portfolio)
+
+Google (already in portfolio)
+
+       Potential Value 3.0
+
+PayPal
+
+Adyen (Dutch Acquiring Bank)
+
+Fidelity National Information Services
+
+Block
+
+Intuit 
+
+Square
+
+Coinbase
+
+Shopify
+
+       Potential FinTech ETFs
+
+Global X Fintech Thematic
+
+Amplify Transformational Data Sharing
+
+Ark Fintech Innovation
+
+iShares Exponential Technology
+
+Blackrock Future Financial and Technology
+Ark Fintech Innovation
+
+iShares Exponential Technology
+
+Blackrock Future Financial and Technology
+
+ETFMG Prime Mobile Payments
+
+Financials Sector Weighting (as % of Equity)
+
+AO LS
+Current holdings in AO LS include: 15.3%    Given our high conviction in the above theme, proposal is to increase AO LS weighting to X.X% of Fund or $X.XM, an increase of $X.XM.
+
+AO DVP
+Current holdings in AO DVP include: 17.4%  This compares to X% weighting in ACWI, while dividend ETFs’ median utilities allocation is ~X%   Given high conviction, proposal is to increase weighting in AO DVP to X% of Fund or $XM, an increase of $XM.
+
+AO LRA
+Current holdings in AO LRA include: 5.3% (only GPs) for a total of ~$XM or ~X% of Fund and ~X% of Equity.  This compares to ~16% in ACWI and ~13% in SPX while Financials ETFs’ allocation are quite varied. Given high conviction, proposal is to increase weighting in AO LRA to X% of Fund or ~$XM (increase of $XM). 
+
+
+AO LS		TARGET ALLOCATION			
+
+
+AO DVP		TARGET ALLOCATION
+AO LS		TARGET ALLOCATION			
+
+
+AO DVP		TARGET ALLOCATION
+
+
+AO LRA		TARGET ALLOCATION
+
+CHARTS:
+
+Figure 1:
+
+Figure 11: 
+
+Figure 12: 
+
+Figure 12:
