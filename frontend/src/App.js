@@ -41,11 +41,42 @@ function App() {
     setResponse({ question: res.data.question, answer: cleanedResponse });
 };
 
+  return (
+        <div className="App">
+            <h1>Ask Charlie About Your Document Content</h1> {/* Add your title here */}
+            <h1>Upload Document</h1>
+	   
+	   <div className="button-container">
+                <div className="file-upload">
+                    <input id="file-input" type="file" onChange={handleFileChange} />
+                    <label htmlFor="file-input" className="large-button">Choose File</label>
+                </div>
+                <button className="large-button" onClick={handleFileUpload}>Upload</button>
+            </div>
 
+
+
+            {/* <input type="file" onChange={handleFileChange} />*/}
+            {/*<button onClick={handleFileUpload}>Upload</button>*/} 
+            {/*<button className="large-button" onClick={handleFileUpload}>Upload</button>*/} 
+            <h1>Query Vector Index</h1>
+            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" />
+            <button onClick={handleQuery}>Ask</button>
+            {response && (
+                <div className="result-box">
+                    <h2>Response</h2>
+                    {/*<pre>{JSON.stringify(response, null, 2)}</pre>*/}
+		    <p><strong>Question:</strong> {response.question}</p>
+                    <p><strong>Answer:</strong> {response.answer}</p>
+                </div>
+            )}
+        </div>
+    );
 
 
     
 
+/*
     return (
         <div className="App">
             <h1>Upload Document</h1>
@@ -63,6 +94,10 @@ function App() {
             )}
         </div>
     );
+*/
+
+
+
 }
 
 export default App;

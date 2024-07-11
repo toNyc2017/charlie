@@ -1,0 +1,105 @@
+Date:	April 5, 2024	
+
+To:	Investment Team
+
+From:	Jonathan Quann and Michael Dahl
+
+Re:	Sector Analysis—Energy OUTLINE
+
+Weighting: 
+
+Indices (as of 03/31/24, GICS): 
+
+MSCI: Energy, 4.6%; Utilities, 2.5%.
+
+S&P 500: Energy 3.9%, Utilities, 2.2%.
+
+SCP Funds (as of 04/05/24): AO: 14.5%; DVP: 19.1%; LRA: 35.8% (Fossil Fuels).
+
+Macroeconomic Background:
+Macroeconomic Background:	
+
+
+Link to Growth/Standard of Living: Brief history of energy transition (wood to coal to oil, etc.).  In a very real sense, energy has fueled the increase in the global standard of living.  Each major advance allowed the creation of significant economic growth, productivity and prosperity, albeit with the benefits of such transformation being disproportionately distributed both within societies and geographically (i.e., the North-South divide).  Today, much is being made about the promise of artificial intelligence (AI) to drive the next wave of increases in productivity.  But AI is a voracious consumer of energy that places a great premium on the stability of the power flow.  The advances that AI promises can only be achieved by ongoing advances in the efficiency and output of our energy infrastructure.
+Energy as Crucial Aspect of National Security: Not surprisingly given the linkage between energy and prosperity, ensuring a stable and growing supply of energy has been seen as a crucial national security concern.  In the United States, re-achieving energy independence is argued by many as necessary to prevent other countries from holding American interests hostage to the supply of energy.  Many believe that concerns about energy underlay most of the major conflicts that the U.S. has entered into in the Middle East over the past 30 years.  More recently, threats of energy disruption are employed by many state actors including Russia and Iran to exert their influence on the geopolitical stage.  Such pressures have contributed greatly to the recent push for deglobalization (reshoring and reworking of critical supply chains, implementation of protectionist trade policies).
+Link to Pollution and Global Warming/Imperative of Sustainability:  The rise in energy consumption and ultimately standards of living, however, have not been achieved without very real costs in terms of the health of citizens and ultimately of our global ecosystem.   The use of carbon heavy fuels and the rise of greenhouse gases has now led to what many believe are threats to not only our standard of living but to the earth’s environment.   As documented in the Paris Accords, finding paths to a more sustainable energy future have become critical goals for most advanced economies, with industry making increasingly large bets on how to achieve such sustainability.
+Energy “Trilemma”/Implications for Policy Makers: Consequently, the U.S. now navigate its way through this complicated “trilemma” of energy affordability, security and sustainability.  Focusing on only one of these areas threatens the ability to achieve the very real interests captured by the other two.  Here again, the answer will lie in finding a set of policy recommendations that balance each of these very real interests – securing our standard of living, achieving energy independence, while not inalterably tipping the scales of global warming.   We must find the “middle path” that intelligently acknowledges the tradeoffs created by the energy trilemma.  SCP believes that these policies must include the following:
+Pursuing an “all of the above” strategy that recognizes that the global energy transition will play out over decades not years and that our reliance on oil and gas is not going away any time soon even as we pursue a future driven where clean fuels play a much more prominent role.    
+
+Spurring the production of more domestic oil and gas production while at the same time implementing cleaner ways to consume such energy (i.e., carbon capture, carbon sequestration).  
+
+Acknowledging that U.S. Oil Majors will play a critical role in our ultimate energy transition.  They have the resources/balance sheets, know-how for large-scale projects, and incentives to take part in and help lead the transition to a diversified and over cleaner mix of energy sources.   SCP also believes that they have the knowledge and sophistication required to make the very difficult tradeoffs required in capital allocation (as opposed to relying solely on smaller players or government direction).
+Accelerating the adoption of clean fuels (e.g., wind, solar, hydrogen) through a combination of government subsidies (i.e., the $10B in clean energy subsidies adopted under the Inflation Reduction Act); thoughtful regulation (i.e., the setting of realistic targets for auto fuel efficiency); and perhaps even including the passage of a modest carbon tax to capture the externalities caused by greenhouse gases and help pay for the clean energy investments that nation will need to undertake.
+Acknowledging that nuclear energy is clean and reliable source of energy and overcoming outdated societal concerns about its safety and effectiveness.  Any realistic path to sustainability must foresee a prominent role for nuclear energy going forward.  After decades of underinvestment in the human and technological infrastructure required to create a more robust nuclear regime in the U.S., we are now in catchup mode and will need to implement thoughtful policies to accelerate our progress (e.g., greatly streamlining  the approval process for new nuclear plants, ensuring the availability of the considerable capital required for new projects perhaps through government subsidies or financing on top of IRA’ PTC provisions, encouraging our universities to invest in training the next generation of nuclear scientists).
+Reversing the decades of underinvestment in the U.S. electrical grid.  It makes no sense to invest in cleaner oil and gas and clean fuels if going the last mile to consumers is wasteful and expensive.  Upgrading the grid can greatly improve system efficiencies, reduce costs for energy producers and consumers, promote the effective integration of renewable-energy generation and distribution, lower carbon and other emissions, and address the need for stable electric power across multiple energy sources. 
+
+Sector Investment Thesis: 
+
+General Thesis: SCP’s macroeconomic understanding of the energy trilemma leads to our conviction on the critical necessity of an “all of the above” approach for the country going forward.  We believe that investing into the companies that will lead such an approach will be the best way to participate in the considerable economic returns that will accrue to those who succeed in leading our energy transition.
+Subsector Framework: Although somewhat of an oversimplification, we have found it useful to divide the energy sector into four subsectors, the leaders in each which we believe will be rewarded by markets:
+
+Energy producers (by fuel type/energy source)
+
+Energy enablers (makers of the “picks and shovels”)
+
+Raw material providers 
+
+Electrification infrastructure providers (“smart grid” players) 
+
+Sector Analysis
+
+
+Oil and Gas:
+
+Subsector Tailwinds: 
+
+Voluntary cuts by OPEC+ to meet members’ fiscal needs (especially Saudi Arabia), as well as geopolitical tensions, provide support for a floor on oil prices (about 20 states get more than a third of revenues from fossil fuels).  Combined with growing production in non-OPEC countries (including record production in U.S.), oil majors should continue to see robust profitability.
+Growing investment in low carbon technology (carbon capture and storage) and renewables should allow oil majors to participate in the transition’s diversified mix.    
+
+Over the last few years, the industry has prioritized returning capital through share buybacks/dividends over capex for riskier investments in new drilling capacity and has been very prudent with reducing debt resulting in most oil majors having solid balance sheets with attractive shareholder yields while still trading at very reasonable multiples. 
+
+Subsector Headwinds:
+
+Global recession: reduced demand leads to a sustained fall in oil prices.
+Subsector Headwinds:
+
+Global recession: reduced demand leads to a sustained fall in oil prices.
+
+Permanent Supply/Demand Imbalance: As technology shifts, cleaner energy sources will take a growing share of energy consumption, which, when combined with growing production, could lead to a longer-term build-up of excess inventories.  This is especially likely if OPEC+ can’t maintain its production cuts or if its more dissatisfied members beginning to peel away from the group (e.g., Angola in 2023).  
+
+Weak participation in energy transition: If transition speeds up, oil majors could be left behind as laggards in investment.  According to the IEA, oil and gas companies as a whole are spending 2.5% of their capital investments on clean energy, or about 1% of the total.  Oil majors have higher % amounts but their fossil fuel capex still significantly outweighs clean energy projects and the recent ESG backlash has resulted in pullback even form these modest levels.  
+
+Nuclear
+Nuclear
+
+Subsector Tailwinds:
+
+AI Data Centers will pay a premium for stable, 24x7 sources of power, giving nuclear a demand boost.
+
+Nuclear power plants in development, mostly in China and India, will sustain long-term secular demand for uranium, boosting pure-play uranium miners.
+
+IRA related PTC provisions effectively put a floor on nuclear generated power with somewhat assured growth over time incentivizing new builds/expansion of nuclear facilities.
+
+Subsector Headwinds
+
+US has historically underinvested in its nuclear infrastructure since the 1970’s and it has a long way to go to catch up to foreign competition. 
+
+Nuclear power’s share of electricity generation is not forecast to increase above the current 18-20% level in the US, and there are few signs of reducing economic and regulatory hurdles to building new plants.
+“New Era” of higher and more variable interest rates will make financing large projects difficult, while significant debt burdens will constrain further government outlays in clean energy (and potentially threaten current ones). 
+
+The supply chain for mining, processing, refining uranium needs a major revamp as US used to reliance mainly on the Soviet block for large percentage of its needs which is becoming an issues since the Ukraine war.
+
+Renewables (Solar and Wind)
+
+Subsector Tailwinds
+
+Solar and Onshore Wind are forecasted to lead the energy transition, providing the fastest growth within the energy mix. [include details of past, current, and project future % for US and World)
+
+EV supply and demand supported by better economies of scale (declining costs), government regulations and incentives led by IRA in the USA.
+
+Subsector Headwinds
+Subsector Headwinds
+
+Protectionist politics could increase prices and reduce demand.  However, more laissez faire policies would likely hurt US manufacturers facing Chinese competition. Given China’s prominence in the renewables and EV ecosystem, dumping backed by government subsidies is a major threat.
+
+Wind, especially offshore wind, has been buffeted by supply chain and logistical issues, cost overruns, higher interest rates, regulatory challenges etc. that has resulted in significant delays and project cancellations.

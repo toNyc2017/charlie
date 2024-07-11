@@ -6,8 +6,11 @@ import faiss
 import numpy as np
 from azure.storage.blob import BlobServiceClient
 import os
+from dotenv import load_dotenv
 import openai
 from openai import OpenAI
+
+load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 account_key = os.getenv("AZURE_STORAGE_ACCOUNT_KEY")
