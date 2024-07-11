@@ -61,6 +61,22 @@
 }
 
 
+.file-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+.query-box {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

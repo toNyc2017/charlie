@@ -7,10 +7,23 @@ function App() {
     const [file, setFile] = useState(null);
     const [question, setQuestion] = useState("");
     const [response, setResponse] = useState(null);
+    const [fileName, setFileName] = useState("");  // New state for the file name
+   
 
+/*
     const handleFileChange = (e) => {
         setFile(e.target.files[0]);
     };
+*/
+
+
+    const handleFileChange = (e) => {
+        const chosenFile = e.target.files[0];
+        setFile(chosenFile);
+        setFileName(chosenFile ? chosenFile.name : "");  // Set the file name state
+    };
+
+
 
     const handleFileUpload = async () => {
         const formData = new FormData();
@@ -43,7 +56,7 @@ function App() {
 
   return (
         <div className="App">
-            <h1>Ask Charlie About Your Document Content</h1> {/* Add your title here */}
+            <h1>Ask Charlie About Your Documents</h1> {/* Add your title here */}
             <h1>Upload Document</h1>
 	   
 	   <div className="button-container">
@@ -55,13 +68,17 @@ function App() {
             </div>
 
 
-
+	    {fileName && <p className="file-name">{fileName}</p>} {/* Display the file name */}
             {/* <input type="file" onChange={handleFileChange} />*/}
             {/*<button onClick={handleFileUpload}>Upload</button>*/} 
             {/*<button className="large-button" onClick={handleFileUpload}>Upload</button>*/} 
             <h1>Query Vector Index</h1>
-            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" />
-            <button onClick={handleQuery}>Ask</button>
+           {/* <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" />*/}
+           {/* <button onClick={handleQuery}>Ask</button>*/}
+	    <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box" />
+            <button className="large-button" onClick={handleQuery}>Ask</button>
+
+
             {response && (
                 <div className="result-box">
                     <h2>Response</h2>
