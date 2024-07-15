@@ -1,87 +1,12 @@
+/* General styles */
 .App {
   text-align: center;
+  margin-top: 50px; /* Adds space at the top */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-
-
-.App h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.large-button {
-    font-size: 1.2em; /* Increase the size as needed */
-    padding: 10px 20px; /* Adjust the padding as needed */
-    margin: 10px;
-}
-
-
-
-
-.file-upload {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-
-
-
-/*
-.file-upload {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-*/
-
-
-
-.file-upload input[type="file"] {
-    font-size: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.file-upload label {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-
-.file-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1em;
-    color: #333;
-}
-
-
-
-.query-box {
-    width: 80%;
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -99,57 +24,11 @@
   color: #61dafb;
 }
 
-/*
-
-.result-box {
-    width: 4in;
-    height: 3in;
-    overflow-y: scroll;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-*/
-
-
-
-
-
-
-.button-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-.result-box {
-    width: 400px;
-    height: 300px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 20px auto; /* Centers the box horizontally */
-    overflow-y: auto; /* Adds a vertical scrollbar */
-    white-space: pre-wrap; /* Wraps the text */
-    text-align: left; /* Aligns text to the left */
-    background-color: #f9f9f9; /* Light grey background */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
-}
-
-.App {
-    text-align: center;
-    margin-top: 50px; /* Adds space at the top */
-}
-
-
-
 
 @keyframes App-logo-spin {
   from {
@@ -158,4 +37,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Title styles */
+.App h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Button styles */
+.large-button {
+  font-size: 1.2em; /* Increase the size as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* File upload styles */
+.file-upload {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.file-upload input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-upload label {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* File name display */
+.file-name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Query box styles */
+.query-box {
+  width: 80%;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Available databases section */
+.available-databases {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.available-databases label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Result box styles */
+.result-box {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px auto; /* Centers the box horizontally */
+  overflow-y: auto; /* Adds a vertical scrollbar */
+  white-space: pre-wrap; /* Wraps the text */
+  text-align: left; /* Aligns text to the left */
+  background-color: #f9f9f9; /* Light grey background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
 }
