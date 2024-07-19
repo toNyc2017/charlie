@@ -1,17 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import API_BASE_URL from './config';
+import React, { useEffect } from 'react';
 
-function AvailableDatabases({ onDatabasesChange }) {
-    const [databases, setDatabases] = useState([]);
-    const [selectedDatabases, setSelectedDatabases] = useState([]);
-
+function AvailableDatabases({ databases, onDatabasesChange, selectedDatabases, fetchDatabases }) {
+    
     useEffect(() => {
-        const fetchDatabases = async () => {
-            const response = await axios.get(`${API_BASE_URL}/vector-databases`);
-            console.log("Fetched databases:", response.data);
-            setDatabases(response.data);
-        };
         fetchDatabases();
     }, []);
 
@@ -20,9 +11,7 @@ function AvailableDatabases({ onDatabasesChange }) {
         const newSelectedDatabases = selectedDatabases.includes(value)
             ? selectedDatabases.filter(db => db !== value)
             : [...selectedDatabases, value];
-        setSelectedDatabases(newSelectedDatabases);
         onDatabasesChange(newSelectedDatabases);
-        console.log("Database has changed.  In AvailableDatabases.handleDatabaseChange:");
     };
 
     return (
@@ -34,7 +23,7 @@ function AvailableDatabases({ onDatabasesChange }) {
                         type="checkbox"
                         value={db}
                         onChange={handleDatabaseChange}
-                        checked={selectedDatabases.includes(db)} // Initially unchecked
+                        checked={selectedDatabases.includes(db)}
                     />
                     {db}
                 </label>

@@ -8,6 +8,7 @@ from azure.storage.blob import BlobServiceClient
 import os
 from dotenv import load_dotenv
 import openai
+from docx import Document
 
 load_dotenv()
 
@@ -102,8 +103,19 @@ def get_embeddings(text, chunk_size=8192):
     
     return embeddings, text_chunks
 
+
+def read_docx(file_path):
+    doc = Document(file_path)
+    full_text = []
+    for para in doc.paragraphs:
+        full_text.append(para.text)
+    return '\n'.join(full_text)
+
+
 @app.post("/upload/")
 async def upload_file(file: UploadFile = File(...)):
+    
+    print("About to upload file:",file.filename)
     file_location = f"uploaded_files/{file.filename}"
     with open(file_location, "wb+") as file_object:
         file_object.write(file.file.read())
@@ -112,9 +124,22 @@ async def upload_file(file: UploadFile = File(...)):
     blob_client = blob_service_client.get_blob_client(container=container_name, blob=file.filename)
     with open(file_location, "rb") as data:
         blob_client.upload_blob(data, overwrite=True)
-    # Read file content and generate embeddings
-    with open(file_location, "r") as f:
-        content = f.read()
+    
+    
+    content = ""
+    if file.filename.endswith(".txt"):
+        with open(file_location, "r") as f:
+            content = f.read()
+    elif file.filename.endswith(".docx"):
+        content = read_docx(file_location)
+
+    
+    
+    
+    
+    ## Read file content and generate embeddings
+    #with open(file_location, "r") as f:
+    #    content = f.read()
     embeddings, chunks = get_embeddings(content)
     
     # Add each embedding to the FAISS index and store the chunks
@@ -168,6 +193,10 @@ def get_chunks_from_db(db_name):
 @app.post("/query/")
 async def query_index(query: dict):
     selected_databases = query['databases']
+    selected_template = query.get('template', '')
+
+    print("Query received:", query)
+    print("Selected template:", selected_template)
 
     # Clear the existing index and chunks_storage
     index.reset()
@@ -192,6 +221,7 @@ async def query_index(query: dict):
 
     # Create the prompt for GPT-4
     prompt = f"Question: {query['question']}\n\nContext: {combined_text}\n\nAnswer:"
+    print("Prompt generated:", prompt)
 
     # Generate the response using GPT-4
     response = client.chat.completions.create(
@@ -204,16 +234,25 @@ async def query_index(query: dict):
 
     answer = response.choices[0].message.content
 
-    return {"question": query['question'], "answer": answer}
-
+    return {"question": query['question'], "answer": answer, "context": combined_text}
 
 
 @app.get("/vector-databases")
 async def list_vector_databases():
+    print("Databases being requested")
     blob_list = blob_service_client.get_container_client(container_name).list_blobs()
     databases = [blob.name for blob in blob_list if blob.name.endswith("_index")]
     print("Databases found:", databases)
     return databases
+
+@app.get("/prompt-templates")
+async def list_prompt_templates():
+    print("Templates being requested")
+    with open('prompt_templates.txt', 'r') as f:
+        templates = f.read().splitlines()
+    return templates
+
+
 
 
 if __name__ == "__main__":

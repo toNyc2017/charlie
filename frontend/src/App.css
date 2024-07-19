@@ -1,34 +1,175 @@
-/* General styles */
+/*
 .App {
   text-align: center;
-  margin-top: 50px; /* Adds space at the top */
 }
+*/
+/*
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+*/
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;  /* Adjust size as needed */
+  height: auto;  /* Maintain aspect ratio */
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.large-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.file-upload {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.file-upload input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.query-box {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+.available-databases, .available-templates {
+  margin: 20px;
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
+  overflow-y: auto; /* Adds vertical scrolling */
+  max-height: 200px; /* Sets the max height to 200px (2 inches) */
+}
+
+
+/*
+.available-databases, .available-templates {
+  margin: 20px auto;
+  width: 45%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  height: 2in; 
+  overflow-y: auto; 
+}
+
+*/
+
+
+/*
+
+.available-databases, .available-templates {
+    margin: 20px;
+    width: 45%;  
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+*/
+
+
+
+
+
+.available-databases label, .available-templates label {
+    display: block;
+    margin: 5px 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.available-templates {
+  margin: 20px;
+  width: 45%;  /* Adjust width to fit side by side */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.available-templates label {
+  display: block;
+  margin: 5px 0;
+}
+
+.boxes-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 1200px;  /* Adjust as needed */
 }
 
-.App-link {
-  color: #61dafb;
+.result-box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -37,94 +178,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Title styles */
-.App h1 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* Button styles */
-.large-button {
-  font-size: 1.2em; /* Increase the size as needed */
-  padding: 10px 20px; /* Adjust the padding as needed */
-  margin: 10px;
-}
-
-.button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* File upload styles */
-.file-upload {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
-.file-upload input[type="file"] {
-  font-size: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.file-upload label {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* File name display */
-.file-name {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 1em;
-  color: #333;
-}
-
-/* Query box styles */
-.query-box {
-  width: 80%;
-  font-size: 16px;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-/* Available databases section */
-.available-databases {
-  margin: 20px auto;
-  width: 80%;
-  max-width: 600px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.available-databases label {
-  display: block;
-  margin: 5px 0;
-}
-
-/* Result box styles */
-.result-box {
-  width: 400px;
-  height: 300px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 20px auto; /* Centers the box horizontally */
-  overflow-y: auto; /* Adds a vertical scrollbar */
-  white-space: pre-wrap; /* Wraps the text */
-  text-align: left; /* Aligns text to the left */
-  background-color: #f9f9f9; /* Light grey background */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
 }
