@@ -67,46 +67,45 @@ function App() {
         setQuestion(e.target.value);
     };
     
+
+
+
     const handleQuery = async () => {
-        console.log("handleQuery called");
         if (selectedDatabases.length === 0) {
             setResponse({ error: 'Please select at least one database.' });
-            console.log("DATABASE ERROR");
             return;
         }
     
         if (!selectedTemplate) {
-            
             setResponse({ error: 'Please select a prompt template.' });
-            console.log("handleQuery TEMPLATE ERROR");
             return;
         }
     
-        try {
-            console.log("handleQuery CALLING ENDPOINT");
-            const res = await axios.post(`${API_BASE_URL}/query/`, {
-                question,
-                databases: selectedDatabases,
-                template: selectedTemplate
-            });
+        console.log("Submitting query:", question, selectedDatabases, selectedTemplate);
     
-            // Clean the response
-            
-            
-            console.log("handleQuery ENDPOINT RETURNED. Response:", res.data);
-            const cleanedResponse = res.data.answer
-                .replace(/\*\*/g, '') // Remove '**'
-                .replace(/\\n/g, ''); // Remove '\n'
-            
-            setResponse({ question: res.data.question, answer: cleanedResponse });
-            
-        } catch (error) {
-            console.error("Error querying the backend:", error);
-            setResponse({ error: 'An error occurred while querying the backend.' });
-        }
-    };
-    
+        const res = await axios.post(`${API_BASE_URL}/query/`, {
+            question,
+            databases: selectedDatabases,
+            template: selectedTemplate
+        });
 
+        console.log("Query returned. ", res.data);
+    
+        if (selectedTemplate === "SuperLong") {
+            // Handle the file download for SuperLong template
+            const filePath = res.data.file_path;
+            const filename = filePath.split('/').pop(); // Extract the filename from the path
+            const url = `${API_BASE_URL}/download?file_path=${encodeURIComponent(filePath)}`;
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', filename); // Set the dynamic filename here
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        } else {
+            setResponse(res.data);
+    };
+    }
     const handleDatabaseChange = (newSelectedDatabases) => {
         console.log("handleDatabaseChange called");
         setSelectedDatabases(newSelectedDatabases);
