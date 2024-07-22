@@ -1,18 +1,4 @@
-/*
-.App {
-  text-align: center;
-}
-*/
-/*
-.App {
-  text-align: center;
-  margin-top: 50px;
-  background-image: url('./background.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
-}
-*/
+
 
 .logo {
   position: absolute;
@@ -33,17 +19,7 @@
     margin-top: 20px;
 }
 
-.large-button {
-    font-size: 1.2em;
-    padding: 10px 20px;
-    margin: 10px;
-}
 
-.file-upload {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
 
 .file-upload input[type="file"] {
     font-size: 100px;
@@ -91,35 +67,6 @@
 }
 
 
-/*
-.available-databases, .available-templates {
-  margin: 20px auto;
-  width: 45%;
-  max-width: 600px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  height: 2in; 
-  overflow-y: auto; 
-}
-
-*/
-
-
-/*
-
-.available-databases, .available-templates {
-    margin: 20px;
-    width: 45%;  
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-}
-*/
-
-
-
-
 
 .available-databases label, .available-templates label {
     display: block;
@@ -127,10 +74,57 @@
 }
 
 .button-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add space between buttons */
 }
+
+
+#file-input {
+  display: none;
+}
+
+
+.large-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+
+.file-upload {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+label[for="file-input"] {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.large-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+
 .available-templates {
   margin: 20px;
   width: 45%;  /* Adjust width to fit side by side */

@@ -1,7 +1,7 @@
 import faiss
 import numpy as np
 import io
-from fastapi import FastAPI, File, UploadFile, Request
+from fastapi import FastAPI, File, UploadFile, Request, HTTPException 
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from starlette.responses import JSONResponse
@@ -17,6 +17,7 @@ import pdb
 from datetime import datetime
 import re
 import requests
+
 
 
 from BlogExamples import blog_examples, recent_example, stamos_example, disney_example, long_form_examples, sector_example
@@ -50,6 +51,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
 
 chunks_storage = {}  # {index: chunk_text}
 
@@ -324,7 +327,13 @@ def sequential_superlong(documents, company_name, model_name):
    
 
     today_date = datetime.today().strftime('%Y-%m-%d')
-    filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
+
+    #sanitized_company_name = re.sub(r'\s+', '_', company_name).replace("'", "").replace('"', "")
+    sanitized_company_name = re.sub(r'\s+', '_', company_name).replace("'", "").replace('"', "")
+    #filename = f"Formatted_SuperLong_{today_date}_{sanitized_company_name}.docx"
+    filename = f"Formatted_SuperLong_{today_date}.docx"
+    print("sanitized_company_name:",sanitized_company_name)
+    #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
     docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
 
  
@@ -798,13 +807,79 @@ async def list_prompt_templates():
     return templates
 
 
+@app.post("/upload/")
+async def upload_file(file: UploadFile = File(...)):
+    
+    print("About to upload file:",file.filename)
+    file_location = f"uploaded_files/{file.filename}"
+    with open(file_location, "wb+") as file_object:
+        file_object.write(file.file.read())
+
+    # Upload to Azure Blob Storage
+    blob_client = blob_service_client.get_blob_client(container=container_name, blob=file.filename)
+    with open(file_location, "rb") as data:
+        blob_client.upload_blob(data, overwrite=True)
+    
+    
+    content = ""
+    if file.filename.endswith(".txt"):
+        with open(file_location, "r") as f:
+            content = f.read()
+    elif file.filename.endswith(".docx"):
+        content = read_docx(file_location)
+
+    
+    ## Read file content and generate embeddings
+    #with open(file_location, "r") as f:
+    #    content = f.read()
+    embeddings, chunks = get_embeddings(content)
+    
+    # Add each embedding to the FAISS index and store the chunks
+    for idx, embedding in enumerate(embeddings):
+        index.add(np.array([embedding]))
+        chunks_storage[idx] = chunks[idx]
+
+    index_file = f"{file.filename}_index"
+    faiss.write_index(index, index_file)
+    blob_client_index = blob_service_client.get_blob_client(container=container_name, blob=index_file)
+    with open(index_file, "rb") as data:
+        blob_client_index.upload_blob(data, overwrite=True)
+
+    chunks_file = f"{file.filename}_chunks"
+    with open(chunks_file, "w") as f:
+        f.write("\n".join(chunks))
+    blob_client_chunks = blob_service_client.get_blob_client(container=container_name, blob=chunks_file)
+    with open(chunks_file, "rb") as data:
+        blob_client_chunks.upload_blob(data, overwrite=True)
+
+    # Clean up local files
+    os.remove(file_location)
+    os.remove(index_file)
+    os.remove(chunks_file)
+
+    return {"info": f"file '{file.filename}' saved at '{file_location}' and '{index_file}' also saved. "}
+
 @app.get("/download")
 async def download_file(file_path: str):
-    file_path = file_path.replace('"', '').replace("'", "")
-    filename = os.path.basename(file_path)
-    # Remove any leading/trailing spaces and normalize any other characters if necessary
-    filename = filename.strip()
-    return FileResponse(file_path, filename=filename)
+    try:
+        print("Download function called")  # Logging for debugging
+        file_path = file_path.replace('"', '').replace("'", "")
+        print(f"Received request to download file: {file_path}")  # Logging for debugging
+        if not os.path.exists(file_path):
+            print(f"File at path {file_path} does not exist.")  # Logging for debugging
+            raise HTTPException(status_code=404, detail="File not found")
+        print(f"File at path {file_path} exists. Preparing to send...")  # Logging for debugging
+        return FileResponse(file_path, filename=os.path.basename(file_path))
+    except Exception as e:
+        print(f"Error occurred: {e}")  # Log any exceptions that occur
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+#async def download_file(file_path: str):
+#    # Clean the file path and filename
+#    file_path = file_path.replace('"', '').replace("'", "").strip()
+#    filename = os.path.basename(file_path)
+#    filename = filename.replace(' ', '_')  # Replace spaces with underscores
+#    return FileResponse(file_path, filename=filename)
 
 
 
