@@ -34,18 +34,19 @@ function App() {
     };
 
 
+    /* eslint-disable react-hooks/exhaustive-deps */
     useEffect(() => {
-        
         fetchDatabases();
         fetchPromptTemplates();
     }, []);
-
+    /* eslint-enable react-hooks/exhaustive-deps */
    
     const handleFileChange = (e) => {
         const chosenFile = e.target.files[0];
         setFile(chosenFile);
         setFileName(chosenFile ? chosenFile.name : "");  // Set the file name state
     };
+
 
     const handleFileUpload = async () => {
         console.log("handle File Upload called");
@@ -62,7 +63,8 @@ function App() {
         console.log("File Upload Complete. about to fetch databases");
         fetchDatabases();
     };
-
+    
+    
     const handleQuestionChange = (e) => {
         setQuestion(e.target.value);
     };
@@ -91,7 +93,13 @@ function App() {
 
             console.log("Query returned. ", res.data);
 
-            if (selectedTemplate === "SuperLong") {
+
+            /* determine if selectedTemplate is one of: "SuperLong" or "Tear Sheet" or "Long Form" or "One Page Current Events" or "Sector Overview" */
+            
+            if (selectedTemplate === "SuperLong" || selectedTemplate === "TearSheet" || selectedTemplate === "Long Form" || selectedTemplate === "One Page Current Events" || selectedTemplate === "Sector Overview") {
+            
+            
+            /*if (selectedTemplate === "SuperLong" or selectedTemplate === "TearSheet") */
                 // Handle the file download for SuperLong template
                 let filePath = res.data.file_path;
 
