@@ -96,7 +96,7 @@ function App() {
 
             /* determine if selectedTemplate is one of: "SuperLong" or "Tear Sheet" or "Long Form" or "One Page Current Events" or "Sector Overview" */
             
-            if (selectedTemplate === "SuperLong" || selectedTemplate === "TearSheet" || selectedTemplate === "Long Form" || selectedTemplate === "One Page Current Events" || selectedTemplate === "Sector Overview") {
+            if (selectedTemplate === "SuperLong" || selectedTemplate === "Tear Sheet" || selectedTemplate === "Long Form" || selectedTemplate === "One Page Current Events" || selectedTemplate === "Sector Overview") {
             
             
             /*if (selectedTemplate === "SuperLong" or selectedTemplate === "TearSheet") */
@@ -159,11 +159,8 @@ function App() {
                 </div>
                 <button className="large-button" onClick={handleFileUpload}>Upload</button>
                 {isFileReady && (
-                <div>
                     <button className="large-button" onClick={handleDownload}>Download Created File</button>
-                    <p>{downloadPathMessage}</p> {/* Display the download path message */}
-                </div>
-            )}
+                )}
             </div>
             <div className="boxes-container">  {/* Add this container */}
                 <AvailableDatabases onDatabasesChange={handleDatabaseChange} databases={databases} selectedDatabases={selectedDatabases} fetchDatabases={fetchDatabases} />
@@ -188,6 +185,7 @@ function App() {
             )}
         </div>
     );
+    
 }
 
 export default App;

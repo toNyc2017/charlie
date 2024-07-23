@@ -79,19 +79,21 @@
   gap: 10px; /* Add space between buttons */
 }
 
+.large-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
 
 #file-input {
   display: none;
 }
 
 
-.large-button {
-  padding: 10px 20px;
-  font-size: 1.2em;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px;
-}
 
 
 
@@ -113,14 +115,6 @@ label[for="file-input"] {
   font-size: 16px;
 }
 
-.large-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
 
 
 

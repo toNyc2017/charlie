@@ -680,8 +680,8 @@ async def query_index(query: dict):
         model_name = "gpt-4o"
 
         print('in Long Form  section, about to call sequential_long_form_production')
-        file_path = sequential_tear_sheet_production(documents, sym, model_name)
-        print('in Long Form section, FINISHED sequential_long_form_production')
+        file_path = sequential_long_memo_production(documents, sym, model_name)
+        print('in Long Form section, FINISHED sequential_long_form_production. file_path = ',file_path)
 
         # Return the file path as a response
         return {"file_path": file_path}
@@ -885,8 +885,6 @@ def quick_one_page_production(documents, sym, model_name):
             
     jls_extract_var.append({"role": "user", "content": f"please execute the task outlined in the system content above."})
 
-    print(f'iter is {iter_}')
-    print('length of input for this iteration is:',len(transcription[A:A+chunk_size]))
     for attempt in range(5):  # Try up to 5 times
         try:
             response = client.chat.completions.create(
@@ -959,7 +957,8 @@ def sequential_tear_sheet_production(chunk, sym, model_name):
     print("sanitized_company_name:",sanitized_company_name)
     #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
     docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
-    
+
+    return docx_file_path    
 
 # Splitting the filename on underscores and extracting the part before '.txt'
     extracted_string = filename.split('_')[-1].split('.')[0]
@@ -1236,10 +1235,12 @@ def sequential_long_memo_production(chunk, sym, model_name):
    
     sanitized_company_name = re.sub(r'\s+', '_', sym).replace("'", "").replace('"', "")
   
-    filename = f"Formatted_TearSheet_{today_date}_{sym}.docx"
+    filename = f"Formatted_LongForm_{today_date}_{sym}.docx"
     print("sanitized_company_name:",sanitized_company_name)
   
     docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+
+    return docx_file_path
 
     
     all_str = " "
