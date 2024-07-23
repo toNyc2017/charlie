@@ -168,7 +168,7 @@ function App() {
             </div>
             {fileName && <p className="file-name">{fileName}</p>}
             <h1>Query Vector Index</h1>
-            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box" />
+            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box large-query-box dark-box" />
             <button className="large-button" onClick={handleQuery}>Ask</button>
             {response && (
                 <div className="result-box">
@@ -185,6 +185,7 @@ function App() {
             )}
         </div>
     );
+    
     
 }
 

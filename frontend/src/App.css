@@ -1,5 +1,4 @@
-
-
+/* Logo positioning */
 .logo {
   position: absolute;
   top: 20px;
@@ -8,19 +7,13 @@
   height: auto;  /* Maintain aspect ratio */
 }
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
+/* App header styles */
 .App h1 {
     text-align: center;
     margin-top: 20px;
 }
 
-
-
+/* File upload input styling */
 .file-upload input[type="file"] {
     font-size: 100px;
     position: absolute;
@@ -30,6 +23,7 @@
     cursor: pointer;
 }
 
+/* File upload label styling */
 .file-upload label {
     background-color: #4CAF50;
     color: white;
@@ -39,6 +33,7 @@
     cursor: pointer;
 }
 
+/* File name display styling */
 .file-name {
     text-align: center;
     margin-top: 10px;
@@ -46,6 +41,7 @@
     color: #333;
 }
 
+/* Query input box styling */
 .query-box {
     width: 80%;
     font-size: 16px;
@@ -53,98 +49,105 @@
     margin: 10px 0;
 }
 
-
-
-.available-databases, .available-templates {
-  margin: 20px;
-  width: 45%;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
-  overflow-y: auto; /* Adds vertical scrolling */
-  max-height: 200px; /* Sets the max height to 200px (2 inches) */
+/* Larger query box styling */
+.large-query-box {
+    height: 200px;  /* Increase the height of the query box */
 }
 
 
 
+/* Darker query box styling */
+.dark-box {
+  border: 2px solid #333;  /* Darker and thicker border */
+  background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
+}
+
+
+/* Database and template box styling */
+.available-databases, .available-templates {
+    margin: 20px;
+    width: 45%;
+    border: 2px solid #333;  /* Darker and thicker border */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
+    overflow-y: auto; /* Adds vertical scrolling */
+    max-height: 200px; /* Sets the max height to 200px (2 inches) */
+}
+
+/* Box label styling */
 .available-databases label, .available-templates label {
     display: block;
     margin: 5px 0;
 }
 
+/* Button container styling */
 .button-container {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Add space between buttons */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between buttons */
 }
 
+/* Large button styling */
 .large-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
-#file-input {
-  display: none;
-}
-
-
-
-
-
+/* File upload container styling */
 .file-upload {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-
+/* File input label styling */
 label[for="file-input"] {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-
-
-
-
+/* Template box styling */
 .available-templates {
-  margin: 20px;
-  width: 45%;  /* Adjust width to fit side by side */
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
+    margin: 20px;
+    width: 45%;  /* Adjust width to fit side by side */
+    border: 2px solid #333;  /* Darker and thicker border */
+    padding: 10px;
+    border-radius: 5px;
 }
 
+/* Template box label styling */
 .available-templates label {
-  display: block;
-  margin: 5px 0;
+    display: block;
+    margin: 5px 0;
 }
 
+/* Container for database and template boxes */
 .boxes-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 20px auto;
-  width: 80%;
-  max-width: 1200px;  /* Adjust as needed */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;  /* Adjust as needed */
 }
 
+/* Result box styling */
 .result-box {
     width: 400px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 2px solid #333;  /* Darker and thicker border */
     padding: 10px;
     margin: 20px auto;
     overflow-y: auto;
@@ -155,10 +158,13 @@ label[for="file-input"] {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Error message styling */
+.error {
+    color: red;
+    font-weight: bold;
+}
 
-
-
-
+/* Animation for logo spin */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
