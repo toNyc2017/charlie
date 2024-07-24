@@ -761,6 +761,7 @@ async def query_index(query: dict):
         )
 
         answer = response.choices[0].message.content
+        answer = clean_text(answer)
 
         return {"question": question, "answer": answer}
 
@@ -768,6 +769,23 @@ async def query_index(query: dict):
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
+
+@app.delete("/api/vector-databases/{database_name}")
+async def delete_database(database_name: str):
+    try:
+        container_client = blob_service_client.get_container_client(container_name)
+        blob_client = container_client.get_blob_client(database_name)
+
+        if blob_client.exists():
+            blob_client.delete_blob()
+            return {"message": f"Database {database_name} deleted successfully."}
+        else:
+            raise HTTPException(status_code=404, detail="Database not found.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 
 @app.get("/api/vector-databases")
@@ -838,6 +856,27 @@ async def upload_file(file: UploadFile = File(...)):
     os.remove(chunks_file)
 
     return {"info": f"file '{file.filename}' saved at '{file_location}' and '{index_file}' also saved. "}
+
+
+
+
+@app.delete("/vector-databases/{database_name}")
+async def delete_database(database_name: str):
+    database_path = f"path/to/your/databases/{database_name}"
+    try:
+        if os.path.exists(database_path):
+            os.remove(database_path)
+            return {"message": f"Database {database_name} deleted successfully."}
+        else:
+            raise HTTPException(status_code=404, detail="Database not found.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+
+
+
+
 
 @app.get("/api/download")
 async def download_file(file_path: str):
@@ -958,7 +997,7 @@ def sequential_tear_sheet_production(chunk, sym, model_name):
     #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
     docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
 
-    return docx_file_path    
+    #return docx_file_path    
 
 # Splitting the filename on underscores and extracting the part before '.txt'
     extracted_string = filename.split('_')[-1].split('.')[0]
@@ -1240,7 +1279,7 @@ def sequential_long_memo_production(chunk, sym, model_name):
   
     docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
 
-    return docx_file_path
+    #return docx_file_path
 
     
     all_str = " "

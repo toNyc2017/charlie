@@ -19,6 +19,7 @@ function App() {
     const [databases, setDatabases] = useState([]);
     const [promptTemplates, setPromptTemplates] = useState([]);
     const [selectedTemplate, setSelectedTemplate] = useState("");
+    const [loading, setLoading] = useState(false);
 
 
     const fetchDatabases = async () => {
@@ -26,6 +27,11 @@ function App() {
         console.log("Fetched databases:", response.data);
         setDatabases(response.data);
     };
+    
+    const handleDatabaseDelete = (deletedDatabase) => {
+        setDatabases(databases.filter(database => database !== deletedDatabase));
+    };
+    
 
     const fetchPromptTemplates = async () => {
         const response = await axios.get(`${API_BASE_URL}/prompt-templates`);
@@ -42,6 +48,7 @@ function App() {
     /* eslint-enable react-hooks/exhaustive-deps */
    
     const handleFileChange = (e) => {
+        console.log("handle FileChange called");
         const chosenFile = e.target.files[0];
         setFile(chosenFile);
         setFileName(chosenFile ? chosenFile.name : "");  // Set the file name state
@@ -82,6 +89,8 @@ function App() {
             return;
         }
 
+        setLoading(true);
+        setResponse(null);
         console.log("Submitting query:", question, selectedDatabases, selectedTemplate);
 
         try {
@@ -114,6 +123,9 @@ function App() {
         } catch (error) {
             console.error('Error handling query:', error);
             setResponse({ error: 'An error occurred while processing your request.' });
+        }
+        finally {
+            setLoading(false);  // Set loading to false when query finishes
         }
     };
 
@@ -151,7 +163,6 @@ function App() {
         <div className="App">
             <img src={logo} alt="Logo" className="logo" />  {/* Add the logo here */}
             <h1>Ask Stamos About Your Documents</h1>
-            <h1>Upload Document</h1>
             <div className="button-container">
                 <div className="file-upload">
                     <input id="file-input" type="file" onChange={handleFileChange} />
@@ -163,13 +174,19 @@ function App() {
                 )}
             </div>
             <div className="boxes-container">  {/* Add this container */}
-                <AvailableDatabases onDatabasesChange={handleDatabaseChange} databases={databases} selectedDatabases={selectedDatabases} fetchDatabases={fetchDatabases} />
+                <AvailableDatabases onDatabasesChange={handleDatabaseChange} databases={databases} selectedDatabases={selectedDatabases} fetchDatabases={fetchDatabases}  onDatabaseDelete={handleDatabaseDelete} />
                 <AvailablePromptTemplates onTemplateChange={handleTemplateChange} templates={promptTemplates} selectedTemplate={selectedTemplate} />
             </div>
             {fileName && <p className="file-name">{fileName}</p>}
-            <h1>Query Vector Index</h1>
-            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box large-query-box dark-box" />
+            {/* <div className="status-container">
+        {loading && <div className="status-message flashing">Working...</div>}
+        {!loading && response && <div className="status-message">Done working</div>}
+        </div> */}
+            <h1>What do you want to do?</h1>
+            <div className="query-container">
+            <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box" />
             <button className="large-button" onClick={handleQuery}>Ask</button>
+            </div> 
             {response && (
                 <div className="result-box">
                     <h2>Response</h2>

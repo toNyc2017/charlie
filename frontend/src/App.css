@@ -41,19 +41,48 @@
     color: #333;
 }
 
-/* Query input box styling */
-.query-box {
-    width: 80%;
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px 0;
+
+/* Spinner and Done working styles */
+.status-message {
+  font-size: 24px; /* Larger font size */
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px; /* Add some spacing below */
 }
+
+
+/* Spinner styles */
+.spinner {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+
+
+.query-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+
+/* Styling for the Query Vector Index box */
+.query-box {
+  width: 80%; /* Keep the width consistent with other boxes */
+  height: 50px; /* Adjust the height as needed, here it's set to half */
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px auto; /* Center the box */
+}
+
+
 
 /* Larger query box styling */
 .large-query-box {
-    height: 200px;  /* Increase the height of the query box */
+    height: 50px;  /* Increase the height of the query box */
 }
-
 
 
 /* Darker query box styling */
@@ -145,8 +174,8 @@ label[for="file-input"] {
 
 /* Result box styling */
 .result-box {
-    width: 400px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
     border: 2px solid #333;  /* Darker and thicker border */
     padding: 10px;
     margin: 20px auto;
