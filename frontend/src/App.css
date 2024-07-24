@@ -13,25 +13,6 @@
     margin-top: 20px;
 }
 
-/* File upload input styling */
-.file-upload input[type="file"] {
-    font-size: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* File upload label styling */
-.file-upload label {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    display: inline-block;
-    cursor: pointer;
-}
 
 /* File name display styling */
 .file-name {
@@ -41,17 +22,14 @@
     color: #333;
 }
 
-
-/* Spinner and Done working styles */
+/* Spinner and status message styles */
 .status-message {
-  font-size: 24px; /* Larger font size */
+  font-size: 24px;
   color: #333;
   text-align: center;
-  margin-bottom: 10px; /* Add some spacing below */
+  margin-bottom: 10px;
 }
 
-
-/* Spinner styles */
 .spinner {
   margin-top: 20px;
   font-size: 24px;
@@ -61,47 +39,68 @@
 
 
 
+.file-upload input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none; /* Prevents the file input from capturing clicks */
+}
+
+.label-button, .large-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* Query container styling */
 .query-container {
   text-align: center;
   margin: 20px 0;
 }
 
-
-
 /* Styling for the Query Vector Index box */
 .query-box {
-  width: 80%; /* Keep the width consistent with other boxes */
-  height: 50px; /* Adjust the height as needed, here it's set to half */
+  width: 80%;
+  height: 50px;
   font-size: 20px;
   padding: 10px;
-  margin: 10px auto; /* Center the box */
+  margin: 10px auto;
 }
-
-
 
 /* Larger query box styling */
 .large-query-box {
-    height: 50px;  /* Increase the height of the query box */
+    height: 50px;
 }
-
 
 /* Darker query box styling */
 .dark-box {
-  border: 2px solid #333;  /* Darker and thicker border */
-  background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
+  border: 2px solid #333;
+  background-color: rgba(255, 255, 255, 0.8);
 }
-
 
 /* Database and template box styling */
 .available-databases, .available-templates {
     margin: 20px;
     width: 45%;
-    border: 2px solid #333;  /* Darker and thicker border */
+    border: 2px solid #333;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8); /* Adds a slight white background with opacity for readability */
-    overflow-y: auto; /* Adds vertical scrolling */
-    max-height: 200px; /* Sets the max height to 200px (2 inches) */
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow-y: auto;
+    max-height: 200px;
 }
 
 /* Box label styling */
@@ -114,18 +113,7 @@
 .button-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Add space between buttons */
-}
-
-/* Large button styling */
-.large-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
+    gap: 10px;
 }
 
 /* File upload container styling */
@@ -150,8 +138,8 @@ label[for="file-input"] {
 /* Template box styling */
 .available-templates {
     margin: 20px;
-    width: 45%;  /* Adjust width to fit side by side */
-    border: 2px solid #333;  /* Darker and thicker border */
+    width: 45%;
+    border: 2px solid #333;
     padding: 10px;
     border-radius: 5px;
 }
@@ -169,14 +157,14 @@ label[for="file-input"] {
     align-items: flex-start;
     margin: 20px auto;
     width: 80%;
-    max-width: 1200px;  /* Adjust as needed */
+    max-width: 1200px;
 }
 
 /* Result box styling */
 .result-box {
     width: 800px;
     height: 500px;
-    border: 2px solid #333;  /* Darker and thicker border */
+    border: 2px solid #333;
     padding: 10px;
     margin: 20px auto;
     overflow-y: auto;
