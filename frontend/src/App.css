@@ -23,12 +23,43 @@
 }
 
 /* Spinner and status message styles */
+
+
+.status-message.flashing {
+  animation: flashing 1s infinite; /* Flashing animation */
+}
+
+
+
+@keyframes flashing {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .status-message {
-  font-size: 24px;
+  font-size: 24px; /* Example styling */
   color: #333;
   text-align: center;
   margin-bottom: 10px;
+  animation: flashing 1s infinite; /* Apply the flashing animation */
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .spinner {
   margin-top: 20px;
@@ -189,4 +220,7 @@ label[for="file-input"] {
   to {
     transform: rotate(360deg);
   }
+
+
+  
 }

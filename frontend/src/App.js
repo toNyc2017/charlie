@@ -163,6 +163,10 @@ function App() {
         <div className="App">
             <img src={logo} alt="Logo" className="logo" />  {/* Add the logo here */}
             <h1>Ask Stamos About Your Documents</h1>
+            <div className="status-container">
+            {loading && <div className="status-message flashing">Working...</div>}
+            {!loading && response && <div className="status-message">Done working</div>}
+            </div> 
             <div className="button-container">
                 <div className="file-upload">
                     <input id="file-input" type="file" onChange={handleFileChange} />
@@ -178,10 +182,7 @@ function App() {
                 <AvailablePromptTemplates onTemplateChange={handleTemplateChange} templates={promptTemplates} selectedTemplate={selectedTemplate} />
             </div>
             {fileName && <p className="file-name">{fileName}</p>}
-            {/* <div className="status-container">
-        {loading && <div className="status-message flashing">Working...</div>}
-        {!loading && response && <div className="status-message">Done working</div>}
-        </div> */}
+
             <h1>What do you want to do?</h1>
             <div className="query-container">
             <input type="text" value={question} onChange={handleQuestionChange} placeholder="Type your question" className="query-box" />
