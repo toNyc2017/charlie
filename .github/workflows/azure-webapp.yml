@@ -1,0 +1,38 @@
+name: Deploy to Azure Web App
+
+on:
+  push:
+    branches:
+      - my-new-branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r charlie/backend/requirements.txt
+
+    - name: Run tests (if any)
+      run: |
+        # Add your test script here, for example:
+        # python -m unittest discover -s tests
+        echo "Run tests"
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: AskYorkville
+        slot-name: production
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: .
