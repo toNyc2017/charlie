@@ -57,9 +57,10 @@ function App() {
 
     const handleFileUpload = async () => {
         console.log("handle File Upload called");
+        setLoading(true)
         const formData = new FormData();
         formData.append('file', file);
-
+        try {
         const res = await axios.post(`${API_BASE_URL}/upload/`, formData, {
             headers: {
                 'Content-Type': 'multipart/form-data'
@@ -69,6 +70,11 @@ function App() {
         setResponse(res.data);
         console.log("File Upload Complete. about to fetch databases");
         fetchDatabases();
+    }catch (error) {
+        console.error("Error uploading file:", error);
+    } finally {
+        setLoading(false); // Stop loading
+    }
     };
     
     
@@ -91,7 +97,7 @@ function App() {
 
         setLoading(true);
         setResponse(null);
-        console.log("Submitting query:", question, selectedDatabases, selectedTemplate);
+        /*console.log("Submitting query:", question, selectedDatabases, selectedTemplate);*/
 
         try {
             const res = await axios.post(`${API_BASE_URL}/query/`, {
@@ -100,14 +106,15 @@ function App() {
                 template: selectedTemplate
             });
 
-            console.log("Query returned. ", res.data);
+            console.log("Query returned. ");
 
 
             /* determine if selectedTemplate is one of: "SuperLong" or "Tear Sheet" or "Long Form" or "One Page Current Events" or "Sector Overview" */
             
             if (selectedTemplate === "SuperLong" || selectedTemplate === "Tear Sheet" || selectedTemplate === "Long Form" || selectedTemplate === "One Page Current Events" || selectedTemplate === "Sector Overview") {
             
-            
+                /*console.log("Query returned. Processing results. selectedTemplate is: ", selectedTemplate)*/
+                /*console.log("Query returned. Processing results. Res.data is:", res.data)*/
             /*if (selectedTemplate === "SuperLong" or selectedTemplate === "TearSheet") */
                 // Handle the file download for SuperLong template
                 let filePath = res.data.file_path;
@@ -161,12 +168,15 @@ function App() {
 
     return (
         <div className="App">
-            <img src={logo} alt="Logo" className="logo" />  {/* Add the logo here */}
+           <img src={logo} alt="Logo" className="logo" /> 
             <h1>Ask Stamos About Your Documents</h1>
             <div className="status-container">
-            {loading && <div className="status-message flashing">Working...</div>}
-            {!loading && response && <div className="status-message">Done working</div>}
-            </div> 
+                {loading ? (
+                    <div className="status-message flashing">Working...</div>
+                ) : (
+                    response && <div className="status-message">Done working</div>
+                )}
+            </div>
             <div className="button-container">
                 <div className="file-upload">
                     <input id="file-input" type="file" onChange={handleFileChange} />
