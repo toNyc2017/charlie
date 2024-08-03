@@ -4,8 +4,11 @@ function AvailableDatabases({ databases, onDatabasesChange, selectedDatabases, f
     
     useEffect(() => {
         fetchDatabases();
-    }, []);
+    }, [fetchDatabases]);
 
+    
+    
+    
     const handleDatabaseChange = (e) => {
         const value = e.target.value;
         const newSelectedDatabases = selectedDatabases.includes(value)
