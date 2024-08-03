@@ -3,10 +3,11 @@ import axios from 'axios';
 import API_BASE_URL from './config';
 
 function AvailableDatabases({ databases, onDatabasesChange, selectedDatabases, fetchDatabases, onDatabaseDelete }) {
-    
+   
     useEffect(() => {
         fetchDatabases();
-    }, []);
+    }, [fetchDatabases]);
+
 
     const handleDatabaseChange = (e) => {
         const value = e.target.value;
