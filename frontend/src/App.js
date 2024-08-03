@@ -185,6 +185,7 @@ function App() {
                 <button className="large-button" onClick={handleFileUpload}>Upload</button>
                 {isFileReady && (
                     <button className="large-button" onClick={handleDownload}>Download Created File</button>
+                 <p>{downloadPathMessage}</p> {/* Display the download path message */}
                 )}
             </div>
             <div className="boxes-container">  {/* Add this container */}
