@@ -183,10 +183,13 @@ function App() {
                     <label htmlFor="file-input" className="large-button">Choose File</label>
                 </div>
                 <button className="large-button" onClick={handleFileUpload}>Upload</button>
-                {isFileReady && (
-                    <button className="large-button" onClick={handleDownload}>Download Created File</button>
-                 <p>{downloadPathMessage}</p> {/* Display the download path message */}
-                )}
+               {isFileReady && (
+    <div>
+        <button className="large-button" onClick={handleDownload}>Download Created File</button>
+        <p>{downloadPathMessage}</p> {/* Display the download path message */}
+    </div>
+)}
+
             </div>
             <div className="boxes-container">  {/* Add this container */}
                 <AvailableDatabases onDatabasesChange={handleDatabaseChange} databases={databases} selectedDatabases={selectedDatabases} fetchDatabases={fetchDatabases}  onDatabaseDelete={handleDatabaseDelete} />
