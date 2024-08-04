@@ -41,7 +41,7 @@ app = FastAPI()
 # Configure CORS
 origins = [
     "http://localhost:3000",  # React dev server
-    "https://www.askyorkville.com"  # For HTTPS
+    "https://askyorkville-c3ckc8hgh4hzajeu.eastus-01.azurewebsites.net"  # For HTTPS
 ]
 
 app.add_middleware(
