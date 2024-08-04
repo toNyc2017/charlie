@@ -21,6 +21,9 @@ jobs:
 
     - name: Create and activate virtual environment, install dependencies, and run tests
       working-directory: ./backend
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
       run: |
         python -m venv venv
         source venv/bin/activate
