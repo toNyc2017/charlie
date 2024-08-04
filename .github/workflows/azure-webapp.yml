@@ -29,6 +29,10 @@ jobs:
       working-directory: ./backend
       run: |
         pip list
+    
+    - name: List files in backend directory
+      working-directory: ./backend
+      run: ls -al
 
     - name: Run a test Python script
       working-directory: ./backend
