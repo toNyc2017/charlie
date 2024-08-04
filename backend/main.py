@@ -25,6 +25,7 @@ from BlogExamples import blog_examples, recent_example, stamos_example, disney_e
 import PyPDF2
 
 
+print('GOT EVERYTIHG LOADED SUCESFULLY')
 
 
 load_dotenv()
@@ -52,6 +53,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+print('GOT CORS CONFIGURED SUCCESSFULLY')
 
 
 chunks_storage = {}  # {index: chunk_text}
