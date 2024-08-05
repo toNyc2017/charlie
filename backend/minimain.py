@@ -1,4 +1,4 @@
-import faiss
+#import faiss
 import numpy as np
 import io
 from fastapi import FastAPI, File, UploadFile, Request, HTTPException 
@@ -56,7 +56,6 @@ app.add_middleware(
 )
 
 print('GOT CORS CONFIGURED SUCCESSFULLY')
-
 
 chunks_storage = {}  # {index: chunk_text}
 
