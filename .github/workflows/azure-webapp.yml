@@ -18,6 +18,15 @@ jobs:
       with:
         python-version: '3.8'
 
+        
+    - name: Verify backend directory and log its contents
+      run: |
+        if [ ! -d "./backend" ]; then
+          echo "Backend directory does not exist."
+          exit 1
+        fi
+        echo "Backend directory exists."
+        ls -al ./backend
 
     - name: Create and activate virtual environment, install dependencies, and run tests
       working-directory: ./backend
