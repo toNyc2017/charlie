@@ -18,10 +18,23 @@ jobs:
       with:
         python-version: '3.8'  # or any version your app requires
 
-    - name: 'Install dependencies'
+    - name: Create and activate virtual environment, install dependencies, and run tests
+      working-directory: ./backend
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
       run: |
+        python -m venv venv
+        . venv/bin/activate
         python -m pip install --upgrade pip
-        pip install fastapi uvicorn
+        pip install -r requirements.txt
+        pip list
+        ls -al
+        echo "print('Hello from test script')" > test_script.py
+        python test_script.py
+        echo "print('Testing main.py execution')" > test_main.py
+        echo "import main" >> test_main.py
+        python test_main.py
 
     - name: 'Upload artifact for deployment job'
       uses: actions/upload-artifact@v2
