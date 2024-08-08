@@ -25,6 +25,7 @@ from BlogExamples import blog_examples, recent_example, stamos_example, disney_e
 import PyPDF2
 # This is a minor change to trigger redeployment
 
+RESULTS_DIR = os.getenv('RESULTS_DIR', '/app/backend/results')
 
 
 print('GOT EVERYTIHG LOADED SUCESFULLY')
@@ -49,7 +50,8 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    #allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -59,6 +61,10 @@ print('GOT CORS CONFIGURED SUCCESSFULLY')
 
 
 chunks_storage = {}  # {index: chunk_text}
+
+#promptTemplates = ["Ad Hoc Query", "Tear Sheet", "Long Form", "SuperLong", "One Page Current Events"]
+
+
 
 def get_chunk_by_index(idx):
     return chunks_storage.get(idx, "")
@@ -350,7 +356,8 @@ def sequential_superlong(documents, company_name, model_name):
     filename = f"Formatted_SuperLong_{today_date}.docx"
     print("sanitized_company_name:",sanitized_company_name)
     #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
-    docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    #docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    docx_file_path = os.path.join(RESULTS_DIR, filename)
 
  
 
@@ -783,9 +790,9 @@ async def query_index(query: dict):
         return {"question": question, "answer": answer}
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+#@app.get("/")
+#async def root():
+#    return {"message": "Hello World"}
 
 
 
@@ -817,7 +824,7 @@ async def list_vector_databases():
 @app.get("/api/prompt-templates")
 async def list_prompt_templates():
     print("Templates being requested")
-    with open('prompt_templates.txt', 'r') as f:
+    with open('/app/backend/prompt_templates.txt', 'r') as f:
         templates = f.read().splitlines()
     return templates
 
@@ -900,8 +907,12 @@ async def delete_database(database_name: str):
 
 
 @app.get("/api/download")
-async def download_file(file_path: str):
+async def download_file(filename: str):
     try:
+        results_dir = os.getenv('RESULTS_DIR', '/app/backend/results')
+        file_path = os.path.join(results_dir, filename)
+        
+        
         print("Download function called")  # Logging for debugging
         file_path = file_path.replace('"', '').replace("'", "")
         print(f"Received request to download file: {file_path}")  # Logging for debugging
@@ -926,7 +937,8 @@ def quick_one_page_production(documents, sym, model_name):
     filename = f"Formatted_OnePageCurrent_{today_date}_{sym}.docx"
     print("sanitized_company_name:",sanitized_company_name)
     #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
-    docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    #docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    docx_file_path = os.path.join(RESULTS_DIR, filename)
     
 
     
@@ -1366,7 +1378,8 @@ def sequential_tear_sheet_production(chunk, sym, model_name):
     filename = f"Formatted_TearSheet_{today_date}_{sym}.docx"
     print("sanitized_company_name:",sanitized_company_name)
     #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
-    docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    #docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    docx_file_path = os.path.join(RESULTS_DIR, filename)
     print('docx_file_path:',docx_file_path)
 
     #return docx_file_path    
@@ -1889,8 +1902,9 @@ def sequential_long_memo_production(chunk, sym, model_name):
     filename = f"Formatted_LongForm_{today_date}_{sym}.docx"
     print("sanitized_company_name:",sanitized_company_name)
   
-    docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
 
+    #docx_file_path = f"/home/azureuser/charlie/backend/results/{filename}"
+    docx_file_path = os.path.join(RESULTS_DIR, filename)
     #return docx_file_path
 
     

@@ -119,6 +119,7 @@ function App() {
                 // Handle the file download for SuperLong template
                 let filePath = res.data.file_path;
 
+                console.log("Query retured file_path is: ", filePath);    
                 // Sanitize the file path
                 filePath = filePath.replace(/['"]/g, "").trim().replace(/ /g, "_");
 
@@ -141,7 +142,10 @@ function App() {
     
     const handleDownload = () => {
         const filename = filePath.split('/').pop(); // Extract the filename from the path
-        const url = `${API_BASE_URL}/download?file_path=${encodeURIComponent(filePath)}`;
+       
+        console.log('parameter to be sent to download:', filename);
+
+        const url = `${API_BASE_URL}/download?filename=${encodeURIComponent(filename)}`;
     
         console.log(`Download URL: ${url}`); // Log the URL to the console for verification
     

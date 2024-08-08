@@ -6,7 +6,7 @@ function AvailableDatabases({ databases, onDatabasesChange, selectedDatabases, f
    
     useEffect(() => {
         fetchDatabases();
-    }, [fetchDatabases]);
+    }, []);
 
 
     const handleDatabaseChange = (e) => {

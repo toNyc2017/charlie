@@ -1,0 +1,29 @@
+
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile # Assuming the backend Dockerfile is in the root of 'charlie'
+    volumes:
+      - ./backend/results:/app/backend/results	    
+    ports:
+      - "8000:80" # Map port 8000 on localhost to port 80 in the backend container
+    expose:
+      - "80" # Only expose internally to the Docker network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile # Path to your frontend Dockerfile in 'charlie/frontend'
+    ports:
+      - "3000:3000" # Expose the frontend service to the local machine
+    environment:
+      - RESULTS_DIR=/app/backend/results
+      - REACT_APP_API_BASE_URL=http://localhost:8000/api
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+
