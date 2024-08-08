@@ -25,7 +25,7 @@ from BlogExamples import blog_examples, recent_example, stamos_example, disney_e
 import PyPDF2
 # This is a minor change to trigger redeployment
 
-RESULTS_DIR = os.getenv('RESULTS_DIR', '/app/backend/results')
+RESULTS_DIR = os.getenv('RESULTS_DIR', 'results')
 
 
 print('GOT EVERYTIHG LOADED SUCESFULLY')
@@ -151,61 +151,6 @@ def read_docx(file_path):
         full_text.append(para.text)
     return '\n'.join(full_text)
 
-
-#@app.post("/upload/")
-#async def upload_file(file: UploadFile = File(...)):
-    
-#    print("About to upload file:",file.filename)
-#    file_location = f"uploaded_files/{file.filename}"
-#    with open(file_location, "wb+") as file_object:
-#        file_object.write(file.file.read())
-
-#    # Upload to Azure Blob Storage
-#    blob_client = blob_service_client.get_blob_client(container=container_name, blob=file.filename)
-#    with open(file_location, "rb") as data:
-#        blob_client.upload_blob(data, overwrite=True)
-    
-    
-#    content = ""
-#    if file.filename.endswith(".txt"):
-#        with open(file_location, "r") as f:
-#            content = f.read()
-#    elif file.filename.endswith(".docx"):
-#        content = read_docx(file_location)
-
-    
-    
-    
-    
-#    ## Read file content and generate embeddings
-#    #with open(file_location, "r") as f:
-#    #    content = f.read()
-#    embeddings, chunks = get_embeddings(content)
-    
-#    # Add each embedding to the FAISS index and store the chunks
-#    for idx, embedding in enumerate(embeddings):
-#        index.add(np.array([embedding]))
-#        chunks_storage[idx] = chunks[idx]
-
-#    index_file = f"{file.filename}_index"
-#    faiss.write_index(index, index_file)
-#    blob_client_index = blob_service_client.get_blob_client(container=container_name, blob=index_file)
-#    with open(index_file, "rb") as data:
-#        blob_client_index.upload_blob(data, overwrite=True)
-
-#    chunks_file = f"{file.filename}_chunks"
-#    with open(chunks_file, "w") as f:
-#        f.write("\n".join(chunks))
-#    blob_client_chunks = blob_service_client.get_blob_client(container=container_name, blob=chunks_file)
-#    with open(chunks_file, "rb") as data:
-#        blob_client_chunks.upload_blob(data, overwrite=True)
-
-#    # Clean up local files
-#    os.remove(file_location)
-#    os.remove(index_file)
-#    os.remove(chunks_file)
-
-#    return {"info": f"file '{file.filename}' saved at '{file_location}' and '{index_file}' also saved. "}
 
 def get_chunks_from_db(db_name):
     index_blob_client = blob_service_client.get_blob_client(container=container_name, blob=db_name)
@@ -888,12 +833,28 @@ async def upload_file(file: UploadFile = File(...)):
 
 
 
-@app.delete("/vector-databases/{database_name}")
+# @app.delete("/vector-databases/{database_name}")
+# async def delete_database(database_name: str):
+#     database_path = f"path/to/your/databases/{database_name}"
+#     try:
+#         if os.path.exists(database_path):
+#             os.remove(database_path)
+#             return {"message": f"Database {database_name} deleted successfully."}
+#         else:
+#             raise HTTPException(status_code=404, detail="Database not found.")
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
+
+
+
+@app.delete("/api/vector-databases/{database_name}")
 async def delete_database(database_name: str):
-    database_path = f"path/to/your/databases/{database_name}"
     try:
-        if os.path.exists(database_path):
-            os.remove(database_path)
+        container_client = blob_service_client.get_container_client(container_name)
+        blob_client = container_client.get_blob_client(database_name)
+
+        if blob_client.exists():
+            blob_client.delete_blob()
             return {"message": f"Database {database_name} deleted successfully."}
         else:
             raise HTTPException(status_code=404, detail="Database not found.")
@@ -904,14 +865,12 @@ async def delete_database(database_name: str):
 
 
 
-
-
 @app.get("/api/download")
 async def download_file(filename: str):
     try:
-        results_dir = os.getenv('RESULTS_DIR', '/app/backend/results')
+        #results_dir = os.getenv('RESULTS_DIR', '/app/backend/results')
+        results_dir = os.getenv('RESULTS_DIR', 'results')
         file_path = os.path.join(results_dir, filename)
-        
         
         print("Download function called")  # Logging for debugging
         file_path = file_path.replace('"', '').replace("'", "")
