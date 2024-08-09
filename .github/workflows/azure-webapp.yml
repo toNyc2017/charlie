@@ -1,4 +1,4 @@
-name: Test ACR Login
+name: Build and Deploy Dockerized App to Azure Web App
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - DockerApp  # Only trigger on the DockerApp branch
 
 jobs:
-  test-acr-login:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,6 +18,20 @@ jobs:
         with:
           creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":"AJf8Q~P0vKPxFBv6FqBjT6dLwojUnAkcjLNasbwg","subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
 
+      - name: 'Set up Docker Buildx'
+        uses: docker/setup-buildx-action@v2
+
       - name: 'Login to Azure Container Registry'
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+
+      - name: 'Build and Push Docker Image'
+        run: |
+          docker buildx build --platform linux/amd64 --push -t yorkvilleregistry.azurecr.io/charlie:latest .
+
+      - name: 'Deploy to Azure Web App'
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'AskYorkville'  # Confirm this is the correct app name from Azure Portal
+          images: yorkvilleregistry.azurecr.io/charlie:latest
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
