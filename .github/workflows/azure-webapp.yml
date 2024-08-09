@@ -1,9 +1,9 @@
 name: Build and Deploy Dockerized App to Azure Web App
 
-on:
-  push:
-    branches:
-      - DockerApp  # Branch to monitor for changes
+#on:
+ # push:
+  #  branches:
+   #   - DockerApp  # Branch to monitor for changes
 
 jobs:
   build-and-deploy:
