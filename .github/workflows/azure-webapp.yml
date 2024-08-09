@@ -37,8 +37,8 @@ jobs:
       
       - name: 'Build and push Docker images'
         run: |
-          docker-compose -f docker-compose.yml build
-          docker-compose -f docker-compose.yml push
+          docker-compose -f ./docker-compose.yml build
+          docker-compose -f ./docker-compose.yml push
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -47,3 +47,4 @@ jobs:
           images: |
             yorkvilleregistry.azurecr.io/backend:latest
             yorkvilleregistry.azurecr.io/frontend:latest
+          docker-compose-file: './docker-compose.yml'
