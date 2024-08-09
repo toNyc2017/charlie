@@ -1,6 +1,9 @@
-name: Build and Deploy Dockerized App to Azure Web App
+name: Build and Deploy Backend Only to Azure Web App
 
-on:[]
+on:
+  push:
+    branches:
+      - DockerApp  # Only trigger on the DockerApp branch
 
 jobs:
   build-and-deploy:
@@ -9,43 +12,30 @@ jobs:
     steps:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v2
-        with:
-            fetch-depth: 0
 
       - name: 'Login to Azure'
         uses: azure/login@v1
         with:
           creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":"AJf8Q~P0vKPxFBv6FqBjT6dLwojUnAkcjLNasbwg","subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
 
-      - name: 'Set up Docker Buildx'
-        uses: docker/setup-buildx-action@v2
-
       - name: 'Set up Docker Compose'
-        run: |
-          sudo apt-get update
-          sudo apt-get install docker-compose -y
+        uses: docker/setup-buildx-action@v2
 
       - name: 'Login to Azure Container Registry'
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
 
-      - name: List files in workspace
-        run: ls -al
       - name: 'Build and push Docker images'
         run: |
-          # Building the backend image
           docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/backend:latest -f Dockerfile . --load
           docker push yorkvilleregistry.azurecr.io/backend:latest
-      
-          # Building the frontend image
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/frontend:latest -f frontend/Dockerfile ./frontend --load
-          docker push yorkvilleregistry.azurecr.io/frontend:latest
+
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'AskYorkville'
-          images: |
-            yorkvilleregistry.azurecr.io/backend:latest
-            yorkvilleregistry.azurecr.io/frontend:latest
-          configuration-file: './docker-compose.yml'
+          images: yorkvilleregistry.azurecr.io/backend:latest
+
+           
+          configuration-file: './docker-compose-backend.yml'
