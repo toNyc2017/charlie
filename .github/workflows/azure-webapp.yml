@@ -21,6 +21,11 @@ jobs:
       - name: 'Set up Docker Buildx'
         uses: docker/setup-buildx-action@v2
 
+      - name: 'Set up Docker Compose'
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-compose -y
+
       - name: 'Login to Azure Container Registry'
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
