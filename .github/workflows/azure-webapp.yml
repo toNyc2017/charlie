@@ -1,9 +1,6 @@
 name: Build and Deploy Dockerized App to Azure Web App
 
-on:
-  push:
-    branches:
-      - DockerApp  # Only trigger on the DockerApp branch
+on:[]
 
 jobs:
   build-and-deploy:
