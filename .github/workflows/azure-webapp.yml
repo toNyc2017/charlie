@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v2
+        with:
+            fetch-depth: 0
 
       - name: 'Login to Azure'
         uses: azure/login@v1
@@ -30,6 +32,9 @@ jobs:
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
 
+      - name: List files in workspace
+        run: ls -al
+      
       - name: 'Build and push Docker images'
         run: |
           docker-compose -f docker-compose.yml build
