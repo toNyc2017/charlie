@@ -36,7 +36,7 @@ RUN ls -l /app/ > /app/output/app_contents.txt
 ENV PYTHONPATH=/app/backend
 
 ENV OPENAI_API_KEY='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'
-ENV AZURE_STORAGE_ACCOUNT_KEY = "zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9q45vWJ2OPyrwGXww4TkZOsfWE0u+AStIlrgGQ==" 
+ENV AZURE_STORAGE_ACCOUNT_KEY="zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9q45vWJ2OPyrwGXww4TkZOsfWE0u+AStIlrgGQ==" 
 
 
 # Make port 80 available to the world outside this container
