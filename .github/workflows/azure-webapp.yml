@@ -47,4 +47,4 @@ jobs:
           images: |
             yorkvilleregistry.azurecr.io/backend:latest
             yorkvilleregistry.azurecr.io/frontend:latest
-          docker-compose-file: './docker-compose.yml'
+          configuration-file: './docker-compose.yml'
