@@ -25,13 +25,15 @@ jobs:
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
 
-      - name: 'Build and Push Docker Image'
+      - name: 'Build and push Docker images'
         run: |
-          docker buildx build --platform linux/amd64 --push -t yorkvilleregistry.azurecr.io/charlie:latest .
+          docker-compose -f docker-compose.yml build
+          docker-compose -f docker-compose.yml push
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'AskYorkville'  # Confirm this is the correct app name from Azure Portal
-          images: yorkvilleregistry.azurecr.io/charlie:latest
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          app-name: 'AskYorkville'
+          images: |
+            yorkvilleregistry.azurecr.io/backend:latest
+            yorkvilleregistry.azurecr.io/frontend:latest
