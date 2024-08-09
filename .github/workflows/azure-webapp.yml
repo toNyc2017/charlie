@@ -36,14 +36,13 @@ jobs:
         run: ls -al
       - name: 'Build and push Docker images'
         run: |
-          # Building and pushing the backend image
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/backend:latest -f Dockerfile .
+          # Building the backend image
+          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/backend:latest -f Dockerfile . --load
           docker push yorkvilleregistry.azurecr.io/backend:latest
       
-          # Building and pushing the frontend image
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/frontend:latest -f frontend/Dockerfile ./frontend
+          # Building the frontend image
+          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/frontend:latest -f frontend/Dockerfile ./frontend --load
           docker push yorkvilleregistry.azurecr.io/frontend:latest
-
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
