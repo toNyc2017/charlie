@@ -25,17 +25,23 @@ jobs:
         run: |
           echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
 
+      - name: 'Define IMAGE_TAG_BACK'
+        run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+
+      
+      
+      
       - name: 'Build and push Docker images'
         run: |
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/backend:latest -f Dockerfile . --load
-          docker push yorkvilleregistry.azurecr.io/backend:latest
+          docker buildx build --platform linux/amd64 --no-cache -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}} -f Dockerfile . --load
+          docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
 
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'AskYorkville'
-          images: yorkvilleregistry.azurecr.io/backend:latest
+          images: yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
 
            
           configuration-file: './docker-compose-backend.yml'
