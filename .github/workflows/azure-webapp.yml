@@ -23,7 +23,7 @@ jobs:
 
       - name: 'Login to Azure Container Registry'
         run: |
-          echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+          echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
 
       - name: 'Define IMAGE_TAG_BACK'
         run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
@@ -40,7 +40,7 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'AskYorkville'
+          app-name: 'YorkvilleCharlie'
           images: yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
 
            
