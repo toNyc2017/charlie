@@ -43,7 +43,8 @@ ENV AZURE_STORAGE_ACCOUNT_KEY="zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9
 EXPOSE 80
 
 # Define environment variables
-ENV APP_MODULE=backend.main:app
+#ENV APP_MODULE=backend.main:app
+ENV APP_MODULE=backend.dummymain:app
 ENV ENVIRONMENT=production
 
 
