@@ -43,13 +43,13 @@ ENV AZURE_STORAGE_ACCOUNT_KEY="zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9
 EXPOSE 80
 
 # Define environment variables
-ENV APP_MODULE=backend.main:app
-#ENV APP_MODULE=backend.dummymain:app
+#ENV APP_MODULE=backend.main:app
+ENV APP_MODULE=backend.dummymain:app
 ENV ENVIRONMENT=production
 
 
 
 # Run uvicorn server
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "$APP_MODULE", "--host", "0.0.0.0", "--port", "80"]
 #CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
 
