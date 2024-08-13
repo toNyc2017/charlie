@@ -3,7 +3,7 @@ name: Build and Deploy Backend Only to Azure Web App
 on:
   push:
     branches:
-      - DockerApp  # Only trigger on the DockerApp branch
+      - DockerAppSimple  # Only trigger on the DockerApp branch
 
 jobs:
   build-and-deploy:
