@@ -18,14 +18,24 @@ jobs:
       - name: 'Login to Azure'
         uses: azure/login@v1
         with:
-          creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":"AJf8Q~P0vKPxFBv6FqBjT6dLwojUnAkcjLNasbwg","subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
+          creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":${{ secrets.AZURE_CREDENTIALS }},"subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
+          #creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":"AJf8Q~P0vKPxFBv6FqBjT6dLwojUnAkcjLNasbwg","subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
+   
 
       - name: 'Set up Docker Compose'
         uses: docker/setup-buildx-action@v2
 
+      #- name: 'Login to Azure Container Registry'
+        #run: |
+          #echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+        #run: |
+          #echo ${{ secrets.AZURE_CONTAINTER_REGISTRY_PASSWORD }} | docker login ${{ secrets.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }} -u ${{ secrets.AZURE_CONTAINTER_REGISTRY_USERNAME }} --password-stdin
+
+    
       - name: 'Login to Azure Container Registry'
         run: |
-          echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+          echo ${{ secrets.AZURE_CONTAINER_REGISTRY_PASSWORD }} | docker login ${{ secrets.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }} -u ${{ secrets.AZURE_CONTAINER_REGISTRY_USERNAME }} --password-stdin
+
 
       - name: 'Define IMAGE_TAG_BACK'
         run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
