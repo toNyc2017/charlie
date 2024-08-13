@@ -27,7 +27,8 @@ jobs:
 
       - name: 'Login to Azure Container Registry'
         run: |
-          echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+          #echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+          echo  ${{ secrets.AZURE_CONTAINTER_REGISTRY_PASSWORD }} | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
         #run: |
           #echo ${{ secrets.AZURE_CONTAINTER_REGISTRY_PASSWORD }} | docker login ${{ secrets.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }} -u ${{ secrets.AZURE_CONTAINTER_REGISTRY_USERNAME }} --password-stdin
 
