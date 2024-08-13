@@ -50,6 +50,6 @@ ENV ENVIRONMENT=production
 
 
 # Run uvicorn server
-CMD ["uvicorn", "$APP_MODULE", "--host", "0.0.0.0", "--port", "80"]
-#CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
+#CMD ["uvicorn", "$APP_MODULE", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
 
