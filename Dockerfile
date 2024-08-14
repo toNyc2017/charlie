@@ -1,55 +1,47 @@
-# Use an official Python runtime as a parent image
+# Start from a base image with Python and Node.js installed
 FROM python:3.8
 
-# Set the working directory in the container
+# Set environment variables
+ENV PORT=8000
+
+# Install Node.js and npm
+RUN apt-get update && apt-get install -y nodejs npm
+
+# Create working directories
 WORKDIR /app
 
+# Copy frontend code
+COPY frontend/ /app/frontend/
 
-# Copy the requirements file into the container
-COPY backend/requirements.txt /app/requirements.txt
+# Install frontend dependencies and build the React app
+WORKDIR /app/frontend
+RUN npm install && npm run build
 
-# Print the contents of requirements.txt
-RUN cat /app/requirements.txt
+# Copy backend code
+COPY backend/ /app/backend/
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r /app/requirements.txt
+# Install Python dependencies
+WORKDIR /app/backend
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY backend /app/backend
+# Set the static files directory in FastAPI
+ENV STATIC_FILES_DIR=/app/frontend/build
 
-
-COPY backend/prompt_templates.txt /app/backend/prompt_templates.txt
-
-
-# Copy the entire project directory contents into the container at /app
-COPY . /app
-
-
-RUN mkdir -p /app/output
-
-# List the contents of /app/backend to verify the copy
-RUN ls -l /app/backend > /app/output/backend_contents.txt
-
-
-# List the contents of /app to verify the copy
-RUN ls -l /app/ > /app/output/app_contents.txt
-
-ENV PYTHONPATH=/app/backend
-
-ENV OPENAI_API_KEY='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'
-ENV AZURE_STORAGE_ACCOUNT_KEY="zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9q45vWJ2OPyrwGXww4TkZOsfWE0u+AStIlrgGQ==" 
-
-
-# Make port 80 available to the world outside this container
+# Expose port 80 for the app
 EXPOSE 80
 
-# Define environment variables
-#ENV APP_MODULE=backend.main:app
-ENV APP_MODULE=backend.dummymain:app
-ENV ENVIRONMENT=production
+# Set up FastAPI to serve static files and the React app
+RUN mkdir -p /app/frontend/build/static
 
-
+# Serve the frontend through FastAPI
+RUN echo "from fastapi.staticfiles import StaticFiles" > /app/backend/serve_frontend.py
+RUN echo "from fastapi.responses import FileResponse" >> /app/backend/serve_frontend.py
+RUN echo "from backend.main import app" >> /app/backend/serve_frontend.py
+RUN echo "app.mount('/static', StaticFiles(directory='/app/frontend/build/static'), name='static')" >> /app/backend/serve_frontend.py
+RUN echo "@app.get('/')" >> /app/backend/serve_frontend.py
+RUN echo "async def read_index():" >> /app/backend/serve_frontend.py
+RUN echo "    return FileResponse('/app/frontend/build/index.html')" >> /app/backend/serve_frontend.py
 
 # Run uvicorn server
-#CMD ["uvicorn", "$APP_MODULE", "--host", "0.0.0.0", "--port", "80"]
-CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
-
+CMD ["uvicorn", "backend.serve_frontend:app", "--host", "0.0.0.0", "--port", "80"]
