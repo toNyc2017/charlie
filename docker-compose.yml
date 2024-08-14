@@ -27,7 +27,8 @@ services:
       - "3000:3000" # Expose the frontend service to the local machine
     environment:
       - RESULTS_DIR=results
-      - REACT_APP_API_BASE_URL=http://backend:80
+      # REACT_APP_API_BASE_URL=http://backend:80
+      - REACT_APP_API_BASE_URL=http://localhost:80
       stdin_open: true
     tty: true
     depends_on:
