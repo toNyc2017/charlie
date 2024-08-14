@@ -27,11 +27,12 @@ jobs:
 
     - name: 'Build and Push Docker Image'
       run: |
-        docker buildx build --platform linux/amd64 --push -t "${{ secrets.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }}/charlie:latest" .
+        docker buildx build --platform linux/amd64 --no-cache -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}} -f Dockerfile . --load
+        docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
+
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'AskYorkville'
-        images: "${{ secrets.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }}/charlie:latest"
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        app-name: 'YorkvilleCharlie'
+        images: yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
