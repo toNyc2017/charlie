@@ -41,4 +41,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'YourAzureWebAppName'
-          images: ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_TAG }}
+          images: yorkvilleregistry.azurecr.io/${{ env.IMAGE_TAG }}
