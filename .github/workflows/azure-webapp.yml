@@ -33,10 +33,12 @@ jobs:
           echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
      
       - name: 'Define IMAGE_TAG_FRONT'
-        run: echo "IMAGE_TAG_FRONT=charlie-frontend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-
+        #run: echo "IMAGE_TAG_FRONT=charlie-frontend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        run: echo "IMAGE_TAG_FRONT=charlie-frontend:latest" >> $GITHUB_ENV
+        
       - name: 'Define IMAGE_TAG_BACK'
-        run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        #run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        run: echo "IMAGE_TAG_BACK=charlie-backend:latest" >> $GITHUB_ENV
 
 
 
