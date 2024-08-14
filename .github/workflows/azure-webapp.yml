@@ -3,7 +3,7 @@ name: Build and Deploy Combined App to Azure Web App
 on:
   push:
     branches:
-      - DockerApp  # Only trigger on the DockerApp branch
+      - DockerAppSimple  # Only trigger on the DockerApp branch
 
 jobs:
   build-and-deploy:
