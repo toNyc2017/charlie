@@ -3,9 +3,12 @@ version: "3.8"
 
 services:
   backend:
-    build:
-      context: .
-      dockerfile: Dockerfile # Assuming the backend Dockerfile is in the root of 'charlie'
+    #build:
+      #context: .
+      #dockerfile: Dockerfile # Assuming the backend Dockerfile is in the root of 'charlie'
+    
+    image: yorkvilleregistry.azurecr.io/charlie-backend:latest
+    
     ports:
       - "8000:80" # Map port 8000 on localhost to port 80 in the backend container
     environment:
@@ -14,9 +17,12 @@ services:
       - "80" # Only expose internally to the Docker network
 
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile # Path to your frontend Dockerfile in 'charlie/frontend'
+    #build:
+      #context: ./frontend
+      #dockerfile: Dockerfile # Path to your frontend Dockerfile in 'charlie/frontend'
+
+    image: yorkvilleregistry.azurecr.io/charlie-frontend:latest
+      
     ports:
       - "3000:3000" # Expose the frontend service to the local machine
     environment:
