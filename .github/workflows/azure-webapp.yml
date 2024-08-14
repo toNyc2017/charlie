@@ -50,7 +50,7 @@ jobs:
           docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}} -f frontend/Dockerfile ./frontend --load
           docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}}
      
-- name: 'Deploy to Azure Web App'
+      - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'YorkvilleCharlie'
