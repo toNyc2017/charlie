@@ -1,4 +1,4 @@
-name: Build and Deploy Backend Only to Azure Web App
+name: Build and Deploy Dockerized App to Azure Web App
 
 on:
   push:
@@ -13,37 +13,48 @@ jobs:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+            fetch-depth: 0
 
       - name: 'Login to Azure'
         uses: azure/login@v1
         with:
           creds: '{"clientId":"d628f8fa-ac3e-4a7a-a7e8-bc386cb884d4","clientSecret":"AJf8Q~P0vKPxFBv6FqBjT6dLwojUnAkcjLNasbwg","subscriptionId":"5cb9d786-4789-4403-9c63-44493daf4bbd","tenantId":"8d7d67b6-2968-4815-9c54-4906afe68b5c"}'
 
-      - name: 'Set up Docker Compose'
+      - name: 'Set up Docker Buildx'
         uses: docker/setup-buildx-action@v2
+
+      - name: 'Set up Docker Compose'
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-compose -y
 
       - name: 'Login to Azure Container Registry'
         run: |
-          echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
+          echo "79bUqSVf/tpgqQzykcbp+mdgEwEcB4jUxTT2loiTgk+ACRCcxQLu" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdi
+     
+      - name: 'Define IMAGE_TAG_FRONT'
+        run: echo "IMAGE_TAG_FRONT=charlie-frontend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
 
       - name: 'Define IMAGE_TAG_BACK'
         run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
 
-      
-      
-      
+
+
       - name: 'Build and push Docker images'
         run: |
-          docker buildx build --platform linux/amd64 --no-cache -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}} -f Dockerfile . --load
+          # Building the backend image
+          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}-f Dockerfile . --load
           docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
-
-
-      - name: 'Deploy to Azure Web App'
+      
+          # Building the frontend image
+          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}} -f frontend/Dockerfile ./frontend --load
+          docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}}
+     
+- name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'YorkvilleCharlie'
-          images: yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
-
-           
-          #configuration-file: './docker-compose-backend.yml'
+          images: |
+            yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_BACK}}
+            yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_FRONT}}
+          configuration-file: ‘./docker-compose.yml'
