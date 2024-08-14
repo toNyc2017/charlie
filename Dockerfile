@@ -33,7 +33,7 @@ RUN ls -l /app/backend > /app/output/backend_contents.txt
 # List the contents of /app to verify the copy
 RUN ls -l /app/ > /app/output/app_contents.txt
 
-ENV PYTHONPATH=/app/backend
+#ENV PYTHONPATH=/app/backend
 
 ENV OPENAI_API_KEY='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'
 ENV AZURE_STORAGE_ACCOUNT_KEY="zmqOkCX2zsNeVktkutoi6w1l15jh09MQF3YclqwJaMu9vUsD9q45vWJ2OPyrwGXww4TkZOsfWE0u+AStIlrgGQ==" 
@@ -51,5 +51,5 @@ ENV ENVIRONMENT=production
 
 # Run uvicorn server
 #CMD ["uvicorn", "$APP_MODULE", "--host", "0.0.0.0", "--port", "80"]
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
 
