@@ -23,6 +23,7 @@ function App() {
 
 
     const fetchDatabases = async () => {
+        console.log(`fetchDatabases called: ${API_BASE_URL}/vector-databases`);
         const response = await axios.get(`${API_BASE_URL}/vector-databases`);
         console.log("Fetched databases:", response.data);
         setDatabases(response.data);
