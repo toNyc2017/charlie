@@ -43,7 +43,7 @@ jobs:
       - name: 'Build and push Docker images'
         run: |
           # Building the backend image
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}-f Dockerfile . --load
+          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}} -f Dockerfile . --load
           docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
       
           # Building the frontend image
