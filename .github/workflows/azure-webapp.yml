@@ -57,4 +57,4 @@ jobs:
           images: |
             yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_BACK}}
             yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_FRONT}}
-          configuration-file: ‘./docker-compose.yml'
+          configuration-file: './docker-compose.yml'
