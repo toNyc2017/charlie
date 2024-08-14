@@ -23,6 +23,17 @@ from BasePrompts import eti_prompt
 
 from BlogExamples import blog_examples, recent_example, stamos_example, disney_example, long_form_examples, sector_example
 import PyPDF2
+
+
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+app = FastAPI()
+
+# Serve the static files (like CSS, JS) from the build directory
+app.mount("/static", StaticFiles(directory="/app/frontend/build/static"), name="static")
+
+
 # This is a minor change to trigger redeployment
 # add another minor change to triggger
 
