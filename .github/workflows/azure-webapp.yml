@@ -49,8 +49,8 @@ jobs:
           docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
       
           # Building the frontend image
-          docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}} -f frontend/Dockerfile ./frontend --load
-          docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}}
+          #docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}} -f frontend/Dockerfile ./frontend --load
+          #docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}}
      
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -58,5 +58,5 @@ jobs:
           app-name: 'YorkvilleCharlie'
           images: |
             'yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_BACK}}'
-            'yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_FRONT}}'
-          configuration-file: './docker-compose.yml'
+            #'yorkvilleregistry.azurecr.io/{{env.IMAGE_TAG_FRONT}}'
+          #configuration-file: './docker-compose.yml'
