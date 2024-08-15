@@ -26,7 +26,7 @@ jobs:
       - name: 'Login to Azure Container Registry'
         run: |
           echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
-   V
+   
         
       - name: 'Define IMAGE_TAG_BACK'
         run: echo "IMAGE_TAG_BACK=charlie:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
