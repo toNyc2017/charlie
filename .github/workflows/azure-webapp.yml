@@ -23,22 +23,14 @@ jobs:
       - name: 'Set up Docker Buildx'
         uses: docker/setup-buildx-action@v2
 
-      - name: 'Set up Docker Compose'
-        run: |
-          sudo apt-get update
-          sudo apt-get install docker-compose -y
-
       - name: 'Login to Azure Container Registry'
         run: |
           echo "GhcOYAY8Upxcv2m1YJMOki8vaA7WdF01Sgh+EWj1hY+ACRDDub0R" | docker login yorkvilleregistry.azurecr.io -u yorkvilleregistry --password-stdin
-     
-      #- name: 'Define IMAGE_TAG_FRONT'
-        #run: echo "IMAGE_TAG_FRONT=charlie-frontend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-        #run: echo "IMAGE_TAG_FRONT=charlie-frontend:latest" >> $GITHUB_ENV
+   V
         
       - name: 'Define IMAGE_TAG_BACK'
-        #run: echo "IMAGE_TAG_BACK=charlie-backend:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-        run: echo "IMAGE_TAG_BACK=charlie-backend:latest" >> $GITHUB_ENV
+        run: echo "IMAGE_TAG_BACK=charlie:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        #run: echo "IMAGE_TAG_BACK=charlie:latest" >> $GITHUB_ENV
 
 
 
@@ -48,9 +40,6 @@ jobs:
           docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}} -f Dockerfile . --load
           docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_BACK}}
       
-          # Building the frontend image
-          #docker buildx build --platform linux/amd64 -t yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}} -f frontend/Dockerfile ./frontend --load
-          #docker push yorkvilleregistry.azurecr.io/${{env.IMAGE_TAG_FRONT}}
      
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
