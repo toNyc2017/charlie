@@ -26,6 +26,38 @@ import PyPDF2
 # This is a minor change to trigger redeployment
 
 
+import logging
+
+
+app = FastAPI()
+
+# Configure logging to a file
+logging.basicConfig(
+    filename='app.log',  # Log file name
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Log format
+    level=logging.INFO  # Log level
+)
+logger = logging.getLogger(__name__)
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start_time = time.time()
+
+    # Log the request details
+    logger.info(f"Request: {request.method} {request.url.path} from {request.client.host}")
+
+    response = await call_next(request)
+
+    process_time = time.time() - start_time
+    logger.info(f"Response status: {response.status_code} for {request.method} {request.url.path} "
+                f"from {request.client.host} in {process_time:.4f} seconds")
+
+    return response
+
+
+
+
+
 
 print('GOT EVERYTIHG LOADED SUCESFULLY')
 
@@ -39,7 +71,6 @@ client = openai.OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
 )
 
-app = FastAPI()
 
 # Configure CORS
 origins = [
@@ -249,6 +280,107 @@ def generate_section(prompt, model_name):
     
     #return response.choices[0].message['content']
     return response.choices[0].message.content
+
+
+
+
+def ad_hoc_query_production(question,documents, sym, model_name):
+#sequential_tear_sheet_production(content_to_send, file_path,new_file_path)
+    
+    today_date = datetime.today().strftime('%Y-%m-%d')
+
+    #sanitized_company_name = re.sub(r'\s+', '_', company_name).replace("'", "").replace('"', "")
+    sanitized_company_name = re.sub(r'\s+', '_', sym).replace("'", "").replace('"', "")
+    #filename = f"Formatted_SuperLong_{today_date}_{sanitized_company_name}.docx"
+    filename = f"Formatted_AdHocQuery_{today_date}_{sym}.docx"
+    
+    print("sanitized_company_name:",sanitized_company_name)
+    #filename = f"Formatted_SuperLong_{today_date}_{company_name}.docx"
+    
+    base_directory = os.path.expanduser("~/Desktop/charlie/backend/results")
+
+# Ensure the directory exists
+    os.makedirs(base_directory, exist_ok=True)
+
+# Build the full file path
+    docx_file_path = os.path.join(base_directory, filename)
+    
+    
+
+    
+    #pdb.set_trace()
+    
+    all_str = " "
+
+
+
+    jls_extract_var = [
+            {"role": "system", "content": f"""You are a helpful assistant. You have the business acumen and drive to discover value creation opportunities of a 15 year partner at Goldman Sachs or McKinsey  and Company. in this case, you are helping a user create
+             a several paragraph or page long resposne to an hoc hoc query about a document or selected documents, as well as any potential conclusions and action items. the content is : {documents}. The question is: {question}.
+               """}
+        ]
+          
+            
+    jls_extract_var.append({"role": "user", "content": f"please execute the task outlined in the system content above."})
+
+    for attempt in range(5):  # Try up to 5 times
+        try:
+            response = client.chat.completions.create(
+            messages=jls_extract_var,
+            model = model_name,
+                    temperature = .3,
+                    #model="gpt-4",
+                
+                    max_tokens=3500
+)
+
+            break  # If the request was successful, break the loop
+        except Exception as e:
+            print(f"Attempt {attempt+1} failed with error: {e}")
+            if attempt < 4:  # Wait for 2 seconds unless this was the last attem
+                time.sleep(2)
+                continue  # Try again
+            else:
+                print("All attempts failed. Exiting.")
+                pdb.set_trace()
+                #return None
+    
+   
+    response_str = response.choices[0].message.content
+   
+
+
+    # Splitting the string into lines
+    one_page = response_str.split('\n')
+    one_page_str = '\n'.join(one_page)
+
+
+    one_page_str = clean_text(one_page_str)
+
+# Open the file in write mode ('w') and write the response_str to it
+    
+    doc = Document()
+ 
+    # Generate each section and store the results
+    formatted_section = analyze_text_with_gpt(one_page_str)    
+    add_formatted_content(doc, formatted_section)
+    #text_so_far = text_so_far + '\n' + report_sections[section]
+        #pdb.set_trace()
+
+    clean_document(doc)
+
+
+    print('Inside ad_hoc_query_production. about to clean doc')
+    clean_document(doc)
+  
+    
+    print('Inside ad_hoc_query_production. about to save doc')
+    doc.save(docx_file_path)
+    print('Inside ad_hoc_query_production. saved doc to:',docx_file_path)
+
+    return docx_file_path, response_str
+
+
 
 
 def add_formatted_content(doc, formatted_text):
@@ -727,6 +859,30 @@ async def query_index(query: dict):
         # Return the file path as a response
         return {"file_path": file_path}
 
+    elif selected_template == "Ad Hoc Query":
+        # Handle SuperLong template separately
+        all_chunks = []
+        print('in One Page section, about to get chunks')
+        for db_name in selected_databases:
+            sym = db_name.split('_')[-1].split('.')[0]
+            chunks, _ = get_chunks_from_db(db_name)  # Only retrieve chunks
+            all_chunks.extend(chunks)
+        print('Ad Hoc Query section, about to join chunks')
+        documents = "\n".join(all_chunks)
+
+
+        company_name = sym  # Adjust as necessary
+        model_name = "gpt-4o"
+
+        print('in Ad Hoc Query section, about to call quick_one_page_production')
+        file_path, answer_string = ad_hoc_query_production(question,documents, sym, model_name)
+        print('in Ad Hoc Query section, FINISHED quick_one_page_production')
+        print('answer_string:',answer_string)
+        # Return the file path as a response
+        return {"file_path": file_path, "answer_string": answer_string}
+        #return {"question": question, "answer": answer}
+
+
 
 
     else:
@@ -937,7 +1093,7 @@ def quick_one_page_production(documents, sym, model_name):
 
 
     jls_extract_var = [
-            {"role": "system", "content": f"""You are a helpful assistant. You have the business acumen and drive to discover value creation opportunities of a 15 year partner at Goldman Sachs or McKinsey  and Company. in this case, you are helping a user create an
+            {"role": "system", "content": f"""You are a helpful assistant. You have the business acumen and drive to discover value creation opportunities of a 15 year partner at Goldman Sachs or McKinsey  and Company. 
              Please create a one page memo to the investment team describing events covered in the context provided, as well as any potential conclusions and action items. the content is : {documents}"
                """}
         ]
