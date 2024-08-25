@@ -89,53 +89,62 @@ function App() {
             setResponse({ error: 'Please select at least one database.' });
             return;
         }
-
+    
         if (!selectedTemplate) {
             setResponse({ error: 'Please select a prompt template.' });
             return;
         }
-
+    
         setLoading(true);
         setResponse(null);
-        /*console.log("Submitting query:", question, selectedDatabases, selectedTemplate);*/
-
+        // console.log("Submitting query:", question, selectedDatabases, selectedTemplate);
+    
         try {
             const res = await axios.post(`${API_BASE_URL}/query/`, {
                 question,
                 databases: selectedDatabases,
                 template: selectedTemplate
             });
-
-            console.log("Query returned. ");
-
-
-            /* determine if selectedTemplate is one of: "SuperLong" or "Tear Sheet" or "Long Form" or "One Page Current Events" or "Sector Overview" */
-            
+    
+            console.log("Query returned.");
+    
+            // Initialize filePath here
+            let filePath = '';
+    
+            /* Determine if selectedTemplate is one of: "SuperLong", "Tear Sheet", "Long Form", "One Page Current Events", or "Sector Overview" */
             if (selectedTemplate === "SuperLong" || selectedTemplate === "Tear Sheet" || selectedTemplate === "Long Form" || selectedTemplate === "One Page Current Events" || selectedTemplate === "Sector Overview") {
-            
-                /*console.log("Query returned. Processing results. selectedTemplate is: ", selectedTemplate)*/
-                /*console.log("Query returned. Processing results. Res.data is:", res.data)*/
-            /*if (selectedTemplate === "SuperLong" or selectedTemplate === "TearSheet") */
-                // Handle the file download for SuperLong template
-                let filePath = res.data.file_path;
-
+    
+                console.log("Query returned. Processing results. Res.data is:", res.data);
+                
+                filePath = res.data.file_path;
+    
                 // Sanitize the file path
                 filePath = filePath.replace(/['"]/g, "").trim().replace(/ /g, "_");
-
+    
                 setFilePath(filePath);  // Set the file path state
                 setIsFileReady(true);   // Mark the file as ready for download
+    
+            } else if (selectedTemplate === "Ad Hoc Query") {
+    
+                filePath = res.data.file_path;  // Ensure filePath is initialized here
+                filePath = filePath.replace(/['"]/g, "").trim().replace(/ /g, "_");
+                console.log("Query returned. Processing results. Res.data is:", res.data.answer_string);
+                setResponse(res.data);
+                setFilePath(filePath);  // Set the file path state
+                setIsFileReady(true);   // Mark the file as ready for download
+                
+    
             } else {
                 setResponse(res.data);
             }
         } catch (error) {
             console.error('Error handling query:', error);
             setResponse({ error: 'An error occurred while processing your request.' });
-        }
-        finally {
+        } finally {
             setLoading(false);  // Set loading to false when query finishes
         }
     };
-
+    
 
     
     
@@ -209,8 +218,9 @@ function App() {
                         <p className="error">{response.error}</p>
                     ) : (
                         <>
-                            <p><strong>Question:</strong> {response.question}</p>
-                            <p><strong>Answer:</strong> {response.answer}</p>
+                          {/*<p><strong>Question:</strong> {response.question}</p>*/}
+                           {/* <p><strong>Answer:</strong> {response.answer}</p>*/}
+                            <p><strong>Answer:</strong> {response.answer_string}</p>
                         </>
                     )}
                 </div>
