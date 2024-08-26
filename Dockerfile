@@ -37,4 +37,4 @@ WORKDIR /app
 RUN mkdir -p /app/frontend/build/static
 
 # Set up FastAPI to serve on the desired port
-CMD ["uvicorn", "backend.dummymain:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "80"]
