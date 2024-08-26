@@ -62,5 +62,5 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'YorkvilleCharlie'
+          app-name: 'Charlie2'
           images: 'yorkvilleregistry.azurecr.io/${{ env.IMAGE_TAG }}'
