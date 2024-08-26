@@ -26,7 +26,7 @@ def read_root():
             </style>
         </head>
         <body>
-            <h1>Hello, World! Tuesday 7:20 PM</h1>
+            <h1>Hello, World! Monday Aug 26 1:44 PM</h1>
         </body>
     </html>
     """
