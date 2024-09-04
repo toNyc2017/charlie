@@ -31,7 +31,7 @@ jobs:
       
       # Step 4: Define IMAGE_TAG (includes the image name and timestamp)
       - name: 'Define IMAGE_TAG'
-        run: echo "IMAGE_TAG=aws-charlie1:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        run: echo "IMAGE_TAG=aws-charlie1-$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
       
       # Step 5: Build Docker image with correct repository name and generated tag
       - name: 'Build Docker image'
