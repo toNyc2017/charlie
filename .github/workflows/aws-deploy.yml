@@ -30,7 +30,8 @@ jobs:
 
       # Step 4: Define IMAGE_TAG (similar to what you had in Azure workflow)
       - name: 'Define IMAGE_TAG'
-        run: echo "IMAGE_TAG=my-charlie-aws:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        rrun: echo "IMAGE_TAG=yorkville/charlie/aws-charlie:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+V
 
       # Step 5: Build the Docker image with the generated tag
       - name: 'Build Docker image'
