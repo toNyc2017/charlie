@@ -28,16 +28,16 @@ jobs:
         run: |
           aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 463470965515.dkr.ecr.us-east-1.amazonaws.com
 
-      # Step 4: Define IMAGE_TAG (similar to what you had in Azure workflow)
+      
+      # Step 4: Define IMAGE_TAG (includes the image name and timestamp)
       - name: 'Define IMAGE_TAG'
-        run: echo "IMAGE_TAG=yorkville/charlie/aws-charlie1:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-
-
-      # Step 5: Build the Docker image with the generated tag
+        run: echo "IMAGE_TAG=aws-charlie1:$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+      
+      # Step 5: Build Docker image with correct repository name and generated tag
       - name: 'Build Docker image'
         run: |
-          docker buildx build --platform linux/amd64 --no-cache -t 463470965515.dkr.ecr.us-east-1.amazonaws.com/${{ env.IMAGE_TAG }} -f Dockerfile . --load
-
-      # Step 6: Push the Docker image to ECR
+          docker buildx build --platform linux/amd64 --no-cache -t 463470965515.dkr.ecr.us-east-1.amazonaws.com/yorkville/charlie:${{ env.IMAGE_TAG }} -f Dockerfile . --load
+      
+      # Step 6: Push Docker image to ECR
       - name: 'Push Docker image to ECR'
-        run: docker push 463470965515.dkr.ecr.us-east-1.amazonaws.com/${{ env.IMAGE_TAG }}
+        run: docker push 463470965515.dkr.ecr.us-east-1.amazonaws.com/yorkville/charlie:${{ env.IMAGE_TAG }}
